@@ -1,0 +1,12 @@
+---
+license: apache-2.0
+task_categories:
+- question-answering
+language:
+- en
+pretty_name: NeuroQnA
+size_categories:
+- n<1K
+---
+This dataset was manually created, line by line, by my tiny hand! 
+Why? Because I was just bored during my summer.

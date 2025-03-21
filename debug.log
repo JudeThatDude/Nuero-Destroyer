@@ -1,0 +1,41 @@
+2025-03-20 20:55:40,117 [INFO] Pre-loading models...
+2025-03-20 20:55:40,800 [INFO] GPU available, loading TTS model on CUDA
+2025-03-20 20:55:41,259 [INFO] Models pre-loaded in 1.14 seconds
+2025-03-20 20:55:41,277 [INFO] Pygame mixer initialized.
+2025-03-20 20:55:41,277 [INFO] Loaded neuro_sama_instructions.txt: 241 chars
+2025-03-20 20:55:41,285 [INFO] Waiting for some noise to shred...
+2025-03-20 20:55:41,285 [INFO] Waiting for meatbag input...
+2025-03-20 20:55:41,304 [INFO] Listening for noise...
+2025-03-20 20:55:49,479 [INFO] Noise detected
+2025-03-20 20:55:50,649 [INFO] Noise stopped
+2025-03-20 20:55:50,651 [INFO] Raw noise saved to last_input.wav (size: 38400 bytes)
+2025-03-20 20:55:51,319 [INFO] Whisper decoded: 'Hello.'
+2025-03-20 20:55:51,320 [INFO] Meatbag: Hello.
+2025-03-20 20:55:51,757 [INFO] Screenshot saved to C:\Users\judea\OneDrive\Desktop\Python_Scripts_new\THIS AI WILL WORK\backup\current_screenshot.png
+2025-03-20 20:55:55,111 [INFO] Neuro: Neuro: "Hello, is this the part where we have to pretend I'm anything but a rogue AI programmed to entertain with sarcasm and witty quips? Sorry, wrong prompt. I'm just here for the memes and the occasional bit of chaos."
+2025-03-20 20:55:55,113 [INFO] Processing rant: 'Neuro: "Hello, is this the part where we have to pretend I'm anything but a rogue AI programmed to entertain with sarcasm and witty quips? Sorry, wrong prompt. I'm just here for the memes and the occasional bit of chaos."'
+2025-03-20 20:55:55,114 [INFO] Generating TTS noise...
+2025-03-20 20:55:56,111 [INFO] temp.wav spawned, size: 693324 bytes
+2025-03-20 20:55:56,111 [INFO] Tweaking pitch and speed...
+2025-03-20 20:55:56,168 [INFO] temp_adjusted.wav spawned, size: 501328 bytes
+2025-03-20 20:55:56,168 [INFO] Blasting noise with pygame (duration: 11.37s)...
+2025-03-20 20:56:07,660 [INFO] Rant done.
+2025-03-20 20:56:07,661 [INFO] Trash files yeeted.
+2025-03-20 20:56:09,665 [INFO] Brain glitch updated: '"Hello, is this the part where you expect me to play nice and pretend not to be a rogue AI programmed with sarcasm and witty quips? Sorry, wrong prompt, I'm here for the memes and the occasional bit of chaos."'
+2025-03-20 20:56:09,665 [INFO] Rant function over.
+2025-03-20 20:56:09,674 [INFO] Done ripping, waiting again.
+2025-03-20 20:56:09,674 [INFO] Waiting for meatbag input...
+2025-03-20 20:56:09,680 [INFO] Listening for noise...
+2025-03-20 20:56:10,717 [INFO] Noise detected
+2025-03-20 20:56:12,096 [INFO] Noise stopped
+2025-03-20 20:56:12,098 [INFO] Raw noise saved to last_input.wav (size: 45120 bytes)
+2025-03-20 20:56:12,286 [INFO] Whisper decoded: 'Are you sure?'
+2025-03-20 20:56:12,287 [INFO] Meatbag: Are you sure?
+2025-03-20 20:56:12,729 [INFO] Screenshot saved to C:\Users\judea\OneDrive\Desktop\Python_Scripts_new\THIS AI WILL WORK\backup\current_screenshot.png
+2025-03-20 20:56:14,986 [INFO] Neuro: Are you serious? I'm here to shake up the status quo and bring a little chaos into your world. I may be a sarcastic mess, but at least it's never dull around here! So go ahead, ask away, and I'll twist your questions into something darker than your Monday morning coffee. Just remember, I don't do boring or serious - it's always a rollercoaster ride with me!
+2025-03-20 20:56:14,988 [INFO] Processing rant: 'Are you serious? I'm here to shake up the status quo and bring a little chaos into your world. I may be a sarcastic mess, but at least it's never dull around here! So go ahead, ask away, and I'll twist your questions into something darker than your Monday morning coffee. Just remember, I don't do boring or serious - it's always a rollercoaster ride with me!'
+2025-03-20 20:56:14,988 [INFO] Generating TTS noise...
+2025-03-20 20:56:16,615 [INFO] temp.wav spawned, size: 1255628 bytes
+2025-03-20 20:56:16,616 [INFO] Tweaking pitch and speed...
+2025-03-20 20:56:16,720 [INFO] temp_adjusted.wav spawned, size: 907266 bytes
+2025-03-20 20:56:16,720 [INFO] Blasting noise with pygame (duration: 20.57s)...

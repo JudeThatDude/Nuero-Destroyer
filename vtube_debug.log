@@ -1,0 +1,35 @@
+2025-02-18 21:22:22,728 [INFO] Authentication token response: {"apiName":"VTubeStudioPublicAPI","apiVersion":"1.0","timestamp":1739938942714,"messageType":"AuthenticationTokenResponse","requestID":"authenticate","data":{"authenticationToken":"6d2b02943c2941353e8bb5087bc5393892442e9a90b34c0af2d46d9683b57a1f"}}
+2025-02-18 21:22:22,734 [INFO] Authentication response: {"apiName":"VTubeStudioPublicAPI","apiVersion":"1.0","timestamp":1739938942734,"messageType":"AuthenticationResponse","requestID":"authenticate","data":{"authenticated":true,"reason":"Token valid. The plugin is authenticated for the duration of this session."}}
+2025-02-18 21:22:22,735 [INFO] Authenticated successfully.
+2025-02-18 21:22:22,736 [ERROR] An error occurred: '\n    "HeadX"'
+2025-02-18 21:22:22,754 [ERROR] Traceback (most recent call last):
+  File "C:\Users\judea\OneDrive\Desktop\Python_Scripts_new\THIS AI WILL WORK\Backup\Movement.py", line 145, in main
+    parameters = await generate_movement_parameters(llm)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\judea\OneDrive\Desktop\Python_Scripts_new\THIS AI WILL WORK\Backup\Movement.py", line 79, in generate_movement_parameters
+    response = await llm.agenerate([template.format()])
+                                    ^^^^^^^^^^^^^^^^^
+  File "C:\Users\judea\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\langchain_core\prompts\prompt.py", line 183, in format
+    return DEFAULT_FORMATTER_MAPPING[self.template_format](self.template, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2544.0_x64__qbz5n2kfra8p0\Lib\string.py", line 190, in format
+    return self.vformat(format_string, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\judea\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\langchain_core\utils\formatting.py", line 33, in vformat
+    return super().vformat(format_string, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2544.0_x64__qbz5n2kfra8p0\Lib\string.py", line 194, in vformat
+    result, _ = self._vformat(format_string, args, kwargs, used_args, 2)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2544.0_x64__qbz5n2kfra8p0\Lib\string.py", line 234, in _vformat
+    obj, arg_used = self.get_field(field_name, args, kwargs)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2544.0_x64__qbz5n2kfra8p0\Lib\string.py", line 299, in get_field
+    obj = self.get_value(first, args, kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2544.0_x64__qbz5n2kfra8p0\Lib\string.py", line 256, in get_value
+    return kwargs[key]
+           ~~~~~~^^^^^
+KeyError: '\n    "HeadX"'
+
+2025-02-18 21:22:22,755 [INFO] Script completed.

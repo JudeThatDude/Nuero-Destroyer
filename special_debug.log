@@ -1,0 +1,2641 @@
+2025-03-05 16:27:17,163 [INFO] Connected to VTube Studio WebSocket
+2025-03-05 16:27:17,375 [ERROR] Failed to connect to VTube Studio (attempt 1/5): 'authenticationToken'
+2025-03-05 16:27:21,407 [INFO] Connected to VTube Studio WebSocket
+2025-03-05 16:27:22,289 [DEBUG] Received auth token: da17c2fc526fa9b36a8fb47865d560e795e1d609054ff445bdb67678e698a4b9
+2025-03-05 16:27:22,299 [DEBUG] Authentication response: {"apiName":"VTubeStudioPublicAPI","apiVersion":"1.0","timestamp":1741217242298,"messageType":"AuthenticationResponse","requestID":"authenticate","data":{"authenticated":true,"reason":"Token valid. The plugin is authenticated for the duration of this session."}}
+2025-03-05 16:27:22,311 [DEBUG] Mouth parameter created or verified
+2025-03-05 16:27:22,311 [INFO] Connected to VTube Studio
+2025-03-05 16:27:22,318 [DEBUG] Processing audio event: duration=15.454, playback_start=1741217044.113621
+2025-03-05 16:27:22,318 [INFO] Starting real-time audio processing for 15.45s
+2025-03-05 16:27:22,404 [DEBUG] RMS: 0.0004, Mouth Open: 0.0040
+2025-03-05 16:27:22,404 [DEBUG] RMS: 0.0003, Mouth Open: 0.0037
+2025-03-05 16:27:22,404 [ERROR] Error updating parameters: cannot call recv while another coroutine is already waiting for the next message
+2025-03-05 16:27:22,410 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0040
+2025-03-05 16:27:22,453 [DEBUG] RMS: 0.0004, Mouth Open: 0.0036
+2025-03-05 16:27:22,454 [DEBUG] RMS: 0.0004, Mouth Open: 0.0037
+2025-03-05 16:27:22,454 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0036
+2025-03-05 16:27:22,460 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0037
+2025-03-05 16:27:22,504 [DEBUG] RMS: 0.0003, Mouth Open: 0.0036
+2025-03-05 16:27:22,504 [DEBUG] RMS: 0.0003, Mouth Open: 0.0034
+2025-03-05 16:27:22,504 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0036
+2025-03-05 16:27:22,510 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0034
+2025-03-05 16:27:22,554 [DEBUG] RMS: 0.0003, Mouth Open: 0.0032
+2025-03-05 16:27:22,554 [DEBUG] RMS: 0.0003, Mouth Open: 0.0032
+2025-03-05 16:27:22,554 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0032
+2025-03-05 16:27:22,560 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0032
+2025-03-05 16:27:22,604 [DEBUG] RMS: 0.0004, Mouth Open: 0.0031
+2025-03-05 16:27:22,604 [DEBUG] RMS: 0.0004, Mouth Open: 0.0032
+2025-03-05 16:27:22,604 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0031
+2025-03-05 16:27:22,610 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0032
+2025-03-05 16:27:22,655 [DEBUG] RMS: 0.0004, Mouth Open: 0.0034
+2025-03-05 16:27:22,655 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0034
+2025-03-05 16:27:22,655 [DEBUG] RMS: 0.0004, Mouth Open: 0.0036
+2025-03-05 16:27:22,660 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0036
+2025-03-05 16:27:22,704 [DEBUG] RMS: 0.0003, Mouth Open: 0.0036
+2025-03-05 16:27:22,704 [DEBUG] RMS: 0.0004, Mouth Open: 0.0036
+2025-03-05 16:27:22,704 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0036
+2025-03-05 16:27:22,709 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0036
+2025-03-05 16:27:22,754 [DEBUG] RMS: 0.0004, Mouth Open: 0.0037
+2025-03-05 16:27:22,754 [DEBUG] RMS: 0.0003, Mouth Open: 0.0036
+2025-03-05 16:27:22,754 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0037
+2025-03-05 16:27:22,759 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0036
+2025-03-05 16:27:22,804 [DEBUG] RMS: 0.0003, Mouth Open: 0.0035
+2025-03-05 16:27:22,804 [DEBUG] RMS: 0.0004, Mouth Open: 0.0036
+2025-03-05 16:27:22,804 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0035
+2025-03-05 16:27:22,810 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0036
+2025-03-05 16:27:22,854 [DEBUG] RMS: 0.0004, Mouth Open: 0.0037
+2025-03-05 16:27:22,854 [DEBUG] RMS: 0.0004, Mouth Open: 0.0037
+2025-03-05 16:27:22,854 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0037
+2025-03-05 16:27:22,859 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0037
+2025-03-05 16:27:22,904 [DEBUG] RMS: 0.0004, Mouth Open: 0.0038
+2025-03-05 16:27:22,904 [DEBUG] RMS: 0.0004, Mouth Open: 0.0038
+2025-03-05 16:27:22,904 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0038
+2025-03-05 16:27:22,909 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0038
+2025-03-05 16:27:22,954 [DEBUG] RMS: 0.0003, Mouth Open: 0.0036
+2025-03-05 16:27:22,954 [DEBUG] RMS: 0.0003, Mouth Open: 0.0035
+2025-03-05 16:27:22,954 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0036
+2025-03-05 16:27:22,959 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0035
+2025-03-05 16:27:23,004 [DEBUG] RMS: 0.0003, Mouth Open: 0.0033
+2025-03-05 16:27:23,004 [DEBUG] RMS: 0.0005, Mouth Open: 0.0036
+2025-03-05 16:27:23,004 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0033
+2025-03-05 16:27:23,008 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0036
+2025-03-05 16:27:23,054 [DEBUG] RMS: 0.0004, Mouth Open: 0.0037
+2025-03-05 16:27:23,054 [DEBUG] RMS: 0.0003, Mouth Open: 0.0038
+2025-03-05 16:27:23,054 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0037
+2025-03-05 16:27:23,059 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0038
+2025-03-05 16:27:23,104 [DEBUG] RMS: 0.0004, Mouth Open: 0.0039
+2025-03-05 16:27:23,104 [DEBUG] RMS: 0.0004, Mouth Open: 0.0040
+2025-03-05 16:27:23,104 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0039
+2025-03-05 16:27:23,108 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0040
+2025-03-05 16:27:23,153 [DEBUG] RMS: 0.0003, Mouth Open: 0.0037
+2025-03-05 16:27:23,153 [DEBUG] RMS: 0.0003, Mouth Open: 0.0034
+2025-03-05 16:27:23,153 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0037
+2025-03-05 16:27:23,160 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0034
+2025-03-05 16:27:23,204 [DEBUG] RMS: 0.0003, Mouth Open: 0.0035
+2025-03-05 16:27:23,204 [DEBUG] RMS: 0.0004, Mouth Open: 0.0034
+2025-03-05 16:27:23,204 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0035
+2025-03-05 16:27:23,209 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0034
+2025-03-05 16:27:23,254 [DEBUG] RMS: 0.0003, Mouth Open: 0.0033
+2025-03-05 16:27:23,255 [DEBUG] RMS: 0.0003, Mouth Open: 0.0032
+2025-03-05 16:27:23,255 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0033
+2025-03-05 16:27:23,259 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0032
+2025-03-05 16:27:23,304 [DEBUG] RMS: 0.0003, Mouth Open: 0.0033
+2025-03-05 16:27:23,304 [DEBUG] RMS: 0.0004, Mouth Open: 0.0034
+2025-03-05 16:27:23,304 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0033
+2025-03-05 16:27:23,309 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0034
+2025-03-05 16:27:23,354 [DEBUG] RMS: 0.0003, Mouth Open: 0.0033
+2025-03-05 16:27:23,354 [DEBUG] RMS: 0.0003, Mouth Open: 0.0032
+2025-03-05 16:27:23,354 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0033
+2025-03-05 16:27:23,359 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0032
+2025-03-05 16:27:23,404 [DEBUG] RMS: 0.0003, Mouth Open: 0.0032
+2025-03-05 16:27:23,404 [DEBUG] RMS: 0.0003, Mouth Open: 0.0032
+2025-03-05 16:27:23,404 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0032
+2025-03-05 16:27:23,409 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0032
+2025-03-05 16:27:23,454 [DEBUG] RMS: 0.0003, Mouth Open: 0.0031
+2025-03-05 16:27:23,454 [DEBUG] RMS: 0.0003, Mouth Open: 0.0030
+2025-03-05 16:27:23,454 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0031
+2025-03-05 16:27:23,459 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0030
+2025-03-05 16:27:23,504 [DEBUG] RMS: 0.0003, Mouth Open: 0.0031
+2025-03-05 16:27:23,504 [DEBUG] RMS: 0.0004, Mouth Open: 0.0033
+2025-03-05 16:27:23,504 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0031
+2025-03-05 16:27:23,509 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0033
+2025-03-05 16:27:23,554 [DEBUG] RMS: 0.0004, Mouth Open: 0.0034
+2025-03-05 16:27:23,554 [DEBUG] RMS: 0.0004, Mouth Open: 0.0037
+2025-03-05 16:27:23,554 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0034
+2025-03-05 16:27:23,558 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0037
+2025-03-05 16:27:23,603 [DEBUG] RMS: 0.0005, Mouth Open: 0.0040
+2025-03-05 16:27:23,604 [DEBUG] RMS: 0.0003, Mouth Open: 0.0041
+2025-03-05 16:27:23,604 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0040
+2025-03-05 16:27:23,609 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0041
+2025-03-05 16:27:23,653 [DEBUG] RMS: 0.0003, Mouth Open: 0.0038
+2025-03-05 16:27:23,654 [DEBUG] RMS: 0.0004, Mouth Open: 0.0038
+2025-03-05 16:27:23,654 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0038
+2025-03-05 16:27:23,659 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0038
+2025-03-05 16:27:23,704 [DEBUG] RMS: 0.0004, Mouth Open: 0.0037
+2025-03-05 16:27:23,704 [DEBUG] RMS: 0.0004, Mouth Open: 0.0036
+2025-03-05 16:27:23,704 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0037
+2025-03-05 16:27:23,709 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0036
+2025-03-05 16:27:23,754 [DEBUG] RMS: 0.0004, Mouth Open: 0.0037
+2025-03-05 16:27:23,754 [DEBUG] RMS: 0.0004, Mouth Open: 0.0039
+2025-03-05 16:27:23,754 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0037
+2025-03-05 16:27:23,759 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0039
+2025-03-05 16:27:23,804 [DEBUG] RMS: 0.0003, Mouth Open: 0.0037
+2025-03-05 16:27:23,804 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0037
+2025-03-05 16:27:23,804 [DEBUG] RMS: 0.0004, Mouth Open: 0.0037
+2025-03-05 16:27:23,809 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0037
+2025-03-05 16:27:23,854 [DEBUG] RMS: 0.0004, Mouth Open: 0.0037
+2025-03-05 16:27:23,855 [DEBUG] RMS: 0.0005, Mouth Open: 0.0038
+2025-03-05 16:27:23,855 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0037
+2025-03-05 16:27:23,859 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0038
+2025-03-05 16:27:23,894 [DEBUG] RMS: 0.0004, Mouth Open: 0.0039
+2025-03-05 16:27:23,894 [DEBUG] RMS: 0.0005, Mouth Open: 0.0043
+2025-03-05 16:27:23,894 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0039
+2025-03-05 16:27:23,909 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0043
+2025-03-05 16:27:23,943 [DEBUG] RMS: 0.0005, Mouth Open: 0.0045
+2025-03-05 16:27:23,944 [DEBUG] RMS: 0.0004, Mouth Open: 0.0045
+2025-03-05 16:27:23,944 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0045
+2025-03-05 16:27:23,959 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0045
+2025-03-05 16:27:23,994 [DEBUG] RMS: 0.0004, Mouth Open: 0.0043
+2025-03-05 16:27:23,994 [DEBUG] RMS: 0.0003, Mouth Open: 0.0042
+2025-03-05 16:27:23,994 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0043
+2025-03-05 16:27:24,009 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0042
+2025-03-05 16:27:24,044 [DEBUG] RMS: 0.0003, Mouth Open: 0.0039
+2025-03-05 16:27:24,044 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0039
+2025-03-05 16:27:24,044 [DEBUG] RMS: 0.0003, Mouth Open: 0.0035
+2025-03-05 16:27:24,059 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0035
+2025-03-05 16:27:24,094 [DEBUG] RMS: 0.0015, Mouth Open: 0.0057
+2025-03-05 16:27:24,095 [DEBUG] RMS: 0.0133, Mouth Open: 0.0315
+2025-03-05 16:27:24,095 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0057
+2025-03-05 16:27:24,109 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0315
+2025-03-05 16:27:24,144 [DEBUG] RMS: 0.0100, Mouth Open: 0.0509
+2025-03-05 16:27:24,144 [DEBUG] RMS: 0.0064, Mouth Open: 0.0631
+2025-03-05 16:27:24,144 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0509
+2025-03-05 16:27:24,159 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0631
+2025-03-05 16:27:24,194 [DEBUG] RMS: 0.0055, Mouth Open: 0.0736
+2025-03-05 16:27:24,194 [DEBUG] RMS: 0.0043, Mouth Open: 0.0790
+2025-03-05 16:27:24,194 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0736
+2025-03-05 16:27:24,209 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0790
+2025-03-05 16:27:24,244 [DEBUG] RMS: 0.0038, Mouth Open: 0.0599
+2025-03-05 16:27:24,244 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0599
+2025-03-05 16:27:24,244 [DEBUG] RMS: 0.0033, Mouth Open: 0.0466
+2025-03-05 16:27:24,259 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0466
+2025-03-05 16:27:24,293 [DEBUG] RMS: 0.0028, Mouth Open: 0.0393
+2025-03-05 16:27:24,294 [DEBUG] RMS: 0.0024, Mouth Open: 0.0330
+2025-03-05 16:27:24,294 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0393
+2025-03-05 16:27:24,309 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0330
+2025-03-05 16:27:24,343 [DEBUG] RMS: 0.0022, Mouth Open: 0.0289
+2025-03-05 16:27:24,343 [DEBUG] RMS: 0.0017, Mouth Open: 0.0247
+2025-03-05 16:27:24,343 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0289
+2025-03-05 16:27:24,359 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0247
+2025-03-05 16:27:24,393 [DEBUG] RMS: 0.0017, Mouth Open: 0.0216
+2025-03-05 16:27:24,394 [DEBUG] RMS: 0.0016, Mouth Open: 0.0193
+2025-03-05 16:27:24,394 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0216
+2025-03-05 16:27:24,409 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0193
+2025-03-05 16:27:24,444 [DEBUG] RMS: 0.0025, Mouth Open: 0.0194
+2025-03-05 16:27:24,444 [DEBUG] RMS: 0.0098, Mouth Open: 0.0345
+2025-03-05 16:27:24,444 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0194
+2025-03-05 16:27:24,459 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0345
+2025-03-05 16:27:24,493 [DEBUG] RMS: 0.0057, Mouth Open: 0.0427
+2025-03-05 16:27:24,494 [DEBUG] RMS: 0.0031, Mouth Open: 0.0454
+2025-03-05 16:27:24,494 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0427
+2025-03-05 16:27:24,509 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0454
+2025-03-05 16:27:24,543 [DEBUG] RMS: 0.0015, Mouth Open: 0.0451
+2025-03-05 16:27:24,543 [DEBUG] RMS: 0.0013, Mouth Open: 0.0428
+2025-03-05 16:27:24,543 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0451
+2025-03-05 16:27:24,559 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0428
+2025-03-05 16:27:24,594 [DEBUG] RMS: 0.0011, Mouth Open: 0.0254
+2025-03-05 16:27:24,594 [DEBUG] RMS: 0.0009, Mouth Open: 0.0156
+2025-03-05 16:27:24,594 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0254
+2025-03-05 16:27:24,609 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0156
+2025-03-05 16:27:24,643 [DEBUG] RMS: 0.0004, Mouth Open: 0.0103
+2025-03-05 16:27:24,643 [DEBUG] RMS: 0.0009, Mouth Open: 0.0091
+2025-03-05 16:27:24,643 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0103
+2025-03-05 16:27:24,659 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0091
+2025-03-05 16:27:24,694 [DEBUG] RMS: 0.0025, Mouth Open: 0.0114
+2025-03-05 16:27:24,695 [DEBUG] RMS: 0.0023, Mouth Open: 0.0139
+2025-03-05 16:27:24,695 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0114
+2025-03-05 16:27:24,709 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0139
+2025-03-05 16:27:24,744 [DEBUG] RMS: 0.0014, Mouth Open: 0.0150
+2025-03-05 16:27:24,744 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0150
+2025-03-05 16:27:24,744 [DEBUG] RMS: 0.0012, Mouth Open: 0.0165
+2025-03-05 16:27:24,759 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0165
+2025-03-05 16:27:24,793 [DEBUG] RMS: 0.0011, Mouth Open: 0.0169
+2025-03-05 16:27:24,793 [DEBUG] RMS: 0.0009, Mouth Open: 0.0137
+2025-03-05 16:27:24,794 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0169
+2025-03-05 16:27:24,809 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0137
+2025-03-05 16:27:24,844 [DEBUG] RMS: 0.0008, Mouth Open: 0.0106
+2025-03-05 16:27:24,844 [DEBUG] RMS: 0.0006, Mouth Open: 0.0089
+2025-03-05 16:27:24,844 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0106
+2025-03-05 16:27:24,859 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0089
+2025-03-05 16:27:24,894 [DEBUG] RMS: 0.0009, Mouth Open: 0.0083
+2025-03-05 16:27:24,894 [DEBUG] RMS: 0.0006, Mouth Open: 0.0074
+2025-03-05 16:27:24,894 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0083
+2025-03-05 16:27:24,909 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0074
+2025-03-05 16:27:24,943 [DEBUG] RMS: 0.0009, Mouth Open: 0.0074
+2025-03-05 16:27:24,943 [DEBUG] RMS: 0.0008, Mouth Open: 0.0075
+2025-03-05 16:27:24,944 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0074
+2025-03-05 16:27:24,958 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0075
+2025-03-05 16:27:24,993 [DEBUG] RMS: 0.0005, Mouth Open: 0.0073
+2025-03-05 16:27:24,994 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0073
+2025-03-05 16:27:24,994 [DEBUG] RMS: 0.0005, Mouth Open: 0.0066
+2025-03-05 16:27:25,009 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0066
+2025-03-05 16:27:25,044 [DEBUG] RMS: 0.0012, Mouth Open: 0.0078
+2025-03-05 16:27:25,044 [DEBUG] RMS: 0.0009, Mouth Open: 0.0078
+2025-03-05 16:27:25,044 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0078
+2025-03-05 16:27:25,059 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0078
+2025-03-05 16:27:25,093 [DEBUG] RMS: 0.0005, Mouth Open: 0.0072
+2025-03-05 16:27:25,094 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0072
+2025-03-05 16:27:25,094 [DEBUG] RMS: 0.0005, Mouth Open: 0.0073
+2025-03-05 16:27:25,109 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0073
+2025-03-05 16:27:25,143 [DEBUG] RMS: 0.0009, Mouth Open: 0.0080
+2025-03-05 16:27:25,144 [DEBUG] RMS: 0.0010, Mouth Open: 0.0075
+2025-03-05 16:27:25,144 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0080
+2025-03-05 16:27:25,159 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0075
+2025-03-05 16:27:25,194 [DEBUG] RMS: 0.0009, Mouth Open: 0.0074
+2025-03-05 16:27:25,194 [DEBUG] RMS: 0.0005, Mouth Open: 0.0074
+2025-03-05 16:27:25,194 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0074
+2025-03-05 16:27:25,209 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0074
+2025-03-05 16:27:25,243 [DEBUG] RMS: 0.0006, Mouth Open: 0.0075
+2025-03-05 16:27:25,244 [DEBUG] RMS: 0.0007, Mouth Open: 0.0072
+2025-03-05 16:27:25,244 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0075
+2025-03-05 16:27:25,259 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0072
+2025-03-05 16:27:25,294 [DEBUG] RMS: 0.0006, Mouth Open: 0.0064
+2025-03-05 16:27:25,294 [DEBUG] RMS: 0.0007, Mouth Open: 0.0060
+2025-03-05 16:27:25,294 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0064
+2025-03-05 16:27:25,309 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0060
+2025-03-05 16:27:25,344 [DEBUG] RMS: 0.0004, Mouth Open: 0.0058
+2025-03-05 16:27:25,344 [DEBUG] RMS: 0.0004, Mouth Open: 0.0055
+2025-03-05 16:27:25,344 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0058
+2025-03-05 16:27:25,359 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0055
+2025-03-05 16:27:25,394 [DEBUG] RMS: 0.0005, Mouth Open: 0.0051
+2025-03-05 16:27:25,394 [DEBUG] RMS: 0.0007, Mouth Open: 0.0054
+2025-03-05 16:27:25,394 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0051
+2025-03-05 16:27:25,409 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0054
+2025-03-05 16:27:25,444 [DEBUG] RMS: 0.0005, Mouth Open: 0.0052
+2025-03-05 16:27:25,444 [DEBUG] RMS: 0.0004, Mouth Open: 0.0052
+2025-03-05 16:27:25,444 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0052
+2025-03-05 16:27:25,459 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0052
+2025-03-05 16:27:25,494 [DEBUG] RMS: 0.0003, Mouth Open: 0.0050
+2025-03-05 16:27:25,494 [DEBUG] RMS: 0.0005, Mouth Open: 0.0050
+2025-03-05 16:27:25,494 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0050
+2025-03-05 16:27:25,509 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0050
+2025-03-05 16:27:25,543 [DEBUG] RMS: 0.0004, Mouth Open: 0.0042
+2025-03-05 16:27:25,543 [DEBUG] RMS: 0.0004, Mouth Open: 0.0040
+2025-03-05 16:27:25,543 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0042
+2025-03-05 16:27:25,559 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0040
+2025-03-05 16:27:25,593 [DEBUG] RMS: 0.0003, Mouth Open: 0.0039
+2025-03-05 16:27:25,593 [DEBUG] RMS: 0.0004, Mouth Open: 0.0040
+2025-03-05 16:27:25,593 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0039
+2025-03-05 16:27:25,609 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0040
+2025-03-05 16:27:25,643 [DEBUG] RMS: 0.0004, Mouth Open: 0.0037
+2025-03-05 16:27:25,643 [DEBUG] RMS: 0.0004, Mouth Open: 0.0039
+2025-03-05 16:27:25,644 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0037
+2025-03-05 16:27:25,659 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0039
+2025-03-05 16:27:25,693 [DEBUG] RMS: 0.0003, Mouth Open: 0.0037
+2025-03-05 16:27:25,694 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0037
+2025-03-05 16:27:25,694 [DEBUG] RMS: 0.0003, Mouth Open: 0.0037
+2025-03-05 16:27:25,710 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0037
+2025-03-05 16:27:25,743 [DEBUG] RMS: 0.0004, Mouth Open: 0.0039
+2025-03-05 16:27:25,743 [DEBUG] RMS: 0.0004, Mouth Open: 0.0039
+2025-03-05 16:27:25,743 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0039
+2025-03-05 16:27:25,759 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0039
+2025-03-05 16:27:25,793 [DEBUG] RMS: 0.0003, Mouth Open: 0.0036
+2025-03-05 16:27:25,793 [DEBUG] RMS: 0.0004, Mouth Open: 0.0037
+2025-03-05 16:27:25,793 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0036
+2025-03-05 16:27:25,809 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0037
+2025-03-05 16:27:25,843 [DEBUG] RMS: 0.0003, Mouth Open: 0.0037
+2025-03-05 16:27:25,844 [DEBUG] RMS: 0.0004, Mouth Open: 0.0036
+2025-03-05 16:27:25,844 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0037
+2025-03-05 16:27:25,858 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0036
+2025-03-05 16:27:25,894 [DEBUG] RMS: 0.0004, Mouth Open: 0.0035
+2025-03-05 16:27:25,894 [DEBUG] RMS: 0.0004, Mouth Open: 0.0036
+2025-03-05 16:27:25,895 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0035
+2025-03-05 16:27:25,909 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0036
+2025-03-05 16:27:25,944 [DEBUG] RMS: 0.0005, Mouth Open: 0.0038
+2025-03-05 16:27:25,944 [DEBUG] RMS: 0.0003, Mouth Open: 0.0038
+2025-03-05 16:27:25,944 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0038
+2025-03-05 16:27:25,959 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0038
+2025-03-05 16:27:25,994 [DEBUG] RMS: 0.0003, Mouth Open: 0.0037
+2025-03-05 16:27:25,994 [DEBUG] RMS: 0.0004, Mouth Open: 0.0038
+2025-03-05 16:27:25,994 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0037
+2025-03-05 16:27:26,009 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0038
+2025-03-05 16:27:26,043 [DEBUG] RMS: 0.0003, Mouth Open: 0.0038
+2025-03-05 16:27:26,043 [DEBUG] RMS: 0.0003, Mouth Open: 0.0035
+2025-03-05 16:27:26,044 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0038
+2025-03-05 16:27:26,059 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0035
+2025-03-05 16:27:26,093 [DEBUG] RMS: 0.0004, Mouth Open: 0.0037
+2025-03-05 16:27:26,093 [DEBUG] RMS: 0.0003, Mouth Open: 0.0036
+2025-03-05 16:27:26,094 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0037
+2025-03-05 16:27:26,109 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0036
+2025-03-05 16:27:26,143 [DEBUG] RMS: 0.0003, Mouth Open: 0.0034
+2025-03-05 16:27:26,143 [DEBUG] RMS: 0.0003, Mouth Open: 0.0033
+2025-03-05 16:27:26,143 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0034
+2025-03-05 16:27:26,159 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0033
+2025-03-05 16:27:26,194 [DEBUG] RMS: 0.0003, Mouth Open: 0.0033
+2025-03-05 16:27:26,194 [DEBUG] RMS: 0.0003, Mouth Open: 0.0031
+2025-03-05 16:27:26,194 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0033
+2025-03-05 16:27:26,209 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0031
+2025-03-05 16:27:26,243 [DEBUG] RMS: 0.0003, Mouth Open: 0.0031
+2025-03-05 16:27:26,244 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0031
+2025-03-05 16:27:26,244 [DEBUG] RMS: 0.0004, Mouth Open: 0.0033
+2025-03-05 16:27:26,258 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0033
+2025-03-05 16:27:26,294 [DEBUG] RMS: 0.0004, Mouth Open: 0.0035
+2025-03-05 16:27:26,294 [DEBUG] RMS: 0.0005, Mouth Open: 0.0039
+2025-03-05 16:27:26,294 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0035
+2025-03-05 16:27:26,309 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0039
+2025-03-05 16:27:26,344 [DEBUG] RMS: 0.0005, Mouth Open: 0.0043
+2025-03-05 16:27:26,344 [DEBUG] RMS: 0.0007, Mouth Open: 0.0050
+2025-03-05 16:27:26,344 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0043
+2025-03-05 16:27:26,358 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0050
+2025-03-05 16:27:26,394 [DEBUG] RMS: 0.0005, Mouth Open: 0.0052
+2025-03-05 16:27:26,394 [DEBUG] RMS: 0.0004, Mouth Open: 0.0051
+2025-03-05 16:27:26,394 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0052
+2025-03-05 16:27:26,409 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0051
+2025-03-05 16:27:26,444 [DEBUG] RMS: 0.0004, Mouth Open: 0.0049
+2025-03-05 16:27:26,444 [DEBUG] RMS: 0.0004, Mouth Open: 0.0047
+2025-03-05 16:27:26,444 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0049
+2025-03-05 16:27:26,459 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0047
+2025-03-05 16:27:26,494 [DEBUG] RMS: 0.0005, Mouth Open: 0.0043
+2025-03-05 16:27:26,495 [DEBUG] RMS: 0.0003, Mouth Open: 0.0039
+2025-03-05 16:27:26,495 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0043
+2025-03-05 16:27:26,508 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0039
+2025-03-05 16:27:26,543 [DEBUG] RMS: 0.0005, Mouth Open: 0.0041
+2025-03-05 16:27:26,544 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0041
+2025-03-05 16:27:26,544 [DEBUG] RMS: 0.0005, Mouth Open: 0.0042
+2025-03-05 16:27:26,559 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0042
+2025-03-05 16:27:26,593 [DEBUG] RMS: 0.0003, Mouth Open: 0.0040
+2025-03-05 16:27:26,593 [DEBUG] RMS: 0.0005, Mouth Open: 0.0041
+2025-03-05 16:27:26,593 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0040
+2025-03-05 16:27:26,609 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0041
+2025-03-05 16:27:26,643 [DEBUG] RMS: 0.0005, Mouth Open: 0.0044
+2025-03-05 16:27:26,644 [DEBUG] RMS: 0.0004, Mouth Open: 0.0043
+2025-03-05 16:27:26,644 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0044
+2025-03-05 16:27:26,659 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0043
+2025-03-05 16:27:26,694 [DEBUG] RMS: 0.0004, Mouth Open: 0.0041
+2025-03-05 16:27:26,694 [DEBUG] RMS: 0.0003, Mouth Open: 0.0041
+2025-03-05 16:27:26,694 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0041
+2025-03-05 16:27:26,709 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0041
+2025-03-05 16:27:26,743 [DEBUG] RMS: 0.0002, Mouth Open: 0.0036
+2025-03-05 16:27:26,744 [DEBUG] RMS: 0.0005, Mouth Open: 0.0036
+2025-03-05 16:27:26,744 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0036
+2025-03-05 16:27:26,759 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0036
+2025-03-05 16:27:26,793 [DEBUG] RMS: 0.0004, Mouth Open: 0.0035
+2025-03-05 16:27:26,794 [DEBUG] RMS: 0.0004, Mouth Open: 0.0036
+2025-03-05 16:27:26,794 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0035
+2025-03-05 16:27:26,809 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0036
+2025-03-05 16:27:26,843 [DEBUG] RMS: 0.0003, Mouth Open: 0.0036
+2025-03-05 16:27:26,843 [DEBUG] RMS: 0.0003, Mouth Open: 0.0038
+2025-03-05 16:27:26,843 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0036
+2025-03-05 16:27:26,859 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0038
+2025-03-05 16:27:26,893 [DEBUG] RMS: 0.0004, Mouth Open: 0.0037
+2025-03-05 16:27:26,893 [DEBUG] RMS: 0.0004, Mouth Open: 0.0037
+2025-03-05 16:27:26,893 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0037
+2025-03-05 16:27:26,909 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0037
+2025-03-05 16:27:26,943 [DEBUG] RMS: 0.0003, Mouth Open: 0.0036
+2025-03-05 16:27:26,943 [DEBUG] RMS: 0.0004, Mouth Open: 0.0036
+2025-03-05 16:27:26,943 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0036
+2025-03-05 16:27:26,959 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0036
+2025-03-05 16:27:26,993 [DEBUG] RMS: 0.0002, Mouth Open: 0.0034
+2025-03-05 16:27:26,993 [DEBUG] RMS: 0.0003, Mouth Open: 0.0032
+2025-03-05 16:27:26,993 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0034
+2025-03-05 16:27:27,009 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0032
+2025-03-05 16:27:27,043 [DEBUG] RMS: 0.0004, Mouth Open: 0.0032
+2025-03-05 16:27:27,043 [DEBUG] RMS: 0.0003, Mouth Open: 0.0031
+2025-03-05 16:27:27,044 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0032
+2025-03-05 16:27:27,059 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0031
+2025-03-05 16:27:27,094 [DEBUG] RMS: 0.0003, Mouth Open: 0.0030
+2025-03-05 16:27:27,095 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0030
+2025-03-05 16:27:27,095 [DEBUG] RMS: 0.0004, Mouth Open: 0.0034
+2025-03-05 16:27:27,109 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0034
+2025-03-05 16:27:27,143 [DEBUG] RMS: 0.0003, Mouth Open: 0.0033
+2025-03-05 16:27:27,144 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0033
+2025-03-05 16:27:27,144 [DEBUG] RMS: 0.0003, Mouth Open: 0.0031
+2025-03-05 16:27:27,159 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0031
+2025-03-05 16:27:27,193 [DEBUG] RMS: 0.0003, Mouth Open: 0.0032
+2025-03-05 16:27:27,194 [DEBUG] RMS: 0.0004, Mouth Open: 0.0033
+2025-03-05 16:27:27,194 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0032
+2025-03-05 16:27:27,209 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0033
+2025-03-05 16:27:27,243 [DEBUG] RMS: 0.0003, Mouth Open: 0.0032
+2025-03-05 16:27:27,243 [DEBUG] RMS: 0.0003, Mouth Open: 0.0032
+2025-03-05 16:27:27,243 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0032
+2025-03-05 16:27:27,258 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0032
+2025-03-05 16:27:27,293 [DEBUG] RMS: 0.0009, Mouth Open: 0.0045
+2025-03-05 16:27:27,294 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0045
+2025-03-05 16:27:27,294 [DEBUG] RMS: 0.0004, Mouth Open: 0.0048
+2025-03-05 16:27:27,309 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0048
+2025-03-05 16:27:27,343 [DEBUG] RMS: 0.0004, Mouth Open: 0.0049
+2025-03-05 16:27:27,344 [DEBUG] RMS: 0.0005, Mouth Open: 0.0051
+2025-03-05 16:27:27,344 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0049
+2025-03-05 16:27:27,359 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0051
+2025-03-05 16:27:27,393 [DEBUG] RMS: 0.0005, Mouth Open: 0.0055
+2025-03-05 16:27:27,393 [DEBUG] RMS: 0.0004, Mouth Open: 0.0044
+2025-03-05 16:27:27,393 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0055
+2025-03-05 16:27:27,409 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0044
+2025-03-05 16:27:27,444 [DEBUG] RMS: 0.0003, Mouth Open: 0.0042
+2025-03-05 16:27:27,444 [DEBUG] RMS: 0.0003, Mouth Open: 0.0040
+2025-03-05 16:27:27,444 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0042
+2025-03-05 16:27:27,459 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0040
+2025-03-05 16:27:27,493 [DEBUG] RMS: 0.0004, Mouth Open: 0.0038
+2025-03-05 16:27:27,493 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0038
+2025-03-05 16:27:27,494 [DEBUG] RMS: 0.0004, Mouth Open: 0.0035
+2025-03-05 16:27:27,509 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0035
+2025-03-05 16:27:27,544 [DEBUG] RMS: 0.0004, Mouth Open: 0.0034
+2025-03-05 16:27:27,544 [DEBUG] RMS: 0.0005, Mouth Open: 0.0038
+2025-03-05 16:27:27,544 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0034
+2025-03-05 16:27:27,559 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0038
+2025-03-05 16:27:27,593 [DEBUG] RMS: 0.0005, Mouth Open: 0.0042
+2025-03-05 16:27:27,594 [DEBUG] RMS: 0.0005, Mouth Open: 0.0046
+2025-03-05 16:27:27,594 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0042
+2025-03-05 16:27:27,609 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0046
+2025-03-05 16:27:27,644 [DEBUG] RMS: 0.0005, Mouth Open: 0.0049
+2025-03-05 16:27:27,644 [DEBUG] RMS: 0.0004, Mouth Open: 0.0050
+2025-03-05 16:27:27,644 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0049
+2025-03-05 16:27:27,659 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0050
+2025-03-05 16:27:27,694 [DEBUG] RMS: 0.0004, Mouth Open: 0.0047
+2025-03-05 16:27:27,694 [DEBUG] RMS: 0.0003, Mouth Open: 0.0043
+2025-03-05 16:27:27,695 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0047
+2025-03-05 16:27:27,709 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0043
+2025-03-05 16:27:27,743 [DEBUG] RMS: 0.0004, Mouth Open: 0.0040
+2025-03-05 16:27:27,744 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0040
+2025-03-05 16:27:27,744 [DEBUG] RMS: 0.0004, Mouth Open: 0.0036
+2025-03-05 16:27:27,759 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0036
+2025-03-05 16:27:27,794 [DEBUG] RMS: 0.0003, Mouth Open: 0.0034
+2025-03-05 16:27:27,794 [DEBUG] RMS: 0.0003, Mouth Open: 0.0033
+2025-03-05 16:27:27,794 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0034
+2025-03-05 16:27:27,809 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0033
+2025-03-05 16:27:27,843 [DEBUG] RMS: 0.0003, Mouth Open: 0.0034
+2025-03-05 16:27:27,843 [DEBUG] RMS: 0.0005, Mouth Open: 0.0035
+2025-03-05 16:27:27,844 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0034
+2025-03-05 16:27:27,859 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0035
+2025-03-05 16:27:27,894 [DEBUG] RMS: 0.0005, Mouth Open: 0.0038
+2025-03-05 16:27:27,894 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0038
+2025-03-05 16:27:27,894 [DEBUG] RMS: 0.0003, Mouth Open: 0.0039
+2025-03-05 16:27:27,909 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0039
+2025-03-05 16:27:27,943 [DEBUG] RMS: 0.0004, Mouth Open: 0.0040
+2025-03-05 16:27:27,944 [DEBUG] RMS: 0.0004, Mouth Open: 0.0042
+2025-03-05 16:27:27,944 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0040
+2025-03-05 16:27:27,959 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0042
+2025-03-05 16:27:27,993 [DEBUG] RMS: 0.0003, Mouth Open: 0.0039
+2025-03-05 16:27:27,993 [DEBUG] RMS: 0.0003, Mouth Open: 0.0035
+2025-03-05 16:27:27,993 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0039
+2025-03-05 16:27:28,009 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0035
+2025-03-05 16:27:28,043 [DEBUG] RMS: 0.0004, Mouth Open: 0.0035
+2025-03-05 16:27:28,044 [DEBUG] RMS: 0.0004, Mouth Open: 0.0035
+2025-03-05 16:27:28,044 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0035
+2025-03-05 16:27:28,059 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0035
+2025-03-05 16:27:28,094 [DEBUG] RMS: 0.0003, Mouth Open: 0.0033
+2025-03-05 16:27:28,094 [DEBUG] RMS: 0.0003, Mouth Open: 0.0033
+2025-03-05 16:27:28,094 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0033
+2025-03-05 16:27:28,109 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0033
+2025-03-05 16:27:28,144 [DEBUG] RMS: 0.0003, Mouth Open: 0.0034
+2025-03-05 16:27:28,144 [DEBUG] RMS: 0.0003, Mouth Open: 0.0034
+2025-03-05 16:27:28,144 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0034
+2025-03-05 16:27:28,159 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0034
+2025-03-05 16:27:28,193 [DEBUG] RMS: 0.0005, Mouth Open: 0.0036
+2025-03-05 16:27:28,194 [DEBUG] RMS: 0.0003, Mouth Open: 0.0035
+2025-03-05 16:27:28,194 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0036
+2025-03-05 16:27:28,209 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0035
+2025-03-05 16:27:28,244 [DEBUG] RMS: 0.0003, Mouth Open: 0.0035
+2025-03-05 16:27:28,244 [DEBUG] RMS: 0.0003, Mouth Open: 0.0035
+2025-03-05 16:27:28,244 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0035
+2025-03-05 16:27:28,259 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0035
+2025-03-05 16:27:28,294 [DEBUG] RMS: 0.0004, Mouth Open: 0.0037
+2025-03-05 16:27:28,295 [DEBUG] RMS: 0.0003, Mouth Open: 0.0035
+2025-03-05 16:27:28,295 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0037
+2025-03-05 16:27:28,309 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0035
+2025-03-05 16:27:28,344 [DEBUG] RMS: 0.0003, Mouth Open: 0.0035
+2025-03-05 16:27:28,344 [DEBUG] RMS: 0.0004, Mouth Open: 0.0037
+2025-03-05 16:27:28,344 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0035
+2025-03-05 16:27:28,359 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0037
+2025-03-05 16:27:28,394 [DEBUG] RMS: 0.0003, Mouth Open: 0.0037
+2025-03-05 16:27:28,394 [DEBUG] RMS: 0.0005, Mouth Open: 0.0037
+2025-03-05 16:27:28,394 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0037
+2025-03-05 16:27:28,409 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0037
+2025-03-05 16:27:28,443 [DEBUG] RMS: 0.0004, Mouth Open: 0.0038
+2025-03-05 16:27:28,443 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0038
+2025-03-05 16:27:28,443 [DEBUG] RMS: 0.0003, Mouth Open: 0.0037
+2025-03-05 16:27:28,459 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0037
+2025-03-05 16:27:28,494 [DEBUG] RMS: 0.0004, Mouth Open: 0.0038
+2025-03-05 16:27:28,494 [DEBUG] RMS: 0.0004, Mouth Open: 0.0039
+2025-03-05 16:27:28,494 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0038
+2025-03-05 16:27:28,509 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0039
+2025-03-05 16:27:28,544 [DEBUG] RMS: 0.0003, Mouth Open: 0.0036
+2025-03-05 16:27:28,544 [DEBUG] RMS: 0.0004, Mouth Open: 0.0037
+2025-03-05 16:27:28,544 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0036
+2025-03-05 16:27:28,559 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0037
+2025-03-05 16:27:28,594 [DEBUG] RMS: 0.0003, Mouth Open: 0.0037
+2025-03-05 16:27:28,594 [DEBUG] RMS: 0.0004, Mouth Open: 0.0036
+2025-03-05 16:27:28,594 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0037
+2025-03-05 16:27:28,609 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0036
+2025-03-05 16:27:28,644 [DEBUG] RMS: 0.0004, Mouth Open: 0.0036
+2025-03-05 16:27:28,644 [DEBUG] RMS: 0.0004, Mouth Open: 0.0037
+2025-03-05 16:27:28,644 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0036
+2025-03-05 16:27:28,659 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0037
+2025-03-05 16:27:28,694 [DEBUG] RMS: 0.0004, Mouth Open: 0.0036
+2025-03-05 16:27:28,694 [DEBUG] RMS: 0.0004, Mouth Open: 0.0037
+2025-03-05 16:27:28,694 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0036
+2025-03-05 16:27:28,709 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0037
+2025-03-05 16:27:28,744 [DEBUG] RMS: 0.0003, Mouth Open: 0.0036
+2025-03-05 16:27:28,744 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0036
+2025-03-05 16:27:28,744 [DEBUG] RMS: 0.0003, Mouth Open: 0.0034
+2025-03-05 16:27:28,759 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0034
+2025-03-05 16:27:28,794 [DEBUG] RMS: 0.0003, Mouth Open: 0.0033
+2025-03-05 16:27:28,794 [DEBUG] RMS: 0.0004, Mouth Open: 0.0033
+2025-03-05 16:27:28,794 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0033
+2025-03-05 16:27:28,809 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0033
+2025-03-05 16:27:28,844 [DEBUG] RMS: 0.0003, Mouth Open: 0.0033
+2025-03-05 16:27:28,844 [DEBUG] RMS: 0.0003, Mouth Open: 0.0032
+2025-03-05 16:27:28,844 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0033
+2025-03-05 16:27:28,859 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0032
+2025-03-05 16:27:28,895 [DEBUG] RMS: 0.0004, Mouth Open: 0.0033
+2025-03-05 16:27:28,895 [DEBUG] RMS: 0.0005, Mouth Open: 0.0037
+2025-03-05 16:27:28,895 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0033
+2025-03-05 16:27:28,909 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0037
+2025-03-05 16:27:28,944 [DEBUG] RMS: 0.0006, Mouth Open: 0.0042
+2025-03-05 16:27:28,944 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0042
+2025-03-05 16:27:28,944 [DEBUG] RMS: 0.0004, Mouth Open: 0.0043
+2025-03-05 16:27:28,959 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0043
+2025-03-05 16:27:28,994 [DEBUG] RMS: 0.0006, Mouth Open: 0.0049
+2025-03-05 16:27:28,994 [DEBUG] RMS: 0.0005, Mouth Open: 0.0051
+2025-03-05 16:27:28,994 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0049
+2025-03-05 16:27:29,009 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0051
+2025-03-05 16:27:29,043 [DEBUG] RMS: 0.0005, Mouth Open: 0.0052
+2025-03-05 16:27:29,044 [DEBUG] RMS: 0.0003, Mouth Open: 0.0047
+2025-03-05 16:27:29,044 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0052
+2025-03-05 16:27:29,059 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0047
+2025-03-05 16:27:29,093 [DEBUG] RMS: 0.0004, Mouth Open: 0.0047
+2025-03-05 16:27:29,094 [DEBUG] RMS: 0.0004, Mouth Open: 0.0043
+2025-03-05 16:27:29,094 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0047
+2025-03-05 16:27:29,109 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0043
+2025-03-05 16:27:29,144 [DEBUG] RMS: 0.0003, Mouth Open: 0.0039
+2025-03-05 16:27:29,144 [DEBUG] RMS: 0.0003, Mouth Open: 0.0035
+2025-03-05 16:27:29,144 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0039
+2025-03-05 16:27:29,159 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0035
+2025-03-05 16:27:29,194 [DEBUG] RMS: 0.0004, Mouth Open: 0.0036
+2025-03-05 16:27:29,194 [DEBUG] RMS: 0.0004, Mouth Open: 0.0037
+2025-03-05 16:27:29,194 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0036
+2025-03-05 16:27:29,209 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0037
+2025-03-05 16:27:29,243 [DEBUG] RMS: 0.0004, Mouth Open: 0.0037
+2025-03-05 16:27:29,244 [DEBUG] RMS: 0.0003, Mouth Open: 0.0038
+2025-03-05 16:27:29,244 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0037
+2025-03-05 16:27:29,259 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0038
+2025-03-05 16:27:29,293 [DEBUG] RMS: 0.0003, Mouth Open: 0.0037
+2025-03-05 16:27:29,294 [DEBUG] RMS: 0.0004, Mouth Open: 0.0038
+2025-03-05 16:27:29,294 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0037
+2025-03-05 16:27:29,309 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0038
+2025-03-05 16:27:29,343 [DEBUG] RMS: 0.0003, Mouth Open: 0.0036
+2025-03-05 16:27:29,343 [DEBUG] RMS: 0.0005, Mouth Open: 0.0037
+2025-03-05 16:27:29,344 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0036
+2025-03-05 16:27:29,359 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0037
+2025-03-05 16:27:29,394 [DEBUG] RMS: 0.0004, Mouth Open: 0.0037
+2025-03-05 16:27:29,394 [DEBUG] RMS: 0.0006, Mouth Open: 0.0044
+2025-03-05 16:27:29,394 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0037
+2025-03-05 16:27:29,409 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0044
+2025-03-05 16:27:29,444 [DEBUG] RMS: 0.0004, Mouth Open: 0.0043
+2025-03-05 16:27:29,444 [DEBUG] RMS: 0.0003, Mouth Open: 0.0043
+2025-03-05 16:27:29,444 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0043
+2025-03-05 16:27:29,460 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0043
+2025-03-05 16:27:29,495 [DEBUG] RMS: 0.0003, Mouth Open: 0.0040
+2025-03-05 16:27:29,495 [DEBUG] RMS: 0.0005, Mouth Open: 0.0042
+2025-03-05 16:27:29,495 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0040
+2025-03-05 16:27:29,509 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0042
+2025-03-05 16:27:29,544 [DEBUG] RMS: 0.0003, Mouth Open: 0.0035
+2025-03-05 16:27:29,544 [DEBUG] RMS: 0.0004, Mouth Open: 0.0036
+2025-03-05 16:27:29,544 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0035
+2025-03-05 16:27:29,559 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0036
+2025-03-05 16:27:29,593 [DEBUG] RMS: 0.0003, Mouth Open: 0.0037
+2025-03-05 16:27:29,593 [DEBUG] RMS: 0.0004, Mouth Open: 0.0039
+2025-03-05 16:27:29,594 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0037
+2025-03-05 16:27:29,609 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0039
+2025-03-05 16:27:29,643 [DEBUG] RMS: 0.0004, Mouth Open: 0.0039
+2025-03-05 16:27:29,643 [DEBUG] RMS: 0.0004, Mouth Open: 0.0040
+2025-03-05 16:27:29,644 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0039
+2025-03-05 16:27:29,659 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0040
+2025-03-05 16:27:29,694 [DEBUG] RMS: 0.0004, Mouth Open: 0.0039
+2025-03-05 16:27:29,694 [DEBUG] RMS: 0.0004, Mouth Open: 0.0041
+2025-03-05 16:27:29,694 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0039
+2025-03-05 16:27:29,709 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0041
+2025-03-05 16:27:29,743 [DEBUG] RMS: 0.0003, Mouth Open: 0.0039
+2025-03-05 16:27:29,744 [DEBUG] RMS: 0.0004, Mouth Open: 0.0037
+2025-03-05 16:27:29,744 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0039
+2025-03-05 16:27:29,760 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0037
+2025-03-05 16:27:29,794 [DEBUG] RMS: 0.0005, Mouth Open: 0.0040
+2025-03-05 16:27:29,794 [DEBUG] RMS: 0.0005, Mouth Open: 0.0041
+2025-03-05 16:27:29,794 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0040
+2025-03-05 16:27:29,809 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0041
+2025-03-05 16:27:29,844 [DEBUG] RMS: 0.0005, Mouth Open: 0.0043
+2025-03-05 16:27:29,844 [DEBUG] RMS: 0.0005, Mouth Open: 0.0046
+2025-03-05 16:27:29,844 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0043
+2025-03-05 16:27:29,859 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0046
+2025-03-05 16:27:29,894 [DEBUG] RMS: 0.0005, Mouth Open: 0.0049
+2025-03-05 16:27:29,894 [DEBUG] RMS: 0.0003, Mouth Open: 0.0046
+2025-03-05 16:27:29,894 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0049
+2025-03-05 16:27:29,910 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0046
+2025-03-05 16:27:29,944 [DEBUG] RMS: 0.0004, Mouth Open: 0.0045
+2025-03-05 16:27:29,944 [DEBUG] RMS: 0.0004, Mouth Open: 0.0043
+2025-03-05 16:27:29,944 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0045
+2025-03-05 16:27:29,959 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0043
+2025-03-05 16:27:29,993 [DEBUG] RMS: 0.0004, Mouth Open: 0.0041
+2025-03-05 16:27:29,994 [DEBUG] RMS: 0.0004, Mouth Open: 0.0039
+2025-03-05 16:27:29,994 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0041
+2025-03-05 16:27:30,009 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0039
+2025-03-05 16:27:30,043 [DEBUG] RMS: 0.0004, Mouth Open: 0.0039
+2025-03-05 16:27:30,044 [DEBUG] RMS: 0.0004, Mouth Open: 0.0039
+2025-03-05 16:27:30,044 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0039
+2025-03-05 16:27:30,059 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0039
+2025-03-05 16:27:30,094 [DEBUG] RMS: 0.0005, Mouth Open: 0.0041
+2025-03-05 16:27:30,094 [DEBUG] RMS: 0.0005, Mouth Open: 0.0042
+2025-03-05 16:27:30,095 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0041
+2025-03-05 16:27:30,109 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0042
+2025-03-05 16:27:30,144 [DEBUG] RMS: 0.0005, Mouth Open: 0.0046
+2025-03-05 16:27:30,144 [DEBUG] RMS: 0.0006, Mouth Open: 0.0049
+2025-03-05 16:27:30,144 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0046
+2025-03-05 16:27:30,159 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0049
+2025-03-05 16:27:30,194 [DEBUG] RMS: 0.0006, Mouth Open: 0.0054
+2025-03-05 16:27:30,194 [DEBUG] RMS: 0.0008, Mouth Open: 0.0060
+2025-03-05 16:27:30,194 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0054
+2025-03-05 16:27:30,209 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0060
+2025-03-05 16:27:30,243 [DEBUG] RMS: 0.0012, Mouth Open: 0.0074
+2025-03-05 16:27:30,244 [DEBUG] RMS: 0.0012, Mouth Open: 0.0087
+2025-03-05 16:27:30,244 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0074
+2025-03-05 16:27:30,259 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0087
+2025-03-05 16:27:30,294 [DEBUG] RMS: 0.0005, Mouth Open: 0.0086
+2025-03-05 16:27:30,294 [DEBUG] RMS: 0.0004, Mouth Open: 0.0082
+2025-03-05 16:27:30,294 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0086
+2025-03-05 16:27:30,309 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0082
+2025-03-05 16:27:30,344 [DEBUG] RMS: 0.0004, Mouth Open: 0.0075
+2025-03-05 16:27:30,344 [DEBUG] RMS: 0.0004, Mouth Open: 0.0060
+2025-03-05 16:27:30,344 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0075
+2025-03-05 16:27:30,359 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0060
+2025-03-05 16:27:30,394 [DEBUG] RMS: 0.0004, Mouth Open: 0.0043
+2025-03-05 16:27:30,394 [DEBUG] RMS: 0.0003, Mouth Open: 0.0040
+2025-03-05 16:27:30,394 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0043
+2025-03-05 16:27:30,409 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0040
+2025-03-05 16:27:30,444 [DEBUG] RMS: 0.0003, Mouth Open: 0.0038
+2025-03-05 16:27:30,444 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0038
+2025-03-05 16:27:30,444 [DEBUG] RMS: 0.0003, Mouth Open: 0.0036
+2025-03-05 16:27:30,459 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0036
+2025-03-05 16:27:30,493 [DEBUG] RMS: 0.0004, Mouth Open: 0.0035
+2025-03-05 16:27:30,494 [DEBUG] RMS: 0.0004, Mouth Open: 0.0036
+2025-03-05 16:27:30,494 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0035
+2025-03-05 16:27:30,509 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0036
+2025-03-05 16:27:30,543 [DEBUG] RMS: 0.0003, Mouth Open: 0.0036
+2025-03-05 16:27:30,544 [DEBUG] RMS: 0.0004, Mouth Open: 0.0038
+2025-03-05 16:27:30,544 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0036
+2025-03-05 16:27:30,559 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0038
+2025-03-05 16:27:30,593 [DEBUG] RMS: 0.0003, Mouth Open: 0.0037
+2025-03-05 16:27:30,594 [DEBUG] RMS: 0.0005, Mouth Open: 0.0040
+2025-03-05 16:27:30,594 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0037
+2025-03-05 16:27:30,609 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0040
+2025-03-05 16:27:30,644 [DEBUG] RMS: 0.0004, Mouth Open: 0.0039
+2025-03-05 16:27:30,644 [DEBUG] RMS: 0.0005, Mouth Open: 0.0042
+2025-03-05 16:27:30,644 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0039
+2025-03-05 16:27:30,659 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0042
+2025-03-05 16:27:30,694 [DEBUG] RMS: 0.0005, Mouth Open: 0.0044
+2025-03-05 16:27:30,694 [DEBUG] RMS: 0.0004, Mouth Open: 0.0046
+2025-03-05 16:27:30,695 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0044
+2025-03-05 16:27:30,709 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0046
+2025-03-05 16:27:30,744 [DEBUG] RMS: 0.0003, Mouth Open: 0.0043
+2025-03-05 16:27:30,744 [DEBUG] RMS: 0.0003, Mouth Open: 0.0042
+2025-03-05 16:27:30,744 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0043
+2025-03-05 16:27:30,760 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0042
+2025-03-05 16:27:30,794 [DEBUG] RMS: 0.0004, Mouth Open: 0.0039
+2025-03-05 16:27:30,794 [DEBUG] RMS: 0.0004, Mouth Open: 0.0037
+2025-03-05 16:27:30,794 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0039
+2025-03-05 16:27:30,809 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0037
+2025-03-05 16:27:30,844 [DEBUG] RMS: 0.0004, Mouth Open: 0.0037
+2025-03-05 16:27:30,844 [DEBUG] RMS: 0.0003, Mouth Open: 0.0037
+2025-03-05 16:27:30,844 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0037
+2025-03-05 16:27:30,860 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0037
+2025-03-05 16:27:30,894 [DEBUG] RMS: 0.0004, Mouth Open: 0.0038
+2025-03-05 16:27:30,894 [DEBUG] RMS: 0.0004, Mouth Open: 0.0039
+2025-03-05 16:27:30,894 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0038
+2025-03-05 16:27:30,909 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0039
+2025-03-05 16:27:30,943 [DEBUG] RMS: 0.0004, Mouth Open: 0.0038
+2025-03-05 16:27:30,943 [DEBUG] RMS: 0.0003, Mouth Open: 0.0036
+2025-03-05 16:27:30,944 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0038
+2025-03-05 16:27:30,959 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0036
+2025-03-05 16:27:30,994 [DEBUG] RMS: 0.0004, Mouth Open: 0.0038
+2025-03-05 16:27:30,994 [DEBUG] RMS: 0.0003, Mouth Open: 0.0036
+2025-03-05 16:27:30,994 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0038
+2025-03-05 16:27:31,009 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0036
+2025-03-05 16:27:31,043 [DEBUG] RMS: 0.0004, Mouth Open: 0.0036
+2025-03-05 16:27:31,043 [DEBUG] RMS: 0.0003, Mouth Open: 0.0035
+2025-03-05 16:27:31,044 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0036
+2025-03-05 16:27:31,059 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0035
+2025-03-05 16:27:31,094 [DEBUG] RMS: 0.0003, Mouth Open: 0.0036
+2025-03-05 16:27:31,094 [DEBUG] RMS: 0.0004, Mouth Open: 0.0035
+2025-03-05 16:27:31,094 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0036
+2025-03-05 16:27:31,109 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0035
+2025-03-05 16:27:31,144 [DEBUG] RMS: 0.0004, Mouth Open: 0.0037
+2025-03-05 16:27:31,144 [DEBUG] RMS: 0.0004, Mouth Open: 0.0037
+2025-03-05 16:27:31,144 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0037
+2025-03-05 16:27:31,159 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0037
+2025-03-05 16:27:31,194 [DEBUG] RMS: 0.0003, Mouth Open: 0.0036
+2025-03-05 16:27:31,194 [DEBUG] RMS: 0.0004, Mouth Open: 0.0037
+2025-03-05 16:27:31,194 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0036
+2025-03-05 16:27:31,209 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0037
+2025-03-05 16:27:31,244 [DEBUG] RMS: 0.0003, Mouth Open: 0.0037
+2025-03-05 16:27:31,244 [DEBUG] RMS: 0.0005, Mouth Open: 0.0038
+2025-03-05 16:27:31,244 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0037
+2025-03-05 16:27:31,259 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0038
+2025-03-05 16:27:31,294 [DEBUG] RMS: 0.0005, Mouth Open: 0.0041
+2025-03-05 16:27:31,294 [DEBUG] RMS: 0.0007, Mouth Open: 0.0048
+2025-03-05 16:27:31,294 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0041
+2025-03-05 16:27:31,309 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0048
+2025-03-05 16:27:31,344 [DEBUG] RMS: 0.0006, Mouth Open: 0.0052
+2025-03-05 16:27:31,344 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0052
+2025-03-05 16:27:31,344 [DEBUG] RMS: 0.0005, Mouth Open: 0.0056
+2025-03-05 16:27:31,359 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0056
+2025-03-05 16:27:31,394 [DEBUG] RMS: 0.0004, Mouth Open: 0.0054
+2025-03-05 16:27:31,394 [DEBUG] RMS: 0.0003, Mouth Open: 0.0049
+2025-03-05 16:27:31,394 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0054
+2025-03-05 16:27:31,409 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0049
+2025-03-05 16:27:31,443 [DEBUG] RMS: 0.0004, Mouth Open: 0.0045
+2025-03-05 16:27:31,443 [DEBUG] RMS: 0.0004, Mouth Open: 0.0040
+2025-03-05 16:27:31,443 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0045
+2025-03-05 16:27:31,459 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0040
+2025-03-05 16:27:31,494 [DEBUG] RMS: 0.0004, Mouth Open: 0.0037
+2025-03-05 16:27:31,494 [DEBUG] RMS: 0.0003, Mouth Open: 0.0035
+2025-03-05 16:27:31,494 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0037
+2025-03-05 16:27:31,509 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0035
+2025-03-05 16:27:31,543 [DEBUG] RMS: 0.0004, Mouth Open: 0.0037
+2025-03-05 16:27:31,544 [DEBUG] RMS: 0.0003, Mouth Open: 0.0034
+2025-03-05 16:27:31,544 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0037
+2025-03-05 16:27:31,559 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0034
+2025-03-05 16:27:31,594 [DEBUG] RMS: 0.0004, Mouth Open: 0.0034
+2025-03-05 16:27:31,594 [DEBUG] RMS: 0.0004, Mouth Open: 0.0035
+2025-03-05 16:27:31,594 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0034
+2025-03-05 16:27:31,609 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0035
+2025-03-05 16:27:31,644 [DEBUG] RMS: 0.0003, Mouth Open: 0.0036
+2025-03-05 16:27:31,644 [DEBUG] RMS: 0.0003, Mouth Open: 0.0036
+2025-03-05 16:27:31,644 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0036
+2025-03-05 16:27:31,659 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0036
+2025-03-05 16:27:31,694 [DEBUG] RMS: 0.0004, Mouth Open: 0.0036
+2025-03-05 16:27:31,694 [DEBUG] RMS: 0.0013, Mouth Open: 0.0055
+2025-03-05 16:27:31,694 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0036
+2025-03-05 16:27:31,709 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0055
+2025-03-05 16:27:31,744 [DEBUG] RMS: 0.0005, Mouth Open: 0.0057
+2025-03-05 16:27:31,744 [DEBUG] RMS: 0.0005, Mouth Open: 0.0061
+2025-03-05 16:27:31,744 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0057
+2025-03-05 16:27:31,759 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0061
+2025-03-05 16:27:31,793 [DEBUG] RMS: 0.0004, Mouth Open: 0.0062
+2025-03-05 16:27:31,794 [DEBUG] RMS: 0.0004, Mouth Open: 0.0064
+2025-03-05 16:27:31,794 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0062
+2025-03-05 16:27:31,809 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0064
+2025-03-05 16:27:31,844 [DEBUG] RMS: 0.0004, Mouth Open: 0.0046
+2025-03-05 16:27:31,844 [DEBUG] RMS: 0.0004, Mouth Open: 0.0043
+2025-03-05 16:27:31,844 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0046
+2025-03-05 16:27:31,859 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0043
+2025-03-05 16:27:31,894 [DEBUG] RMS: 0.0005, Mouth Open: 0.0042
+2025-03-05 16:27:31,894 [DEBUG] RMS: 0.0003, Mouth Open: 0.0041
+2025-03-05 16:27:31,895 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0042
+2025-03-05 16:27:31,909 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0041
+2025-03-05 16:27:31,944 [DEBUG] RMS: 0.0005, Mouth Open: 0.0042
+2025-03-05 16:27:31,944 [DEBUG] RMS: 0.0006, Mouth Open: 0.0046
+2025-03-05 16:27:31,944 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0042
+2025-03-05 16:27:31,959 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0046
+2025-03-05 16:27:31,993 [DEBUG] RMS: 0.0006, Mouth Open: 0.0049
+2025-03-05 16:27:31,993 [DEBUG] RMS: 0.0004, Mouth Open: 0.0047
+2025-03-05 16:27:31,993 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0049
+2025-03-05 16:27:32,009 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0047
+2025-03-05 16:27:32,043 [DEBUG] RMS: 0.0004, Mouth Open: 0.0048
+2025-03-05 16:27:32,043 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0048
+2025-03-05 16:27:32,043 [DEBUG] RMS: 0.0004, Mouth Open: 0.0048
+2025-03-05 16:27:32,059 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0048
+2025-03-05 16:27:32,094 [DEBUG] RMS: 0.0003, Mouth Open: 0.0043
+2025-03-05 16:27:32,094 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0043
+2025-03-05 16:27:32,094 [DEBUG] RMS: 0.0004, Mouth Open: 0.0039
+2025-03-05 16:27:32,109 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0039
+2025-03-05 16:27:32,143 [DEBUG] RMS: 0.0003, Mouth Open: 0.0038
+2025-03-05 16:27:32,144 [DEBUG] RMS: 0.0027, Mouth Open: 0.0083
+2025-03-05 16:27:32,144 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0038
+2025-03-05 16:27:32,159 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0083
+2025-03-05 16:27:32,194 [DEBUG] RMS: 0.0100, Mouth Open: 0.0275
+2025-03-05 16:27:32,194 [DEBUG] RMS: 0.0236, Mouth Open: 0.0741
+2025-03-05 16:27:32,194 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0275
+2025-03-05 16:27:32,210 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0741
+2025-03-05 16:27:32,243 [DEBUG] RMS: 0.0307, Mouth Open: 0.1346
+2025-03-05 16:27:32,243 [DEBUG] Sent parameter update: AlexMouthOpen = 0.1346
+2025-03-05 16:27:32,244 [DEBUG] RMS: 0.0334, Mouth Open: 0.2007
+2025-03-05 16:27:32,259 [DEBUG] Sent parameter update: AlexMouthOpen = 0.2007
+2025-03-05 16:27:32,293 [DEBUG] RMS: 0.0320, Mouth Open: 0.2593
+2025-03-05 16:27:32,294 [DEBUG] RMS: 0.0200, Mouth Open: 0.2792
+2025-03-05 16:27:32,294 [DEBUG] Sent parameter update: AlexMouthOpen = 0.2593
+2025-03-05 16:27:32,309 [DEBUG] Sent parameter update: AlexMouthOpen = 0.2792
+2025-03-05 16:27:32,343 [DEBUG] RMS: 0.0239, Mouth Open: 0.2797
+2025-03-05 16:27:32,344 [DEBUG] RMS: 0.0257, Mouth Open: 0.2697
+2025-03-05 16:27:32,344 [DEBUG] Sent parameter update: AlexMouthOpen = 0.2797
+2025-03-05 16:27:32,359 [DEBUG] Sent parameter update: AlexMouthOpen = 0.2697
+2025-03-05 16:27:32,393 [DEBUG] RMS: 0.0232, Mouth Open: 0.2493
+2025-03-05 16:27:32,394 [DEBUG] RMS: 0.0140, Mouth Open: 0.2133
+2025-03-05 16:27:32,394 [DEBUG] Sent parameter update: AlexMouthOpen = 0.2493
+2025-03-05 16:27:32,409 [DEBUG] Sent parameter update: AlexMouthOpen = 0.2133
+2025-03-05 16:27:32,443 [DEBUG] RMS: 0.0079, Mouth Open: 0.1893
+2025-03-05 16:27:32,444 [DEBUG] RMS: 0.0057, Mouth Open: 0.1530
+2025-03-05 16:27:32,444 [DEBUG] Sent parameter update: AlexMouthOpen = 0.1893
+2025-03-05 16:27:32,459 [DEBUG] Sent parameter update: AlexMouthOpen = 0.1530
+2025-03-05 16:27:32,494 [DEBUG] RMS: 0.0062, Mouth Open: 0.1141
+2025-03-05 16:27:32,494 [DEBUG] RMS: 0.0111, Mouth Open: 0.0898
+2025-03-05 16:27:32,495 [DEBUG] Sent parameter update: AlexMouthOpen = 0.1141
+2025-03-05 16:27:32,509 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0898
+2025-03-05 16:27:32,543 [DEBUG] RMS: 0.0177, Mouth Open: 0.0973
+2025-03-05 16:27:32,544 [DEBUG] RMS: 0.0214, Mouth Open: 0.1241
+2025-03-05 16:27:32,544 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0973
+2025-03-05 16:27:32,559 [DEBUG] Sent parameter update: AlexMouthOpen = 0.1241
+2025-03-05 16:27:32,593 [DEBUG] RMS: 0.0181, Mouth Open: 0.1488
+2025-03-05 16:27:32,594 [DEBUG] RMS: 0.0110, Mouth Open: 0.1584
+2025-03-05 16:27:32,594 [DEBUG] Sent parameter update: AlexMouthOpen = 0.1488
+2025-03-05 16:27:32,609 [DEBUG] Sent parameter update: AlexMouthOpen = 0.1584
+2025-03-05 16:27:32,643 [DEBUG] RMS: 0.0034, Mouth Open: 0.1431
+2025-03-05 16:27:32,643 [DEBUG] RMS: 0.0017, Mouth Open: 0.1111
+2025-03-05 16:27:32,643 [DEBUG] Sent parameter update: AlexMouthOpen = 0.1431
+2025-03-05 16:27:32,659 [DEBUG] Sent parameter update: AlexMouthOpen = 0.1111
+2025-03-05 16:27:32,694 [DEBUG] RMS: 0.0012, Mouth Open: 0.0707
+2025-03-05 16:27:32,694 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0707
+2025-03-05 16:27:32,694 [DEBUG] RMS: 0.0014, Mouth Open: 0.0373
+2025-03-05 16:27:32,709 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0373
+2025-03-05 16:27:32,743 [DEBUG] RMS: 0.0080, Mouth Open: 0.0313
+2025-03-05 16:27:32,743 [DEBUG] RMS: 0.0173, Mouth Open: 0.0589
+2025-03-05 16:27:32,743 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0313
+2025-03-05 16:27:32,759 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0589
+2025-03-05 16:27:32,793 [DEBUG] RMS: 0.0165, Mouth Open: 0.0886
+2025-03-05 16:27:32,794 [DEBUG] RMS: 0.0178, Mouth Open: 0.1218
+2025-03-05 16:27:32,794 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0886
+2025-03-05 16:27:32,809 [DEBUG] Sent parameter update: AlexMouthOpen = 0.1218
+2025-03-05 16:27:32,843 [DEBUG] RMS: 0.0064, Mouth Open: 0.1319
+2025-03-05 16:27:32,844 [DEBUG] RMS: 0.0043, Mouth Open: 0.1245
+2025-03-05 16:27:32,844 [DEBUG] Sent parameter update: AlexMouthOpen = 0.1319
+2025-03-05 16:27:32,859 [DEBUG] Sent parameter update: AlexMouthOpen = 0.1245
+2025-03-05 16:27:32,893 [DEBUG] RMS: 0.0083, Mouth Open: 0.1066
+2025-03-05 16:27:32,894 [DEBUG] RMS: 0.0134, Mouth Open: 0.1004
+2025-03-05 16:27:32,894 [DEBUG] Sent parameter update: AlexMouthOpen = 0.1066
+2025-03-05 16:27:32,909 [DEBUG] Sent parameter update: AlexMouthOpen = 0.1004
+2025-03-05 16:27:32,944 [DEBUG] RMS: 0.0117, Mouth Open: 0.0882
+2025-03-05 16:27:32,944 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0882
+2025-03-05 16:27:32,944 [DEBUG] RMS: 0.0079, Mouth Open: 0.0910
+2025-03-05 16:27:32,959 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0910
+2025-03-05 16:27:32,993 [DEBUG] RMS: 0.0028, Mouth Open: 0.0881
+2025-03-05 16:27:32,993 [DEBUG] RMS: 0.0011, Mouth Open: 0.0737
+2025-03-05 16:27:32,994 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0881
+2025-03-05 16:27:33,009 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0737
+2025-03-05 16:27:33,043 [DEBUG] RMS: 0.0023, Mouth Open: 0.0515
+2025-03-05 16:27:33,043 [DEBUG] RMS: 0.0107, Mouth Open: 0.0497
+2025-03-05 16:27:33,043 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0515
+2025-03-05 16:27:33,059 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0497
+2025-03-05 16:27:33,094 [DEBUG] RMS: 0.0132, Mouth Open: 0.0605
+2025-03-05 16:27:33,095 [DEBUG] RMS: 0.0108, Mouth Open: 0.0765
+2025-03-05 16:27:33,095 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0605
+2025-03-05 16:27:33,109 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0765
+2025-03-05 16:27:33,143 [DEBUG] RMS: 0.0110, Mouth Open: 0.0963
+2025-03-05 16:27:33,144 [DEBUG] RMS: 0.0089, Mouth Open: 0.1095
+2025-03-05 16:27:33,144 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0963
+2025-03-05 16:27:33,159 [DEBUG] Sent parameter update: AlexMouthOpen = 0.1095
+2025-03-05 16:27:33,194 [DEBUG] RMS: 0.0114, Mouth Open: 0.1108
+2025-03-05 16:27:33,194 [DEBUG] RMS: 0.0079, Mouth Open: 0.1001
+2025-03-05 16:27:33,194 [DEBUG] Sent parameter update: AlexMouthOpen = 0.1108
+2025-03-05 16:27:33,209 [DEBUG] Sent parameter update: AlexMouthOpen = 0.1001
+2025-03-05 16:27:33,244 [DEBUG] RMS: 0.0111, Mouth Open: 0.1006
+2025-03-05 16:27:33,244 [DEBUG] RMS: 0.0104, Mouth Open: 0.0993
+2025-03-05 16:27:33,244 [DEBUG] Sent parameter update: AlexMouthOpen = 0.1006
+2025-03-05 16:27:33,260 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0993
+2025-03-05 16:27:33,294 [DEBUG] RMS: 0.0073, Mouth Open: 0.0961
+2025-03-05 16:27:33,294 [DEBUG] RMS: 0.0066, Mouth Open: 0.0866
+2025-03-05 16:27:33,294 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0961
+2025-03-05 16:27:33,310 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0866
+2025-03-05 16:27:33,343 [DEBUG] RMS: 0.0024, Mouth Open: 0.0756
+2025-03-05 16:27:33,343 [DEBUG] RMS: 0.0011, Mouth Open: 0.0557
+2025-03-05 16:27:33,343 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0756
+2025-03-05 16:27:33,360 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0557
+2025-03-05 16:27:33,393 [DEBUG] RMS: 0.0031, Mouth Open: 0.0411
+2025-03-05 16:27:33,394 [DEBUG] RMS: 0.0030, Mouth Open: 0.0324
+2025-03-05 16:27:33,394 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0411
+2025-03-05 16:27:33,409 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0324
+2025-03-05 16:27:33,444 [DEBUG] RMS: 0.0011, Mouth Open: 0.0214
+2025-03-05 16:27:33,444 [DEBUG] RMS: 0.0072, Mouth Open: 0.0309
+2025-03-05 16:27:33,444 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0214
+2025-03-05 16:27:33,459 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0309
+2025-03-05 16:27:33,494 [DEBUG] RMS: 0.0140, Mouth Open: 0.0567
+2025-03-05 16:27:33,494 [DEBUG] RMS: 0.0099, Mouth Open: 0.0703
+2025-03-05 16:27:33,494 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0567
+2025-03-05 16:27:33,509 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0703
+2025-03-05 16:27:33,544 [DEBUG] RMS: 0.0092, Mouth Open: 0.0828
+2025-03-05 16:27:33,544 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0828
+2025-03-05 16:27:33,544 [DEBUG] RMS: 0.0091, Mouth Open: 0.0989
+2025-03-05 16:27:33,559 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0989
+2025-03-05 16:27:33,593 [DEBUG] RMS: 0.0080, Mouth Open: 0.1005
+2025-03-05 16:27:33,593 [DEBUG] RMS: 0.0079, Mouth Open: 0.0882
+2025-03-05 16:27:33,593 [DEBUG] Sent parameter update: AlexMouthOpen = 0.1005
+2025-03-05 16:27:33,609 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0882
+2025-03-05 16:27:33,644 [DEBUG] RMS: 0.0093, Mouth Open: 0.0870
+2025-03-05 16:27:33,644 [DEBUG] RMS: 0.0095, Mouth Open: 0.0876
+2025-03-05 16:27:33,644 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0870
+2025-03-05 16:27:33,659 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0876
+2025-03-05 16:27:33,694 [DEBUG] RMS: 0.0056, Mouth Open: 0.0804
+2025-03-05 16:27:33,695 [DEBUG] RMS: 0.0021, Mouth Open: 0.0687
+2025-03-05 16:27:33,695 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0804
+2025-03-05 16:27:33,709 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0687
+2025-03-05 16:27:33,743 [DEBUG] RMS: 0.0021, Mouth Open: 0.0572
+2025-03-05 16:27:33,743 [DEBUG] RMS: 0.0020, Mouth Open: 0.0428
+2025-03-05 16:27:33,744 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0572
+2025-03-05 16:27:33,759 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0428
+2025-03-05 16:27:33,793 [DEBUG] RMS: 0.0018, Mouth Open: 0.0273
+2025-03-05 16:27:33,793 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0273
+2025-03-05 16:27:33,794 [DEBUG] RMS: 0.0011, Mouth Open: 0.0182
+2025-03-05 16:27:33,809 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0182
+2025-03-05 16:27:33,843 [DEBUG] RMS: 0.0007, Mouth Open: 0.0153
+2025-03-05 16:27:33,844 [DEBUG] RMS: 0.0004, Mouth Open: 0.0118
+2025-03-05 16:27:33,844 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0153
+2025-03-05 16:27:33,859 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0118
+2025-03-05 16:27:33,894 [DEBUG] RMS: 0.0004, Mouth Open: 0.0086
+2025-03-05 16:27:33,894 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0086
+2025-03-05 16:27:33,894 [DEBUG] RMS: 0.0004, Mouth Open: 0.0058
+2025-03-05 16:27:33,909 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0058
+2025-03-05 16:27:33,944 [DEBUG] RMS: 0.0004, Mouth Open: 0.0044
+2025-03-05 16:27:33,944 [DEBUG] RMS: 0.0003, Mouth Open: 0.0036
+2025-03-05 16:27:33,944 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0044
+2025-03-05 16:27:33,960 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0036
+2025-03-05 16:27:33,993 [DEBUG] RMS: 0.0003, Mouth Open: 0.0034
+2025-03-05 16:27:33,994 [DEBUG] RMS: 0.0003, Mouth Open: 0.0032
+2025-03-05 16:27:33,994 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0034
+2025-03-05 16:27:34,011 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0032
+2025-03-05 16:27:34,043 [DEBUG] RMS: 0.0004, Mouth Open: 0.0033
+2025-03-05 16:27:34,043 [DEBUG] RMS: 0.0004, Mouth Open: 0.0033
+2025-03-05 16:27:34,044 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0033
+2025-03-05 16:27:34,060 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0033
+2025-03-05 16:27:34,093 [DEBUG] RMS: 0.0003, Mouth Open: 0.0033
+2025-03-05 16:27:34,094 [DEBUG] RMS: 0.0003, Mouth Open: 0.0033
+2025-03-05 16:27:34,094 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0033
+2025-03-05 16:27:34,110 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0033
+2025-03-05 16:27:34,143 [DEBUG] RMS: 0.0004, Mouth Open: 0.0035
+2025-03-05 16:27:34,143 [DEBUG] RMS: 0.0004, Mouth Open: 0.0035
+2025-03-05 16:27:34,144 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0035
+2025-03-05 16:27:34,161 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0035
+2025-03-05 16:27:34,193 [DEBUG] RMS: 0.0003, Mouth Open: 0.0034
+2025-03-05 16:27:34,194 [DEBUG] RMS: 0.0005, Mouth Open: 0.0038
+2025-03-05 16:27:34,194 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0034
+2025-03-05 16:27:34,211 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0038
+2025-03-05 16:27:34,244 [DEBUG] RMS: 0.0004, Mouth Open: 0.0040
+2025-03-05 16:27:34,244 [DEBUG] RMS: 0.0005, Mouth Open: 0.0042
+2025-03-05 16:27:34,244 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0040
+2025-03-05 16:27:34,260 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0042
+2025-03-05 16:27:34,294 [DEBUG] RMS: 0.0003, Mouth Open: 0.0041
+2025-03-05 16:27:34,295 [DEBUG] RMS: 0.0003, Mouth Open: 0.0041
+2025-03-05 16:27:34,295 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0041
+2025-03-05 16:27:34,310 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0041
+2025-03-05 16:27:34,344 [DEBUG] RMS: 0.0004, Mouth Open: 0.0039
+2025-03-05 16:27:34,344 [DEBUG] RMS: 0.0004, Mouth Open: 0.0038
+2025-03-05 16:27:34,344 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0039
+2025-03-05 16:27:34,360 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0038
+2025-03-05 16:27:34,393 [DEBUG] RMS: 0.0003, Mouth Open: 0.0035
+2025-03-05 16:27:34,393 [DEBUG] RMS: 0.0004, Mouth Open: 0.0036
+2025-03-05 16:27:34,394 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0035
+2025-03-05 16:27:34,411 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0036
+2025-03-05 16:27:34,443 [DEBUG] RMS: 0.0003, Mouth Open: 0.0035
+2025-03-05 16:27:34,444 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0035
+2025-03-05 16:27:34,444 [DEBUG] RMS: 0.0004, Mouth Open: 0.0036
+2025-03-05 16:27:34,460 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0036
+2025-03-05 16:27:34,494 [DEBUG] RMS: 0.0004, Mouth Open: 0.0037
+2025-03-05 16:27:34,494 [DEBUG] RMS: 0.0003, Mouth Open: 0.0036
+2025-03-05 16:27:34,494 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0037
+2025-03-05 16:27:34,510 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0036
+2025-03-05 16:27:34,544 [DEBUG] RMS: 0.0004, Mouth Open: 0.0036
+2025-03-05 16:27:34,544 [DEBUG] RMS: 0.0004, Mouth Open: 0.0037
+2025-03-05 16:27:34,544 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0036
+2025-03-05 16:27:34,560 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0037
+2025-03-05 16:27:34,593 [DEBUG] RMS: 0.0003, Mouth Open: 0.0036
+2025-03-05 16:27:34,593 [DEBUG] RMS: 0.0003, Mouth Open: 0.0035
+2025-03-05 16:27:34,594 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0036
+2025-03-05 16:27:34,610 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0035
+2025-03-05 16:27:34,644 [DEBUG] RMS: 0.0003, Mouth Open: 0.0033
+2025-03-05 16:27:34,644 [DEBUG] RMS: 0.0003, Mouth Open: 0.0033
+2025-03-05 16:27:34,644 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0033
+2025-03-05 16:27:34,661 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0033
+2025-03-05 16:27:34,694 [DEBUG] RMS: 0.0003, Mouth Open: 0.0031
+2025-03-05 16:27:34,694 [DEBUG] RMS: 0.0003, Mouth Open: 0.0032
+2025-03-05 16:27:34,694 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0031
+2025-03-05 16:27:34,711 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0032
+2025-03-05 16:27:34,743 [DEBUG] RMS: 0.0004, Mouth Open: 0.0033
+2025-03-05 16:27:34,743 [DEBUG] RMS: 0.0004, Mouth Open: 0.0035
+2025-03-05 16:27:34,744 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0033
+2025-03-05 16:27:34,760 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0035
+2025-03-05 16:27:34,794 [DEBUG] RMS: 0.0005, Mouth Open: 0.0039
+2025-03-05 16:27:34,794 [DEBUG] RMS: 0.0005, Mouth Open: 0.0043
+2025-03-05 16:27:34,794 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0039
+2025-03-05 16:27:34,810 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0043
+2025-03-05 16:27:34,844 [DEBUG] RMS: 0.0004, Mouth Open: 0.0044
+2025-03-05 16:27:34,844 [DEBUG] RMS: 0.0004, Mouth Open: 0.0044
+2025-03-05 16:27:34,844 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0044
+2025-03-05 16:27:34,861 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0044
+2025-03-05 16:27:34,894 [DEBUG] RMS: 0.0004, Mouth Open: 0.0045
+2025-03-05 16:27:34,895 [DEBUG] RMS: 0.0004, Mouth Open: 0.0042
+2025-03-05 16:27:34,895 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0045
+2025-03-05 16:27:34,910 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0042
+2025-03-05 16:27:34,944 [DEBUG] RMS: 0.0003, Mouth Open: 0.0039
+2025-03-05 16:27:34,944 [DEBUG] RMS: 0.0003, Mouth Open: 0.0037
+2025-03-05 16:27:34,944 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0039
+2025-03-05 16:27:34,960 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0037
+2025-03-05 16:27:34,994 [DEBUG] RMS: 0.0004, Mouth Open: 0.0036
+2025-03-05 16:27:34,994 [DEBUG] RMS: 0.0005, Mouth Open: 0.0037
+2025-03-05 16:27:34,994 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0036
+2025-03-05 16:27:35,010 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0037
+2025-03-05 16:27:35,043 [DEBUG] RMS: 0.0003, Mouth Open: 0.0035
+2025-03-05 16:27:35,044 [DEBUG] RMS: 0.0005, Mouth Open: 0.0038
+2025-03-05 16:27:35,044 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0035
+2025-03-05 16:27:35,060 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0038
+2025-03-05 16:27:35,093 [DEBUG] RMS: 0.0003, Mouth Open: 0.0039
+2025-03-05 16:27:35,093 [DEBUG] RMS: 0.0003, Mouth Open: 0.0037
+2025-03-05 16:27:35,094 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0039
+2025-03-05 16:27:35,111 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0037
+2025-03-05 16:27:35,144 [DEBUG] RMS: 0.0003, Mouth Open: 0.0035
+2025-03-05 16:27:35,144 [DEBUG] RMS: 0.0003, Mouth Open: 0.0035
+2025-03-05 16:27:35,144 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0035
+2025-03-05 16:27:35,160 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0035
+2025-03-05 16:27:35,193 [DEBUG] RMS: 0.0005, Mouth Open: 0.0036
+2025-03-05 16:27:35,193 [DEBUG] RMS: 0.0004, Mouth Open: 0.0037
+2025-03-05 16:27:35,194 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0036
+2025-03-05 16:27:35,210 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0037
+2025-03-05 16:27:35,243 [DEBUG] RMS: 0.0004, Mouth Open: 0.0038
+2025-03-05 16:27:35,243 [DEBUG] RMS: 0.0004, Mouth Open: 0.0039
+2025-03-05 16:27:35,244 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0038
+2025-03-05 16:27:35,260 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0039
+2025-03-05 16:27:35,294 [DEBUG] RMS: 0.0004, Mouth Open: 0.0040
+2025-03-05 16:27:35,294 [DEBUG] RMS: 0.0004, Mouth Open: 0.0038
+2025-03-05 16:27:35,294 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0040
+2025-03-05 16:27:35,311 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0038
+2025-03-05 16:27:35,343 [DEBUG] RMS: 0.0004, Mouth Open: 0.0038
+2025-03-05 16:27:35,343 [DEBUG] RMS: 0.0004, Mouth Open: 0.0039
+2025-03-05 16:27:35,344 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0038
+2025-03-05 16:27:35,360 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0039
+2025-03-05 16:27:35,394 [DEBUG] RMS: 0.0005, Mouth Open: 0.0041
+2025-03-05 16:27:35,394 [DEBUG] RMS: 0.0005, Mouth Open: 0.0042
+2025-03-05 16:27:35,394 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0041
+2025-03-05 16:27:35,411 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0042
+2025-03-05 16:27:35,443 [DEBUG] RMS: 0.0003, Mouth Open: 0.0040
+2025-03-05 16:27:35,444 [DEBUG] RMS: 0.0003, Mouth Open: 0.0039
+2025-03-05 16:27:35,444 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0040
+2025-03-05 16:27:35,461 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0039
+2025-03-05 16:27:35,494 [DEBUG] RMS: 0.0004, Mouth Open: 0.0038
+2025-03-05 16:27:35,495 [DEBUG] RMS: 0.0004, Mouth Open: 0.0036
+2025-03-05 16:27:35,495 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0038
+2025-03-05 16:27:35,511 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0036
+2025-03-05 16:27:35,544 [DEBUG] RMS: 0.0003, Mouth Open: 0.0032
+2025-03-05 16:27:35,544 [DEBUG] RMS: 0.0003, Mouth Open: 0.0034
+2025-03-05 16:27:35,544 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0032
+2025-03-05 16:27:35,560 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0034
+2025-03-05 16:27:35,594 [DEBUG] RMS: 0.0003, Mouth Open: 0.0033
+2025-03-05 16:27:35,594 [DEBUG] RMS: 0.0004, Mouth Open: 0.0033
+2025-03-05 16:27:35,594 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0033
+2025-03-05 16:27:35,611 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0033
+2025-03-05 16:27:35,643 [DEBUG] RMS: 0.0004, Mouth Open: 0.0035
+2025-03-05 16:27:35,644 [DEBUG] RMS: 0.0005, Mouth Open: 0.0039
+2025-03-05 16:27:35,644 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0035
+2025-03-05 16:27:35,661 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0039
+2025-03-05 16:27:35,693 [DEBUG] RMS: 0.0004, Mouth Open: 0.0040
+2025-03-05 16:27:35,693 [DEBUG] RMS: 0.0004, Mouth Open: 0.0043
+2025-03-05 16:27:35,694 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0040
+2025-03-05 16:27:35,710 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0043
+2025-03-05 16:27:35,743 [DEBUG] RMS: 0.0004, Mouth Open: 0.0043
+2025-03-05 16:27:35,744 [DEBUG] RMS: 0.0004, Mouth Open: 0.0041
+2025-03-05 16:27:35,744 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0043
+2025-03-05 16:27:35,760 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0041
+2025-03-05 16:27:35,794 [DEBUG] RMS: 0.0004, Mouth Open: 0.0041
+2025-03-05 16:27:35,794 [DEBUG] RMS: 0.0003, Mouth Open: 0.0039
+2025-03-05 16:27:35,794 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0041
+2025-03-05 16:27:35,811 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0039
+2025-03-05 16:27:35,843 [DEBUG] RMS: 0.0004, Mouth Open: 0.0038
+2025-03-05 16:27:35,844 [DEBUG] RMS: 0.0003, Mouth Open: 0.0037
+2025-03-05 16:27:35,844 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0038
+2025-03-05 16:27:35,860 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0037
+2025-03-05 16:27:35,893 [DEBUG] RMS: 0.0003, Mouth Open: 0.0037
+2025-03-05 16:27:35,893 [DEBUG] RMS: 0.0003, Mouth Open: 0.0033
+2025-03-05 16:27:35,894 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0037
+2025-03-05 16:27:35,910 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0033
+2025-03-05 16:27:35,944 [DEBUG] RMS: 0.0003, Mouth Open: 0.0033
+2025-03-05 16:27:35,944 [DEBUG] RMS: 0.0003, Mouth Open: 0.0031
+2025-03-05 16:27:35,944 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0033
+2025-03-05 16:27:35,961 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0031
+2025-03-05 16:27:35,993 [DEBUG] RMS: 0.0003, Mouth Open: 0.0030
+2025-03-05 16:27:35,994 [DEBUG] RMS: 0.0003, Mouth Open: 0.0030
+2025-03-05 16:27:35,994 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0030
+2025-03-05 16:27:36,011 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0030
+2025-03-05 16:27:36,043 [DEBUG] RMS: 0.0003, Mouth Open: 0.0030
+2025-03-05 16:27:36,043 [DEBUG] RMS: 0.0004, Mouth Open: 0.0032
+2025-03-05 16:27:36,045 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0030
+2025-03-05 16:27:36,060 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0032
+2025-03-05 16:27:36,095 [DEBUG] RMS: 0.0003, Mouth Open: 0.0033
+2025-03-05 16:27:36,095 [DEBUG] RMS: 0.0003, Mouth Open: 0.0033
+2025-03-05 16:27:36,095 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0033
+2025-03-05 16:27:36,111 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0033
+2025-03-05 16:27:36,143 [DEBUG] RMS: 0.0004, Mouth Open: 0.0034
+2025-03-05 16:27:36,144 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0034
+2025-03-05 16:27:36,144 [DEBUG] RMS: 0.0003, Mouth Open: 0.0035
+2025-03-05 16:27:36,160 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0035
+2025-03-05 16:27:36,193 [DEBUG] RMS: 0.0003, Mouth Open: 0.0033
+2025-03-05 16:27:36,193 [DEBUG] RMS: 0.0004, Mouth Open: 0.0035
+2025-03-05 16:27:36,193 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0033
+2025-03-05 16:27:36,210 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0035
+2025-03-05 16:27:36,243 [DEBUG] RMS: 0.0003, Mouth Open: 0.0035
+2025-03-05 16:27:36,244 [DEBUG] RMS: 0.0004, Mouth Open: 0.0035
+2025-03-05 16:27:36,244 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0035
+2025-03-05 16:27:36,260 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0035
+2025-03-05 16:27:36,293 [DEBUG] RMS: 0.0004, Mouth Open: 0.0036
+2025-03-05 16:27:36,294 [DEBUG] RMS: 0.0003, Mouth Open: 0.0036
+2025-03-05 16:27:36,294 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0036
+2025-03-05 16:27:36,310 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0036
+2025-03-05 16:27:36,343 [DEBUG] RMS: 0.0014, Mouth Open: 0.0055
+2025-03-05 16:27:36,343 [DEBUG] RMS: 0.0007, Mouth Open: 0.0063
+2025-03-05 16:27:36,343 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0055
+2025-03-05 16:27:36,360 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0063
+2025-03-05 16:27:36,393 [DEBUG] RMS: 0.0006, Mouth Open: 0.0068
+2025-03-05 16:27:36,394 [DEBUG] RMS: 0.0007, Mouth Open: 0.0075
+2025-03-05 16:27:36,394 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0068
+2025-03-05 16:27:36,411 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0075
+2025-03-05 16:27:36,443 [DEBUG] RMS: 0.0017, Mouth Open: 0.0103
+2025-03-05 16:27:36,444 [DEBUG] RMS: 0.0011, Mouth Open: 0.0096
+2025-03-05 16:27:36,444 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0103
+2025-03-05 16:27:36,461 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0096
+2025-03-05 16:27:36,493 [DEBUG] RMS: 0.0003, Mouth Open: 0.0089
+2025-03-05 16:27:36,493 [DEBUG] RMS: 0.0006, Mouth Open: 0.0089
+2025-03-05 16:27:36,494 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0089
+2025-03-05 16:27:36,510 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0089
+2025-03-05 16:27:36,543 [DEBUG] RMS: 0.0014, Mouth Open: 0.0103
+2025-03-05 16:27:36,544 [DEBUG] RMS: 0.0011, Mouth Open: 0.0091
+2025-03-05 16:27:36,544 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0103
+2025-03-05 16:27:36,560 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0091
+2025-03-05 16:27:36,593 [DEBUG] RMS: 0.0006, Mouth Open: 0.0083
+2025-03-05 16:27:36,594 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0083
+2025-03-05 16:27:36,594 [DEBUG] RMS: 0.0008, Mouth Open: 0.0092
+2025-03-05 16:27:36,610 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0092
+2025-03-05 16:27:36,643 [DEBUG] RMS: 0.0016, Mouth Open: 0.0111
+2025-03-05 16:27:36,644 [DEBUG] RMS: 0.0009, Mouth Open: 0.0100
+2025-03-05 16:27:36,644 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0111
+2025-03-05 16:27:36,660 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0100
+2025-03-05 16:27:36,694 [DEBUG] RMS: 0.0003, Mouth Open: 0.0084
+2025-03-05 16:27:36,694 [DEBUG] RMS: 0.0005, Mouth Open: 0.0081
+2025-03-05 16:27:36,695 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0084
+2025-03-05 16:27:36,710 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0081
+2025-03-05 16:27:36,743 [DEBUG] RMS: 0.0005, Mouth Open: 0.0075
+2025-03-05 16:27:36,744 [DEBUG] RMS: 0.0010, Mouth Open: 0.0063
+2025-03-05 16:27:36,744 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0075
+2025-03-05 16:27:36,760 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0063
+2025-03-05 16:27:36,793 [DEBUG] RMS: 0.0011, Mouth Open: 0.0068
+2025-03-05 16:27:36,794 [DEBUG] RMS: 0.0013, Mouth Open: 0.0086
+2025-03-05 16:27:36,794 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0068
+2025-03-05 16:27:36,811 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0086
+2025-03-05 16:27:36,844 [DEBUG] RMS: 0.0015, Mouth Open: 0.0105
+2025-03-05 16:27:36,844 [DEBUG] RMS: 0.0016, Mouth Open: 0.0127
+2025-03-05 16:27:36,844 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0105
+2025-03-05 16:27:36,860 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0127
+2025-03-05 16:27:36,894 [DEBUG] RMS: 0.0008, Mouth Open: 0.0124
+2025-03-05 16:27:36,894 [DEBUG] RMS: 0.0024, Mouth Open: 0.0150
+2025-03-05 16:27:36,894 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0124
+2025-03-05 16:27:36,911 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0150
+2025-03-05 16:27:36,944 [DEBUG] RMS: 0.0023, Mouth Open: 0.0172
+2025-03-05 16:27:36,944 [DEBUG] RMS: 0.0014, Mouth Open: 0.0170
+2025-03-05 16:27:36,944 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0172
+2025-03-05 16:27:36,960 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0170
+2025-03-05 16:27:36,993 [DEBUG] RMS: 0.0025, Mouth Open: 0.0190
+2025-03-05 16:27:36,993 [DEBUG] RMS: 0.0028, Mouth Open: 0.0229
+2025-03-05 16:27:36,994 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0190
+2025-03-05 16:27:37,010 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0229
+2025-03-05 16:27:37,043 [DEBUG] RMS: 0.0013, Mouth Open: 0.0208
+2025-03-05 16:27:37,043 [DEBUG] RMS: 0.0029, Mouth Open: 0.0219
+2025-03-05 16:27:37,044 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0208
+2025-03-05 16:27:37,060 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0219
+2025-03-05 16:27:37,094 [DEBUG] RMS: 0.0011, Mouth Open: 0.0214
+2025-03-05 16:27:37,094 [DEBUG] RMS: 0.0012, Mouth Open: 0.0187
+2025-03-05 16:27:37,094 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0214
+2025-03-05 16:27:37,111 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0187
+2025-03-05 16:27:37,143 [DEBUG] RMS: 0.0016, Mouth Open: 0.0164
+2025-03-05 16:27:37,143 [DEBUG] RMS: 0.0010, Mouth Open: 0.0158
+2025-03-05 16:27:37,144 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0164
+2025-03-05 16:27:37,149 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0158
+2025-03-05 16:27:37,194 [DEBUG] RMS: 0.0018, Mouth Open: 0.0136
+2025-03-05 16:27:37,194 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0136
+2025-03-05 16:27:37,194 [DEBUG] RMS: 0.0012, Mouth Open: 0.0138
+2025-03-05 16:27:37,211 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0138
+2025-03-05 16:27:37,243 [DEBUG] RMS: 0.0019, Mouth Open: 0.0152
+2025-03-05 16:27:37,244 [DEBUG] RMS: 0.0019, Mouth Open: 0.0157
+2025-03-05 16:27:37,244 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0152
+2025-03-05 16:27:37,260 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0157
+2025-03-05 16:27:37,295 [DEBUG] RMS: 0.0020, Mouth Open: 0.0177
+2025-03-05 16:27:37,295 [DEBUG] RMS: 0.0009, Mouth Open: 0.0158
+2025-03-05 16:27:37,295 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0177
+2025-03-05 16:27:37,311 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0158
+2025-03-05 16:27:37,343 [DEBUG] RMS: 0.0012, Mouth Open: 0.0159
+2025-03-05 16:27:37,343 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0159
+2025-03-05 16:27:37,343 [DEBUG] RMS: 0.0013, Mouth Open: 0.0148
+2025-03-05 16:27:37,344 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0148
+2025-03-05 16:27:37,393 [DEBUG] RMS: 0.0027, Mouth Open: 0.0163
+2025-03-05 16:27:37,393 [DEBUG] RMS: 0.0016, Mouth Open: 0.0155
+2025-03-05 16:27:37,393 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0163
+2025-03-05 16:27:37,410 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0155
+2025-03-05 16:27:37,443 [DEBUG] RMS: 0.0005, Mouth Open: 0.0147
+2025-03-05 16:27:37,444 [DEBUG] RMS: 0.0058, Mouth Open: 0.0239
+2025-03-05 16:27:37,444 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0147
+2025-03-05 16:27:37,460 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0239
+2025-03-05 16:27:37,493 [DEBUG] RMS: 0.0055, Mouth Open: 0.0324
+2025-03-05 16:27:37,493 [DEBUG] RMS: 0.0004, Mouth Open: 0.0278
+2025-03-05 16:27:37,494 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0324
+2025-03-05 16:27:37,510 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0278
+2025-03-05 16:27:37,543 [DEBUG] RMS: 0.0008, Mouth Open: 0.0262
+2025-03-05 16:27:37,543 [DEBUG] RMS: 0.0010, Mouth Open: 0.0271
+2025-03-05 16:27:37,543 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0262
+2025-03-05 16:27:37,560 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0271
+2025-03-05 16:27:37,593 [DEBUG] RMS: 0.0006, Mouth Open: 0.0168
+2025-03-05 16:27:37,593 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0168
+2025-03-05 16:27:37,593 [DEBUG] RMS: 0.0006, Mouth Open: 0.0068
+2025-03-05 16:27:37,610 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0068
+2025-03-05 16:27:37,644 [DEBUG] RMS: 0.0006, Mouth Open: 0.0071
+2025-03-05 16:27:37,644 [DEBUG] RMS: 0.0006, Mouth Open: 0.0068
+2025-03-05 16:27:37,644 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0071
+2025-03-05 16:27:37,660 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0068
+2025-03-05 16:27:37,694 [DEBUG] RMS: 0.0004, Mouth Open: 0.0056
+2025-03-05 16:27:37,694 [DEBUG] RMS: 0.0006, Mouth Open: 0.0055
+2025-03-05 16:27:37,694 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0056
+2025-03-05 16:27:37,710 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0055
+2025-03-05 16:27:37,744 [DEBUG] RMS: 0.0005, Mouth Open: 0.0053
+2025-03-05 16:27:37,744 [DEBUG] RMS: 0.0004, Mouth Open: 0.0050
+2025-03-05 16:27:37,744 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0053
+2025-03-05 16:27:37,760 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0050
+2025-03-05 16:27:37,794 [DEBUG] RMS: 0.0004, Mouth Open: 0.0046
+2025-03-05 16:27:37,794 [DEBUG] RMS: 0.0004, Mouth Open: 0.0047
+2025-03-05 16:27:37,794 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0046
+2025-03-05 16:27:37,857 [ERROR] Error updating parameters: cannot call recv while another coroutine is already waiting for the next message
+2025-03-05 16:27:37,857 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0000
+2025-03-05 16:27:37,857 [DEBUG] Mouth movement complete
+2025-03-05 16:27:37,858 [DEBUG] Updated action queue after processing audio
+2025-03-05 16:27:42,306 [DEBUG] Processing audio event: duration=17.362, playback_start=1741217262.2849846
+2025-03-05 16:27:42,306 [INFO] Starting real-time audio processing for 17.36s
+2025-03-05 16:27:42,378 [DEBUG] RMS: 0.0003, Mouth Open: 0.0029
+2025-03-05 16:27:42,378 [DEBUG] RMS: 0.0005, Mouth Open: 0.0041
+2025-03-05 16:27:42,379 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0029
+2025-03-05 16:27:42,379 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0041
+2025-03-05 16:27:42,427 [DEBUG] RMS: 0.0005, Mouth Open: 0.0044
+2025-03-05 16:27:42,428 [DEBUG] RMS: 0.0005, Mouth Open: 0.0045
+2025-03-05 16:27:42,428 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0044
+2025-03-05 16:27:42,428 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0045
+2025-03-05 16:27:42,478 [DEBUG] RMS: 0.0004, Mouth Open: 0.0045
+2025-03-05 16:27:42,478 [DEBUG] RMS: 0.0004, Mouth Open: 0.0047
+2025-03-05 16:27:42,478 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0045
+2025-03-05 16:27:42,479 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0047
+2025-03-05 16:27:42,528 [DEBUG] RMS: 0.0004, Mouth Open: 0.0044
+2025-03-05 16:27:42,528 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0044
+2025-03-05 16:27:42,528 [DEBUG] RMS: 0.0004, Mouth Open: 0.0041
+2025-03-05 16:27:42,529 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0041
+2025-03-05 16:27:42,578 [DEBUG] RMS: 0.0003, Mouth Open: 0.0038
+2025-03-05 16:27:42,578 [DEBUG] RMS: 0.0004, Mouth Open: 0.0038
+2025-03-05 16:27:42,579 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0038
+2025-03-05 16:27:42,579 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0038
+2025-03-05 16:27:42,628 [DEBUG] RMS: 0.0005, Mouth Open: 0.0040
+2025-03-05 16:27:42,628 [DEBUG] RMS: 0.0004, Mouth Open: 0.0040
+2025-03-05 16:27:42,629 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0040
+2025-03-05 16:27:42,629 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0040
+2025-03-05 16:27:42,678 [DEBUG] RMS: 0.0004, Mouth Open: 0.0040
+2025-03-05 16:27:42,678 [DEBUG] RMS: 0.0003, Mouth Open: 0.0040
+2025-03-05 16:27:42,678 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0040
+2025-03-05 16:27:42,679 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0040
+2025-03-05 16:27:42,728 [DEBUG] RMS: 0.0004, Mouth Open: 0.0040
+2025-03-05 16:27:42,728 [DEBUG] RMS: 0.0003, Mouth Open: 0.0037
+2025-03-05 16:27:42,728 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0040
+2025-03-05 16:27:42,728 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0037
+2025-03-05 16:27:42,778 [DEBUG] RMS: 0.0004, Mouth Open: 0.0037
+2025-03-05 16:27:42,778 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0037
+2025-03-05 16:27:42,778 [DEBUG] RMS: 0.0004, Mouth Open: 0.0038
+2025-03-05 16:27:42,779 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0038
+2025-03-05 16:27:42,828 [DEBUG] RMS: 0.0004, Mouth Open: 0.0040
+2025-03-05 16:27:42,828 [DEBUG] RMS: 0.0004, Mouth Open: 0.0038
+2025-03-05 16:27:42,828 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0040
+2025-03-05 16:27:42,828 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0038
+2025-03-05 16:27:42,878 [DEBUG] RMS: 0.0005, Mouth Open: 0.0041
+2025-03-05 16:27:42,878 [DEBUG] RMS: 0.0004, Mouth Open: 0.0041
+2025-03-05 16:27:42,878 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0041
+2025-03-05 16:27:42,878 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0041
+2025-03-05 16:27:42,928 [DEBUG] RMS: 0.0003, Mouth Open: 0.0040
+2025-03-05 16:27:42,928 [DEBUG] RMS: 0.0004, Mouth Open: 0.0040
+2025-03-05 16:27:42,928 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0040
+2025-03-05 16:27:42,928 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0040
+2025-03-05 16:27:42,977 [DEBUG] RMS: 0.0004, Mouth Open: 0.0041
+2025-03-05 16:27:42,977 [DEBUG] RMS: 0.0004, Mouth Open: 0.0040
+2025-03-05 16:27:42,978 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0041
+2025-03-05 16:27:42,978 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0040
+2025-03-05 16:27:43,027 [DEBUG] RMS: 0.0004, Mouth Open: 0.0040
+2025-03-05 16:27:43,028 [DEBUG] RMS: 0.0005, Mouth Open: 0.0042
+2025-03-05 16:27:43,028 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0040
+2025-03-05 16:27:43,028 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0042
+2025-03-05 16:27:43,078 [DEBUG] RMS: 0.0004, Mouth Open: 0.0042
+2025-03-05 16:27:43,078 [DEBUG] RMS: 0.0005, Mouth Open: 0.0043
+2025-03-05 16:27:43,078 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0042
+2025-03-05 16:27:43,079 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0043
+2025-03-05 16:27:43,128 [DEBUG] RMS: 0.0005, Mouth Open: 0.0045
+2025-03-05 16:27:43,128 [DEBUG] RMS: 0.0005, Mouth Open: 0.0048
+2025-03-05 16:27:43,128 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0045
+2025-03-05 16:27:43,129 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0048
+2025-03-05 16:27:43,178 [DEBUG] RMS: 0.0003, Mouth Open: 0.0045
+2025-03-05 16:27:43,178 [DEBUG] RMS: 0.0006, Mouth Open: 0.0048
+2025-03-05 16:27:43,178 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0045
+2025-03-05 16:27:43,179 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0048
+2025-03-05 16:27:43,228 [DEBUG] RMS: 0.0006, Mouth Open: 0.0050
+2025-03-05 16:27:43,229 [DEBUG] RMS: 0.0004, Mouth Open: 0.0048
+2025-03-05 16:27:43,229 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0050
+2025-03-05 16:27:43,229 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0048
+2025-03-05 16:27:43,278 [DEBUG] RMS: 0.0005, Mouth Open: 0.0048
+2025-03-05 16:27:43,278 [DEBUG] RMS: 0.0004, Mouth Open: 0.0050
+2025-03-05 16:27:43,278 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0048
+2025-03-05 16:27:43,278 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0050
+2025-03-05 16:27:43,328 [DEBUG] RMS: 0.0003, Mouth Open: 0.0045
+2025-03-05 16:27:43,328 [DEBUG] RMS: 0.0005, Mouth Open: 0.0044
+2025-03-05 16:27:43,328 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0045
+2025-03-05 16:27:43,328 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0044
+2025-03-05 16:27:43,378 [DEBUG] RMS: 0.0004, Mouth Open: 0.0043
+2025-03-05 16:27:43,378 [DEBUG] RMS: 0.0005, Mouth Open: 0.0042
+2025-03-05 16:27:43,378 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0043
+2025-03-05 16:27:43,379 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0042
+2025-03-05 16:27:43,428 [DEBUG] RMS: 0.0004, Mouth Open: 0.0043
+2025-03-05 16:27:43,428 [DEBUG] RMS: 0.0006, Mouth Open: 0.0048
+2025-03-05 16:27:43,428 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0043
+2025-03-05 16:27:43,429 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0048
+2025-03-05 16:27:43,477 [DEBUG] RMS: 0.0004, Mouth Open: 0.0045
+2025-03-05 16:27:43,478 [DEBUG] RMS: 0.0004, Mouth Open: 0.0045
+2025-03-05 16:27:43,478 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0045
+2025-03-05 16:27:43,478 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0045
+2025-03-05 16:27:43,527 [DEBUG] RMS: 0.0005, Mouth Open: 0.0045
+2025-03-05 16:27:43,527 [DEBUG] RMS: 0.0004, Mouth Open: 0.0044
+2025-03-05 16:27:43,528 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0045
+2025-03-05 16:27:43,528 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0044
+2025-03-05 16:27:43,578 [DEBUG] RMS: 0.0005, Mouth Open: 0.0043
+2025-03-05 16:27:43,578 [DEBUG] RMS: 0.0005, Mouth Open: 0.0046
+2025-03-05 16:27:43,578 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0043
+2025-03-05 16:27:43,579 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0046
+2025-03-05 16:27:43,627 [DEBUG] RMS: 0.0004, Mouth Open: 0.0045
+2025-03-05 16:27:43,629 [DEBUG] RMS: 0.0003, Mouth Open: 0.0042
+2025-03-05 16:27:43,629 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0045
+2025-03-05 16:27:43,629 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0042
+2025-03-05 16:27:43,678 [DEBUG] RMS: 0.0006, Mouth Open: 0.0045
+2025-03-05 16:27:43,678 [DEBUG] RMS: 0.0005, Mouth Open: 0.0045
+2025-03-05 16:27:43,679 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0045
+2025-03-05 16:27:43,679 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0045
+2025-03-05 16:27:43,727 [DEBUG] RMS: 0.0009, Mouth Open: 0.0053
+2025-03-05 16:27:43,728 [DEBUG] RMS: 0.0006, Mouth Open: 0.0057
+2025-03-05 16:27:43,729 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0053
+2025-03-05 16:27:43,729 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0057
+2025-03-05 16:27:43,778 [DEBUG] RMS: 0.0008, Mouth Open: 0.0066
+2025-03-05 16:27:43,778 [DEBUG] RMS: 0.0009, Mouth Open: 0.0073
+2025-03-05 16:27:43,778 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0066
+2025-03-05 16:27:43,778 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0073
+2025-03-05 16:27:43,828 [DEBUG] RMS: 0.0004, Mouth Open: 0.0069
+2025-03-05 16:27:43,829 [DEBUG] RMS: 0.0004, Mouth Open: 0.0061
+2025-03-05 16:27:43,829 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0069
+2025-03-05 16:27:43,829 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0061
+2025-03-05 16:27:43,868 [DEBUG] RMS: 0.0007, Mouth Open: 0.0063
+2025-03-05 16:27:43,868 [DEBUG] RMS: 0.0005, Mouth Open: 0.0057
+2025-03-05 16:27:43,868 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0063
+2025-03-05 16:27:43,868 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0057
+2025-03-05 16:27:43,918 [DEBUG] RMS: 0.0004, Mouth Open: 0.0048
+2025-03-05 16:27:43,918 [DEBUG] RMS: 0.0004, Mouth Open: 0.0049
+2025-03-05 16:27:43,918 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0048
+2025-03-05 16:27:43,919 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0049
+2025-03-05 16:27:43,967 [DEBUG] RMS: 0.0004, Mouth Open: 0.0049
+2025-03-05 16:27:43,967 [DEBUG] RMS: 0.0003, Mouth Open: 0.0041
+2025-03-05 16:27:43,968 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0049
+2025-03-05 16:27:43,968 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0041
+2025-03-05 16:27:44,017 [DEBUG] RMS: 0.0004, Mouth Open: 0.0040
+2025-03-05 16:27:44,017 [DEBUG] RMS: 0.0004, Mouth Open: 0.0040
+2025-03-05 16:27:44,017 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0040
+2025-03-05 16:27:44,018 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0040
+2025-03-05 16:27:44,068 [DEBUG] RMS: 0.0004, Mouth Open: 0.0039
+2025-03-05 16:27:44,069 [DEBUG] RMS: 0.0004, Mouth Open: 0.0039
+2025-03-05 16:27:44,069 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0039
+2025-03-05 16:27:44,069 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0039
+2025-03-05 16:27:44,117 [DEBUG] RMS: 0.0005, Mouth Open: 0.0042
+2025-03-05 16:27:44,117 [DEBUG] RMS: 0.0003, Mouth Open: 0.0041
+2025-03-05 16:27:44,117 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0042
+2025-03-05 16:27:44,118 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0041
+2025-03-05 16:27:44,168 [DEBUG] RMS: 0.0004, Mouth Open: 0.0040
+2025-03-05 16:27:44,168 [DEBUG] RMS: 0.0004, Mouth Open: 0.0039
+2025-03-05 16:27:44,168 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0040
+2025-03-05 16:27:44,168 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0039
+2025-03-05 16:27:44,218 [DEBUG] RMS: 0.0005, Mouth Open: 0.0042
+2025-03-05 16:27:44,218 [DEBUG] RMS: 0.0006, Mouth Open: 0.0043
+2025-03-05 16:27:44,218 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0042
+2025-03-05 16:27:44,218 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0043
+2025-03-05 16:27:44,268 [DEBUG] RMS: 0.0003, Mouth Open: 0.0042
+2025-03-05 16:27:44,268 [DEBUG] RMS: 0.0003, Mouth Open: 0.0041
+2025-03-05 16:27:44,268 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0042
+2025-03-05 16:27:44,268 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0041
+2025-03-05 16:27:44,317 [DEBUG] RMS: 0.0003, Mouth Open: 0.0041
+2025-03-05 16:27:44,317 [DEBUG] RMS: 0.0004, Mouth Open: 0.0039
+2025-03-05 16:27:44,318 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0041
+2025-03-05 16:27:44,318 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0039
+2025-03-05 16:27:44,367 [DEBUG] RMS: 0.0007, Mouth Open: 0.0041
+2025-03-05 16:27:44,367 [DEBUG] RMS: 0.0005, Mouth Open: 0.0045
+2025-03-05 16:27:44,367 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0041
+2025-03-05 16:27:44,367 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0045
+2025-03-05 16:27:44,417 [DEBUG] RMS: 0.0003, Mouth Open: 0.0046
+2025-03-05 16:27:44,418 [DEBUG] RMS: 0.0004, Mouth Open: 0.0046
+2025-03-05 16:27:44,418 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0046
+2025-03-05 16:27:44,418 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0046
+2025-03-05 16:27:44,468 [DEBUG] RMS: 0.0004, Mouth Open: 0.0047
+2025-03-05 16:27:44,468 [DEBUG] RMS: 0.0004, Mouth Open: 0.0041
+2025-03-05 16:27:44,468 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0047
+2025-03-05 16:27:44,468 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0041
+2025-03-05 16:27:44,518 [DEBUG] RMS: 0.0004, Mouth Open: 0.0039
+2025-03-05 16:27:44,518 [DEBUG] RMS: 0.0003, Mouth Open: 0.0038
+2025-03-05 16:27:44,518 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0039
+2025-03-05 16:27:44,518 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0038
+2025-03-05 16:27:44,568 [DEBUG] RMS: 0.0004, Mouth Open: 0.0038
+2025-03-05 16:27:44,568 [DEBUG] RMS: 0.0003, Mouth Open: 0.0035
+2025-03-05 16:27:44,568 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0038
+2025-03-05 16:27:44,568 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0035
+2025-03-05 16:27:44,617 [DEBUG] RMS: 0.0003, Mouth Open: 0.0034
+2025-03-05 16:27:44,617 [DEBUG] RMS: 0.0004, Mouth Open: 0.0034
+2025-03-05 16:27:44,617 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0034
+2025-03-05 16:27:44,618 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0034
+2025-03-05 16:27:44,669 [DEBUG] RMS: 0.0004, Mouth Open: 0.0036
+2025-03-05 16:27:44,669 [DEBUG] RMS: 0.0004, Mouth Open: 0.0036
+2025-03-05 16:27:44,669 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0036
+2025-03-05 16:27:44,669 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0036
+2025-03-05 16:27:44,718 [DEBUG] RMS: 0.0003, Mouth Open: 0.0037
+2025-03-05 16:27:44,718 [DEBUG] RMS: 0.0003, Mouth Open: 0.0037
+2025-03-05 16:27:44,718 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0037
+2025-03-05 16:27:44,718 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0037
+2025-03-05 16:27:44,768 [DEBUG] RMS: 0.0004, Mouth Open: 0.0036
+2025-03-05 16:27:44,768 [DEBUG] RMS: 0.0004, Mouth Open: 0.0036
+2025-03-05 16:27:44,768 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0036
+2025-03-05 16:27:44,768 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0036
+2025-03-05 16:27:44,818 [DEBUG] RMS: 0.0004, Mouth Open: 0.0035
+2025-03-05 16:27:44,818 [DEBUG] RMS: 0.0004, Mouth Open: 0.0037
+2025-03-05 16:27:44,818 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0035
+2025-03-05 16:27:44,818 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0037
+2025-03-05 16:27:44,867 [DEBUG] RMS: 0.0003, Mouth Open: 0.0037
+2025-03-05 16:27:44,867 [DEBUG] RMS: 0.0005, Mouth Open: 0.0040
+2025-03-05 16:27:44,868 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0037
+2025-03-05 16:27:44,868 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0040
+2025-03-05 16:27:44,918 [DEBUG] RMS: 0.0004, Mouth Open: 0.0041
+2025-03-05 16:27:44,918 [DEBUG] RMS: 0.0006, Mouth Open: 0.0045
+2025-03-05 16:27:44,918 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0041
+2025-03-05 16:27:44,918 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0045
+2025-03-05 16:27:44,968 [DEBUG] RMS: 0.0005, Mouth Open: 0.0048
+2025-03-05 16:27:44,968 [DEBUG] RMS: 0.0005, Mouth Open: 0.0051
+2025-03-05 16:27:44,968 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0048
+2025-03-05 16:27:44,968 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0051
+2025-03-05 16:27:45,017 [DEBUG] RMS: 0.0004, Mouth Open: 0.0048
+2025-03-05 16:27:45,017 [DEBUG] RMS: 0.0004, Mouth Open: 0.0047
+2025-03-05 16:27:45,017 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0048
+2025-03-05 16:27:45,018 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0047
+2025-03-05 16:27:45,067 [DEBUG] RMS: 0.0005, Mouth Open: 0.0045
+2025-03-05 16:27:45,067 [DEBUG] RMS: 0.0004, Mouth Open: 0.0042
+2025-03-05 16:27:45,067 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0045
+2025-03-05 16:27:45,068 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0042
+2025-03-05 16:27:45,118 [DEBUG] RMS: 0.0005, Mouth Open: 0.0042
+2025-03-05 16:27:45,118 [DEBUG] RMS: 0.0004, Mouth Open: 0.0043
+2025-03-05 16:27:45,118 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0042
+2025-03-05 16:27:45,118 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0043
+2025-03-05 16:27:45,168 [DEBUG] RMS: 0.0004, Mouth Open: 0.0044
+2025-03-05 16:27:45,168 [DEBUG] RMS: 0.0004, Mouth Open: 0.0041
+2025-03-05 16:27:45,168 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0044
+2025-03-05 16:27:45,168 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0041
+2025-03-05 16:27:45,218 [DEBUG] RMS: 0.0004, Mouth Open: 0.0042
+2025-03-05 16:27:45,218 [DEBUG] RMS: 0.0003, Mouth Open: 0.0038
+2025-03-05 16:27:45,218 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0042
+2025-03-05 16:27:45,218 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0038
+2025-03-05 16:27:45,268 [DEBUG] RMS: 0.0004, Mouth Open: 0.0037
+2025-03-05 16:27:45,269 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0037
+2025-03-05 16:27:45,269 [DEBUG] RMS: 0.0004, Mouth Open: 0.0037
+2025-03-05 16:27:45,269 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0037
+2025-03-05 16:27:45,318 [DEBUG] RMS: 0.0005, Mouth Open: 0.0040
+2025-03-05 16:27:45,318 [DEBUG] RMS: 0.0004, Mouth Open: 0.0040
+2025-03-05 16:27:45,318 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0040
+2025-03-05 16:27:45,318 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0040
+2025-03-05 16:27:45,368 [DEBUG] RMS: 0.0003, Mouth Open: 0.0040
+2025-03-05 16:27:45,368 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0040
+2025-03-05 16:27:45,368 [DEBUG] RMS: 0.0004, Mouth Open: 0.0041
+2025-03-05 16:27:45,368 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0041
+2025-03-05 16:27:45,418 [DEBUG] RMS: 0.0004, Mouth Open: 0.0041
+2025-03-05 16:27:45,418 [DEBUG] RMS: 0.0005, Mouth Open: 0.0041
+2025-03-05 16:27:45,418 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0041
+2025-03-05 16:27:45,418 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0041
+2025-03-05 16:27:45,468 [DEBUG] RMS: 0.0003, Mouth Open: 0.0039
+2025-03-05 16:27:45,468 [DEBUG] RMS: 0.0004, Mouth Open: 0.0041
+2025-03-05 16:27:45,468 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0039
+2025-03-05 16:27:45,468 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0041
+2025-03-05 16:27:45,518 [DEBUG] RMS: 0.0003, Mouth Open: 0.0039
+2025-03-05 16:27:45,518 [DEBUG] RMS: 0.0004, Mouth Open: 0.0040
+2025-03-05 16:27:45,518 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0039
+2025-03-05 16:27:45,518 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0040
+2025-03-05 16:27:45,568 [DEBUG] RMS: 0.0004, Mouth Open: 0.0037
+2025-03-05 16:27:45,568 [DEBUG] RMS: 0.0004, Mouth Open: 0.0039
+2025-03-05 16:27:45,568 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0037
+2025-03-05 16:27:45,568 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0039
+2025-03-05 16:27:45,617 [DEBUG] RMS: 0.0005, Mouth Open: 0.0039
+2025-03-05 16:27:45,617 [DEBUG] RMS: 0.0005, Mouth Open: 0.0042
+2025-03-05 16:27:45,617 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0039
+2025-03-05 16:27:45,617 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0042
+2025-03-05 16:27:45,668 [DEBUG] RMS: 0.0004, Mouth Open: 0.0041
+2025-03-05 16:27:45,668 [DEBUG] RMS: 0.0003, Mouth Open: 0.0041
+2025-03-05 16:27:45,668 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0041
+2025-03-05 16:27:45,668 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0041
+2025-03-05 16:27:45,718 [DEBUG] RMS: 0.0004, Mouth Open: 0.0041
+2025-03-05 16:27:45,718 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0041
+2025-03-05 16:27:45,718 [DEBUG] RMS: 0.0004, Mouth Open: 0.0040
+2025-03-05 16:27:45,718 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0040
+2025-03-05 16:27:45,768 [DEBUG] RMS: 0.0004, Mouth Open: 0.0038
+2025-03-05 16:27:45,768 [DEBUG] RMS: 0.0003, Mouth Open: 0.0037
+2025-03-05 16:27:45,768 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0038
+2025-03-05 16:27:45,768 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0037
+2025-03-05 16:27:45,818 [DEBUG] RMS: 0.0003, Mouth Open: 0.0035
+2025-03-05 16:27:45,818 [DEBUG] RMS: 0.0004, Mouth Open: 0.0035
+2025-03-05 16:27:45,818 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0035
+2025-03-05 16:27:45,818 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0035
+2025-03-05 16:27:45,868 [DEBUG] RMS: 0.0003, Mouth Open: 0.0033
+2025-03-05 16:27:45,869 [DEBUG] RMS: 0.0003, Mouth Open: 0.0031
+2025-03-05 16:27:45,869 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0033
+2025-03-05 16:27:45,869 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0031
+2025-03-05 16:27:45,917 [DEBUG] RMS: 0.0004, Mouth Open: 0.0033
+2025-03-05 16:27:45,917 [DEBUG] RMS: 0.0005, Mouth Open: 0.0036
+2025-03-05 16:27:45,917 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0033
+2025-03-05 16:27:45,917 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0036
+2025-03-05 16:27:45,968 [DEBUG] RMS: 0.0003, Mouth Open: 0.0035
+2025-03-05 16:27:45,968 [DEBUG] RMS: 0.0003, Mouth Open: 0.0036
+2025-03-05 16:27:45,968 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0035
+2025-03-05 16:27:45,968 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0036
+2025-03-05 16:27:46,018 [DEBUG] RMS: 0.0003, Mouth Open: 0.0037
+2025-03-05 16:27:46,018 [DEBUG] RMS: 0.0004, Mouth Open: 0.0036
+2025-03-05 16:27:46,018 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0037
+2025-03-05 16:27:46,019 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0036
+2025-03-05 16:27:46,067 [DEBUG] RMS: 0.0003, Mouth Open: 0.0034
+2025-03-05 16:27:46,067 [DEBUG] RMS: 0.0004, Mouth Open: 0.0036
+2025-03-05 16:27:46,068 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0034
+2025-03-05 16:27:46,068 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0036
+2025-03-05 16:27:46,118 [DEBUG] RMS: 0.0003, Mouth Open: 0.0035
+2025-03-05 16:27:46,118 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0035
+2025-03-05 16:27:46,118 [DEBUG] RMS: 0.0003, Mouth Open: 0.0036
+2025-03-05 16:27:46,118 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0036
+2025-03-05 16:27:46,168 [DEBUG] RMS: 0.0002, Mouth Open: 0.0033
+2025-03-05 16:27:46,168 [DEBUG] RMS: 0.0004, Mouth Open: 0.0035
+2025-03-05 16:27:46,168 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0033
+2025-03-05 16:27:46,168 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0035
+2025-03-05 16:27:46,218 [DEBUG] RMS: 0.0003, Mouth Open: 0.0033
+2025-03-05 16:27:46,218 [DEBUG] RMS: 0.0004, Mouth Open: 0.0034
+2025-03-05 16:27:46,218 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0033
+2025-03-05 16:27:46,218 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0034
+2025-03-05 16:27:46,268 [DEBUG] RMS: 0.0004, Mouth Open: 0.0035
+2025-03-05 16:27:46,268 [DEBUG] RMS: 0.0003, Mouth Open: 0.0036
+2025-03-05 16:27:46,268 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0035
+2025-03-05 16:27:46,268 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0036
+2025-03-05 16:27:46,318 [DEBUG] RMS: 0.0003, Mouth Open: 0.0034
+2025-03-05 16:27:46,318 [DEBUG] RMS: 0.0006, Mouth Open: 0.0039
+2025-03-05 16:27:46,318 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0034
+2025-03-05 16:27:46,318 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0039
+2025-03-05 16:27:46,368 [DEBUG] RMS: 0.0003, Mouth Open: 0.0038
+2025-03-05 16:27:46,368 [DEBUG] RMS: 0.0004, Mouth Open: 0.0038
+2025-03-05 16:27:46,368 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0038
+2025-03-05 16:27:46,368 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0038
+2025-03-05 16:27:46,418 [DEBUG] RMS: 0.0003, Mouth Open: 0.0039
+2025-03-05 16:27:46,418 [DEBUG] RMS: 0.0004, Mouth Open: 0.0039
+2025-03-05 16:27:46,418 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0039
+2025-03-05 16:27:46,418 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0039
+2025-03-05 16:27:46,469 [DEBUG] RMS: 0.0004, Mouth Open: 0.0035
+2025-03-05 16:27:46,469 [DEBUG] RMS: 0.0003, Mouth Open: 0.0035
+2025-03-05 16:27:46,469 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0035
+2025-03-05 16:27:46,469 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0035
+2025-03-05 16:27:46,517 [DEBUG] RMS: 0.0003, Mouth Open: 0.0034
+2025-03-05 16:27:46,518 [DEBUG] RMS: 0.0003, Mouth Open: 0.0033
+2025-03-05 16:27:46,518 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0034
+2025-03-05 16:27:46,518 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0033
+2025-03-05 16:27:46,567 [DEBUG] RMS: 0.0003, Mouth Open: 0.0033
+2025-03-05 16:27:46,568 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0033
+2025-03-05 16:27:46,568 [DEBUG] RMS: 0.0004, Mouth Open: 0.0033
+2025-03-05 16:27:46,569 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0033
+2025-03-05 16:27:46,618 [DEBUG] RMS: 0.0003, Mouth Open: 0.0033
+2025-03-05 16:27:46,618 [DEBUG] RMS: 0.0004, Mouth Open: 0.0033
+2025-03-05 16:27:46,618 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0033
+2025-03-05 16:27:46,618 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0033
+2025-03-05 16:27:46,668 [DEBUG] RMS: 0.0003, Mouth Open: 0.0034
+2025-03-05 16:27:46,668 [DEBUG] RMS: 0.0004, Mouth Open: 0.0036
+2025-03-05 16:27:46,668 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0034
+2025-03-05 16:27:46,668 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0036
+2025-03-05 16:27:46,718 [DEBUG] RMS: 0.0003, Mouth Open: 0.0034
+2025-03-05 16:27:46,718 [DEBUG] RMS: 0.0004, Mouth Open: 0.0037
+2025-03-05 16:27:46,718 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0034
+2025-03-05 16:27:46,718 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0037
+2025-03-05 16:27:46,768 [DEBUG] RMS: 0.0004, Mouth Open: 0.0037
+2025-03-05 16:27:46,768 [DEBUG] RMS: 0.0003, Mouth Open: 0.0036
+2025-03-05 16:27:46,768 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0037
+2025-03-05 16:27:46,768 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0036
+2025-03-05 16:27:46,818 [DEBUG] RMS: 0.0003, Mouth Open: 0.0034
+2025-03-05 16:27:46,818 [DEBUG] RMS: 0.0004, Mouth Open: 0.0036
+2025-03-05 16:27:46,818 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0034
+2025-03-05 16:27:46,818 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0036
+2025-03-05 16:27:46,868 [DEBUG] RMS: 0.0004, Mouth Open: 0.0035
+2025-03-05 16:27:46,868 [DEBUG] RMS: 0.0003, Mouth Open: 0.0033
+2025-03-05 16:27:46,868 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0035
+2025-03-05 16:27:46,868 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0033
+2025-03-05 16:27:46,918 [DEBUG] RMS: 0.0004, Mouth Open: 0.0034
+2025-03-05 16:27:46,918 [DEBUG] RMS: 0.0004, Mouth Open: 0.0036
+2025-03-05 16:27:46,918 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0034
+2025-03-05 16:27:46,918 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0036
+2025-03-05 16:27:46,968 [DEBUG] RMS: 0.0004, Mouth Open: 0.0037
+2025-03-05 16:27:46,968 [DEBUG] RMS: 0.0003, Mouth Open: 0.0036
+2025-03-05 16:27:46,968 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0037
+2025-03-05 16:27:46,969 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0036
+2025-03-05 16:27:47,018 [DEBUG] RMS: 0.0004, Mouth Open: 0.0037
+2025-03-05 16:27:47,018 [DEBUG] RMS: 0.0003, Mouth Open: 0.0036
+2025-03-05 16:27:47,018 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0037
+2025-03-05 16:27:47,019 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0036
+2025-03-05 16:27:47,068 [DEBUG] RMS: 0.0004, Mouth Open: 0.0035
+2025-03-05 16:27:47,069 [DEBUG] RMS: 0.0004, Mouth Open: 0.0035
+2025-03-05 16:27:47,069 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0035
+2025-03-05 16:27:47,069 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0035
+2025-03-05 16:27:47,118 [DEBUG] RMS: 0.0003, Mouth Open: 0.0035
+2025-03-05 16:27:47,118 [DEBUG] RMS: 0.0004, Mouth Open: 0.0036
+2025-03-05 16:27:47,118 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0035
+2025-03-05 16:27:47,118 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0036
+2025-03-05 16:27:47,168 [DEBUG] RMS: 0.0003, Mouth Open: 0.0036
+2025-03-05 16:27:47,168 [DEBUG] RMS: 0.0003, Mouth Open: 0.0034
+2025-03-05 16:27:47,169 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0036
+2025-03-05 16:27:47,169 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0034
+2025-03-05 16:27:47,218 [DEBUG] RMS: 0.0004, Mouth Open: 0.0034
+2025-03-05 16:27:47,218 [DEBUG] RMS: 0.0004, Mouth Open: 0.0035
+2025-03-05 16:27:47,218 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0034
+2025-03-05 16:27:47,218 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0035
+2025-03-05 16:27:47,268 [DEBUG] RMS: 0.0004, Mouth Open: 0.0035
+2025-03-05 16:27:47,268 [DEBUG] RMS: 0.0003, Mouth Open: 0.0035
+2025-03-05 16:27:47,268 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0035
+2025-03-05 16:27:47,268 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0035
+2025-03-05 16:27:47,318 [DEBUG] RMS: 0.0003, Mouth Open: 0.0035
+2025-03-05 16:27:47,318 [DEBUG] RMS: 0.0003, Mouth Open: 0.0035
+2025-03-05 16:27:47,318 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0035
+2025-03-05 16:27:47,318 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0035
+2025-03-05 16:27:47,368 [DEBUG] RMS: 0.0004, Mouth Open: 0.0035
+2025-03-05 16:27:47,368 [DEBUG] RMS: 0.0004, Mouth Open: 0.0035
+2025-03-05 16:27:47,368 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0035
+2025-03-05 16:27:47,368 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0035
+2025-03-05 16:27:47,418 [DEBUG] RMS: 0.0004, Mouth Open: 0.0036
+2025-03-05 16:27:47,418 [DEBUG] RMS: 0.0004, Mouth Open: 0.0038
+2025-03-05 16:27:47,418 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0036
+2025-03-05 16:27:47,418 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0038
+2025-03-05 16:27:47,467 [DEBUG] RMS: 0.0004, Mouth Open: 0.0039
+2025-03-05 16:27:47,468 [DEBUG] RMS: 0.0003, Mouth Open: 0.0038
+2025-03-05 16:27:47,468 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0039
+2025-03-05 16:27:47,468 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0038
+2025-03-05 16:27:47,517 [DEBUG] RMS: 0.0003, Mouth Open: 0.0037
+2025-03-05 16:27:47,517 [DEBUG] RMS: 0.0003, Mouth Open: 0.0036
+2025-03-05 16:27:47,517 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0037
+2025-03-05 16:27:47,518 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0036
+2025-03-05 16:27:47,567 [DEBUG] RMS: 0.0003, Mouth Open: 0.0034
+2025-03-05 16:27:47,568 [DEBUG] RMS: 0.0004, Mouth Open: 0.0033
+2025-03-05 16:27:47,568 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0034
+2025-03-05 16:27:47,568 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0033
+2025-03-05 16:27:47,618 [DEBUG] RMS: 0.0004, Mouth Open: 0.0034
+2025-03-05 16:27:47,618 [DEBUG] RMS: 0.0004, Mouth Open: 0.0035
+2025-03-05 16:27:47,618 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0034
+2025-03-05 16:27:47,618 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0035
+2025-03-05 16:27:47,668 [DEBUG] RMS: 0.0003, Mouth Open: 0.0035
+2025-03-05 16:27:47,669 [DEBUG] RMS: 0.0003, Mouth Open: 0.0035
+2025-03-05 16:27:47,669 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0035
+2025-03-05 16:27:47,669 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0035
+2025-03-05 16:27:47,718 [DEBUG] RMS: 0.0003, Mouth Open: 0.0033
+2025-03-05 16:27:47,718 [DEBUG] RMS: 0.0003, Mouth Open: 0.0031
+2025-03-05 16:27:47,718 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0033
+2025-03-05 16:27:47,718 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0031
+2025-03-05 16:27:47,768 [DEBUG] RMS: 0.0004, Mouth Open: 0.0032
+2025-03-05 16:27:47,768 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0032
+2025-03-05 16:27:47,768 [DEBUG] RMS: 0.0003, Mouth Open: 0.0032
+2025-03-05 16:27:47,768 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0032
+2025-03-05 16:27:47,817 [DEBUG] RMS: 0.0003, Mouth Open: 0.0033
+2025-03-05 16:27:47,817 [DEBUG] RMS: 0.0003, Mouth Open: 0.0034
+2025-03-05 16:27:47,817 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0033
+2025-03-05 16:27:47,818 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0034
+2025-03-05 16:27:47,867 [DEBUG] RMS: 0.0004, Mouth Open: 0.0036
+2025-03-05 16:27:47,867 [DEBUG] RMS: 0.0004, Mouth Open: 0.0036
+2025-03-05 16:27:47,867 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0036
+2025-03-05 16:27:47,868 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0036
+2025-03-05 16:27:47,917 [DEBUG] RMS: 0.0003, Mouth Open: 0.0036
+2025-03-05 16:27:47,918 [DEBUG] RMS: 0.0003, Mouth Open: 0.0036
+2025-03-05 16:27:47,918 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0036
+2025-03-05 16:27:47,918 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0036
+2025-03-05 16:27:47,967 [DEBUG] RMS: 0.0004, Mouth Open: 0.0037
+2025-03-05 16:27:47,968 [DEBUG] RMS: 0.0003, Mouth Open: 0.0034
+2025-03-05 16:27:47,968 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0037
+2025-03-05 16:27:47,968 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0034
+2025-03-05 16:27:48,017 [DEBUG] RMS: 0.0003, Mouth Open: 0.0033
+2025-03-05 16:27:48,017 [DEBUG] RMS: 0.0003, Mouth Open: 0.0032
+2025-03-05 16:27:48,017 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0033
+2025-03-05 16:27:48,018 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0032
+2025-03-05 16:27:48,068 [DEBUG] RMS: 0.0003, Mouth Open: 0.0031
+2025-03-05 16:27:48,068 [DEBUG] RMS: 0.0003, Mouth Open: 0.0029
+2025-03-05 16:27:48,068 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0031
+2025-03-05 16:27:48,068 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0029
+2025-03-05 16:27:48,117 [DEBUG] RMS: 0.0003, Mouth Open: 0.0029
+2025-03-05 16:27:48,118 [DEBUG] RMS: 0.0003, Mouth Open: 0.0028
+2025-03-05 16:27:48,118 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0029
+2025-03-05 16:27:48,118 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0028
+2025-03-05 16:27:48,167 [DEBUG] RMS: 0.0004, Mouth Open: 0.0029
+2025-03-05 16:27:48,168 [DEBUG] RMS: 0.0003, Mouth Open: 0.0030
+2025-03-05 16:27:48,168 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0029
+2025-03-05 16:27:48,168 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0030
+2025-03-05 16:27:48,218 [DEBUG] RMS: 0.0004, Mouth Open: 0.0032
+2025-03-05 16:27:48,218 [DEBUG] RMS: 0.0003, Mouth Open: 0.0034
+2025-03-05 16:27:48,218 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0032
+2025-03-05 16:27:48,218 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0034
+2025-03-05 16:27:48,269 [DEBUG] RMS: 0.0004, Mouth Open: 0.0035
+2025-03-05 16:27:48,269 [DEBUG] RMS: 0.0003, Mouth Open: 0.0035
+2025-03-05 16:27:48,269 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0035
+2025-03-05 16:27:48,269 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0035
+2025-03-05 16:27:48,318 [DEBUG] RMS: 0.0004, Mouth Open: 0.0037
+2025-03-05 16:27:48,318 [DEBUG] RMS: 0.0004, Mouth Open: 0.0037
+2025-03-05 16:27:48,318 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0037
+2025-03-05 16:27:48,318 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0037
+2025-03-05 16:27:48,368 [DEBUG] RMS: 0.0003, Mouth Open: 0.0036
+2025-03-05 16:27:48,368 [DEBUG] RMS: 0.0003, Mouth Open: 0.0035
+2025-03-05 16:27:48,368 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0036
+2025-03-05 16:27:48,369 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0035
+2025-03-05 16:27:48,417 [DEBUG] RMS: 0.0003, Mouth Open: 0.0035
+2025-03-05 16:27:48,417 [DEBUG] RMS: 0.0004, Mouth Open: 0.0034
+2025-03-05 16:27:48,418 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0035
+2025-03-05 16:27:48,418 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0034
+2025-03-05 16:27:48,467 [DEBUG] RMS: 0.0003, Mouth Open: 0.0034
+2025-03-05 16:27:48,467 [DEBUG] RMS: 0.0003, Mouth Open: 0.0035
+2025-03-05 16:27:48,467 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0034
+2025-03-05 16:27:48,468 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0035
+2025-03-05 16:27:48,518 [DEBUG] RMS: 0.0004, Mouth Open: 0.0037
+2025-03-05 16:27:48,518 [DEBUG] RMS: 0.0004, Mouth Open: 0.0037
+2025-03-05 16:27:48,518 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0037
+2025-03-05 16:27:48,518 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0037
+2025-03-05 16:27:48,568 [DEBUG] RMS: 0.0004, Mouth Open: 0.0037
+2025-03-05 16:27:48,568 [DEBUG] RMS: 0.0005, Mouth Open: 0.0040
+2025-03-05 16:27:48,568 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0037
+2025-03-05 16:27:48,568 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0040
+2025-03-05 16:27:48,617 [DEBUG] RMS: 0.0004, Mouth Open: 0.0040
+2025-03-05 16:27:48,618 [DEBUG] RMS: 0.0003, Mouth Open: 0.0037
+2025-03-05 16:27:48,618 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0040
+2025-03-05 16:27:48,618 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0037
+2025-03-05 16:27:48,668 [DEBUG] RMS: 0.0003, Mouth Open: 0.0037
+2025-03-05 16:27:48,668 [DEBUG] RMS: 0.0004, Mouth Open: 0.0037
+2025-03-05 16:27:48,668 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0037
+2025-03-05 16:27:48,668 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0037
+2025-03-05 16:27:48,717 [DEBUG] RMS: 0.0004, Mouth Open: 0.0035
+2025-03-05 16:27:48,717 [DEBUG] RMS: 0.0003, Mouth Open: 0.0034
+2025-03-05 16:27:48,718 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0035
+2025-03-05 16:27:48,718 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0034
+2025-03-05 16:27:48,768 [DEBUG] RMS: 0.0004, Mouth Open: 0.0036
+2025-03-05 16:27:48,768 [DEBUG] RMS: 0.0008, Mouth Open: 0.0047
+2025-03-05 16:27:48,768 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0036
+2025-03-05 16:27:48,768 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0047
+2025-03-05 16:27:48,818 [DEBUG] RMS: 0.0004, Mouth Open: 0.0047
+2025-03-05 16:27:48,818 [DEBUG] RMS: 0.0003, Mouth Open: 0.0045
+2025-03-05 16:27:48,818 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0047
+2025-03-05 16:27:48,818 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0045
+2025-03-05 16:27:48,868 [DEBUG] RMS: 0.0004, Mouth Open: 0.0047
+2025-03-05 16:27:48,869 [DEBUG] RMS: 0.0004, Mouth Open: 0.0048
+2025-03-05 16:27:48,869 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0047
+2025-03-05 16:27:48,869 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0048
+2025-03-05 16:27:48,918 [DEBUG] RMS: 0.0004, Mouth Open: 0.0039
+2025-03-05 16:27:48,918 [DEBUG] RMS: 0.0004, Mouth Open: 0.0038
+2025-03-05 16:27:48,918 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0039
+2025-03-05 16:27:48,918 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0038
+2025-03-05 16:27:48,968 [DEBUG] RMS: 0.0004, Mouth Open: 0.0039
+2025-03-05 16:27:48,968 [DEBUG] RMS: 0.0004, Mouth Open: 0.0039
+2025-03-05 16:27:48,968 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0039
+2025-03-05 16:27:48,968 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0039
+2025-03-05 16:27:49,018 [DEBUG] RMS: 0.0004, Mouth Open: 0.0039
+2025-03-05 16:27:49,018 [DEBUG] RMS: 0.0003, Mouth Open: 0.0037
+2025-03-05 16:27:49,018 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0039
+2025-03-05 16:27:49,018 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0037
+2025-03-05 16:27:49,068 [DEBUG] RMS: 0.0004, Mouth Open: 0.0038
+2025-03-05 16:27:49,068 [DEBUG] RMS: 0.0004, Mouth Open: 0.0038
+2025-03-05 16:27:49,068 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0038
+2025-03-05 16:27:49,068 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0038
+2025-03-05 16:27:49,118 [DEBUG] RMS: 0.0004, Mouth Open: 0.0037
+2025-03-05 16:27:49,118 [DEBUG] RMS: 0.0004, Mouth Open: 0.0037
+2025-03-05 16:27:49,118 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0037
+2025-03-05 16:27:49,118 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0037
+2025-03-05 16:27:49,168 [DEBUG] RMS: 0.0005, Mouth Open: 0.0040
+2025-03-05 16:27:49,168 [DEBUG] RMS: 0.0003, Mouth Open: 0.0038
+2025-03-05 16:27:49,168 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0040
+2025-03-05 16:27:49,168 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0038
+2025-03-05 16:27:49,218 [DEBUG] RMS: 0.0004, Mouth Open: 0.0038
+2025-03-05 16:27:49,218 [DEBUG] RMS: 0.0005, Mouth Open: 0.0040
+2025-03-05 16:27:49,218 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0038
+2025-03-05 16:27:49,218 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0040
+2025-03-05 16:27:49,268 [DEBUG] RMS: 0.0004, Mouth Open: 0.0040
+2025-03-05 16:27:49,268 [DEBUG] RMS: 0.0005, Mouth Open: 0.0040
+2025-03-05 16:27:49,268 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0040
+2025-03-05 16:27:49,268 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0040
+2025-03-05 16:27:49,318 [DEBUG] RMS: 0.0005, Mouth Open: 0.0044
+2025-03-05 16:27:49,318 [DEBUG] RMS: 0.0005, Mouth Open: 0.0047
+2025-03-05 16:27:49,318 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0044
+2025-03-05 16:27:49,318 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0047
+2025-03-05 16:27:49,368 [DEBUG] RMS: 0.0005, Mouth Open: 0.0048
+2025-03-05 16:27:49,368 [DEBUG] RMS: 0.0004, Mouth Open: 0.0048
+2025-03-05 16:27:49,368 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0048
+2025-03-05 16:27:49,368 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0048
+2025-03-05 16:27:49,417 [DEBUG] RMS: 0.0004, Mouth Open: 0.0046
+2025-03-05 16:27:49,418 [DEBUG] RMS: 0.0006, Mouth Open: 0.0049
+2025-03-05 16:27:49,418 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0046
+2025-03-05 16:27:49,418 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0049
+2025-03-05 16:27:49,468 [DEBUG] RMS: 0.0005, Mouth Open: 0.0047
+2025-03-05 16:27:49,469 [DEBUG] RMS: 0.0003, Mouth Open: 0.0044
+2025-03-05 16:27:49,469 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0047
+2025-03-05 16:27:49,469 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0044
+2025-03-05 16:27:49,518 [DEBUG] RMS: 0.0003, Mouth Open: 0.0043
+2025-03-05 16:27:49,518 [DEBUG] RMS: 0.0003, Mouth Open: 0.0042
+2025-03-05 16:27:49,518 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0043
+2025-03-05 16:27:49,518 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0042
+2025-03-05 16:27:49,567 [DEBUG] RMS: 0.0004, Mouth Open: 0.0037
+2025-03-05 16:27:49,567 [DEBUG] RMS: 0.0006, Mouth Open: 0.0040
+2025-03-05 16:27:49,567 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0037
+2025-03-05 16:27:49,567 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0040
+2025-03-05 16:27:49,618 [DEBUG] RMS: 0.0007, Mouth Open: 0.0048
+2025-03-05 16:27:49,618 [DEBUG] RMS: 0.0005, Mouth Open: 0.0052
+2025-03-05 16:27:49,618 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0048
+2025-03-05 16:27:49,618 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0052
+2025-03-05 16:27:49,668 [DEBUG] RMS: 0.0005, Mouth Open: 0.0054
+2025-03-05 16:27:49,668 [DEBUG] RMS: 0.0004, Mouth Open: 0.0053
+2025-03-05 16:27:49,668 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0054
+2025-03-05 16:27:49,668 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0053
+2025-03-05 16:27:49,718 [DEBUG] RMS: 0.0004, Mouth Open: 0.0049
+2025-03-05 16:27:49,718 [DEBUG] RMS: 0.0004, Mouth Open: 0.0041
+2025-03-05 16:27:49,718 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0049
+2025-03-05 16:27:49,718 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0041
+2025-03-05 16:27:49,768 [DEBUG] RMS: 0.0004, Mouth Open: 0.0039
+2025-03-05 16:27:49,768 [DEBUG] RMS: 0.0005, Mouth Open: 0.0039
+2025-03-05 16:27:49,768 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0039
+2025-03-05 16:27:49,768 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0039
+2025-03-05 16:27:49,818 [DEBUG] RMS: 0.0004, Mouth Open: 0.0040
+2025-03-05 16:27:49,818 [DEBUG] RMS: 0.0004, Mouth Open: 0.0041
+2025-03-05 16:27:49,818 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0040
+2025-03-05 16:27:49,818 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0041
+2025-03-05 16:27:49,868 [DEBUG] RMS: 0.0003, Mouth Open: 0.0041
+2025-03-05 16:27:49,868 [DEBUG] RMS: 0.0004, Mouth Open: 0.0040
+2025-03-05 16:27:49,868 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0041
+2025-03-05 16:27:49,868 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0040
+2025-03-05 16:27:49,918 [DEBUG] RMS: 0.0004, Mouth Open: 0.0039
+2025-03-05 16:27:49,918 [DEBUG] RMS: 0.0004, Mouth Open: 0.0039
+2025-03-05 16:27:49,918 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0039
+2025-03-05 16:27:49,918 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0039
+2025-03-05 16:27:49,967 [DEBUG] RMS: 0.0004, Mouth Open: 0.0038
+2025-03-05 16:27:49,968 [DEBUG] RMS: 0.0003, Mouth Open: 0.0039
+2025-03-05 16:27:49,968 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0038
+2025-03-05 16:27:49,968 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0039
+2025-03-05 16:27:50,017 [DEBUG] RMS: 0.0004, Mouth Open: 0.0039
+2025-03-05 16:27:50,018 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0039
+2025-03-05 16:27:50,018 [DEBUG] RMS: 0.0003, Mouth Open: 0.0037
+2025-03-05 16:27:50,018 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0037
+2025-03-05 16:27:50,069 [DEBUG] RMS: 0.0004, Mouth Open: 0.0036
+2025-03-05 16:27:50,069 [DEBUG] RMS: 0.0003, Mouth Open: 0.0035
+2025-03-05 16:27:50,069 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0036
+2025-03-05 16:27:50,069 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0035
+2025-03-05 16:27:50,118 [DEBUG] RMS: 0.0003, Mouth Open: 0.0035
+2025-03-05 16:27:50,118 [DEBUG] RMS: 0.0003, Mouth Open: 0.0034
+2025-03-05 16:27:50,118 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0035
+2025-03-05 16:27:50,118 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0034
+2025-03-05 16:27:50,167 [DEBUG] RMS: 0.0004, Mouth Open: 0.0036
+2025-03-05 16:27:50,168 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0036
+2025-03-05 16:27:50,168 [DEBUG] RMS: 0.0004, Mouth Open: 0.0037
+2025-03-05 16:27:50,168 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0037
+2025-03-05 16:27:50,217 [DEBUG] RMS: 0.0004, Mouth Open: 0.0038
+2025-03-05 16:27:50,217 [DEBUG] RMS: 0.0004, Mouth Open: 0.0038
+2025-03-05 16:27:50,218 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0038
+2025-03-05 16:27:50,218 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0038
+2025-03-05 16:27:50,267 [DEBUG] RMS: 0.0003, Mouth Open: 0.0039
+2025-03-05 16:27:50,267 [DEBUG] RMS: 0.0003, Mouth Open: 0.0036
+2025-03-05 16:27:50,267 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0039
+2025-03-05 16:27:50,268 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0036
+2025-03-05 16:27:50,318 [DEBUG] RMS: 0.0003, Mouth Open: 0.0034
+2025-03-05 16:27:50,318 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0034
+2025-03-05 16:27:50,318 [DEBUG] RMS: 0.0004, Mouth Open: 0.0035
+2025-03-05 16:27:50,318 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0035
+2025-03-05 16:27:50,368 [DEBUG] RMS: 0.0004, Mouth Open: 0.0035
+2025-03-05 16:27:50,368 [DEBUG] RMS: 0.0004, Mouth Open: 0.0036
+2025-03-05 16:27:50,368 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0035
+2025-03-05 16:27:50,368 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0036
+2025-03-05 16:27:50,417 [DEBUG] RMS: 0.0003, Mouth Open: 0.0037
+2025-03-05 16:27:50,418 [DEBUG] RMS: 0.0003, Mouth Open: 0.0037
+2025-03-05 16:27:50,418 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0037
+2025-03-05 16:27:50,418 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0037
+2025-03-05 16:27:50,467 [DEBUG] RMS: 0.0003, Mouth Open: 0.0034
+2025-03-05 16:27:50,468 [DEBUG] RMS: 0.0004, Mouth Open: 0.0034
+2025-03-05 16:27:50,468 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0034
+2025-03-05 16:27:50,468 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0034
+2025-03-05 16:27:50,518 [DEBUG] RMS: 0.0004, Mouth Open: 0.0035
+2025-03-05 16:27:50,518 [DEBUG] RMS: 0.0003, Mouth Open: 0.0035
+2025-03-05 16:27:50,518 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0035
+2025-03-05 16:27:50,518 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0035
+2025-03-05 16:27:50,567 [DEBUG] RMS: 0.0003, Mouth Open: 0.0036
+2025-03-05 16:27:50,568 [DEBUG] RMS: 0.0004, Mouth Open: 0.0039
+2025-03-05 16:27:50,568 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0036
+2025-03-05 16:27:50,568 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0039
+2025-03-05 16:27:50,618 [DEBUG] RMS: 0.0003, Mouth Open: 0.0038
+2025-03-05 16:27:50,618 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0038
+2025-03-05 16:27:50,618 [DEBUG] RMS: 0.0005, Mouth Open: 0.0039
+2025-03-05 16:27:50,618 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0039
+2025-03-05 16:27:50,668 [DEBUG] RMS: 0.0004, Mouth Open: 0.0039
+2025-03-05 16:27:50,668 [DEBUG] RMS: 0.0003, Mouth Open: 0.0039
+2025-03-05 16:27:50,668 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0039
+2025-03-05 16:27:50,668 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0039
+2025-03-05 16:27:50,717 [DEBUG] RMS: 0.0004, Mouth Open: 0.0038
+2025-03-05 16:27:50,717 [DEBUG] RMS: 0.0004, Mouth Open: 0.0038
+2025-03-05 16:27:50,717 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0038
+2025-03-05 16:27:50,718 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0038
+2025-03-05 16:27:50,768 [DEBUG] RMS: 0.0004, Mouth Open: 0.0036
+2025-03-05 16:27:50,768 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0036
+2025-03-05 16:27:50,768 [DEBUG] RMS: 0.0003, Mouth Open: 0.0035
+2025-03-05 16:27:50,768 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0035
+2025-03-05 16:27:50,818 [DEBUG] RMS: 0.0003, Mouth Open: 0.0034
+2025-03-05 16:27:50,818 [DEBUG] RMS: 0.0003, Mouth Open: 0.0033
+2025-03-05 16:27:50,818 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0034
+2025-03-05 16:27:50,818 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0033
+2025-03-05 16:27:50,868 [DEBUG] RMS: 0.0003, Mouth Open: 0.0031
+2025-03-05 16:27:50,868 [DEBUG] RMS: 0.0003, Mouth Open: 0.0031
+2025-03-05 16:27:50,868 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0031
+2025-03-05 16:27:50,868 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0031
+2025-03-05 16:27:50,918 [DEBUG] RMS: 0.0003, Mouth Open: 0.0030
+2025-03-05 16:27:50,918 [DEBUG] RMS: 0.0003, Mouth Open: 0.0030
+2025-03-05 16:27:50,918 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0030
+2025-03-05 16:27:50,918 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0030
+2025-03-05 16:27:50,968 [DEBUG] RMS: 0.0003, Mouth Open: 0.0030
+2025-03-05 16:27:50,968 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0030
+2025-03-05 16:27:50,968 [DEBUG] RMS: 0.0005, Mouth Open: 0.0034
+2025-03-05 16:27:50,969 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0034
+2025-03-05 16:27:51,018 [DEBUG] RMS: 0.0004, Mouth Open: 0.0035
+2025-03-05 16:27:51,018 [DEBUG] RMS: 0.0003, Mouth Open: 0.0036
+2025-03-05 16:27:51,018 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0035
+2025-03-05 16:27:51,019 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0036
+2025-03-05 16:27:51,068 [DEBUG] RMS: 0.0004, Mouth Open: 0.0039
+2025-03-05 16:27:51,068 [DEBUG] RMS: 0.0003, Mouth Open: 0.0039
+2025-03-05 16:27:51,068 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0039
+2025-03-05 16:27:51,068 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0039
+2025-03-05 16:27:51,117 [DEBUG] RMS: 0.0003, Mouth Open: 0.0036
+2025-03-05 16:27:51,117 [DEBUG] RMS: 0.0003, Mouth Open: 0.0035
+2025-03-05 16:27:51,117 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0036
+2025-03-05 16:27:51,118 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0035
+2025-03-05 16:27:51,168 [DEBUG] RMS: 0.0003, Mouth Open: 0.0035
+2025-03-05 16:27:51,168 [DEBUG] RMS: 0.0003, Mouth Open: 0.0032
+2025-03-05 16:27:51,168 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0035
+2025-03-05 16:27:51,169 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0032
+2025-03-05 16:27:51,218 [DEBUG] RMS: 0.0004, Mouth Open: 0.0033
+2025-03-05 16:27:51,218 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0033
+2025-03-05 16:27:51,218 [DEBUG] RMS: 0.0003, Mouth Open: 0.0033
+2025-03-05 16:27:51,218 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0033
+2025-03-05 16:27:51,269 [DEBUG] RMS: 0.0003, Mouth Open: 0.0033
+2025-03-05 16:27:51,269 [DEBUG] RMS: 0.0003, Mouth Open: 0.0033
+2025-03-05 16:27:51,269 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0033
+2025-03-05 16:27:51,269 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0033
+2025-03-05 16:27:51,317 [DEBUG] RMS: 0.0003, Mouth Open: 0.0033
+2025-03-05 16:27:51,318 [DEBUG] RMS: 0.0003, Mouth Open: 0.0031
+2025-03-05 16:27:51,318 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0033
+2025-03-05 16:27:51,318 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0031
+2025-03-05 16:27:51,367 [DEBUG] RMS: 0.0003, Mouth Open: 0.0031
+2025-03-05 16:27:51,367 [DEBUG] RMS: 0.0004, Mouth Open: 0.0031
+2025-03-05 16:27:51,367 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0031
+2025-03-05 16:27:51,368 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0031
+2025-03-05 16:27:51,417 [DEBUG] RMS: 0.0003, Mouth Open: 0.0031
+2025-03-05 16:27:51,417 [DEBUG] RMS: 0.0004, Mouth Open: 0.0033
+2025-03-05 16:27:51,417 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0031
+2025-03-05 16:27:51,417 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0033
+2025-03-05 16:27:51,467 [DEBUG] RMS: 0.0003, Mouth Open: 0.0033
+2025-03-05 16:27:51,467 [DEBUG] RMS: 0.0004, Mouth Open: 0.0034
+2025-03-05 16:27:51,467 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0033
+2025-03-05 16:27:51,468 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0034
+2025-03-05 16:27:51,517 [DEBUG] RMS: 0.0004, Mouth Open: 0.0034
+2025-03-05 16:27:51,518 [DEBUG] RMS: 0.0003, Mouth Open: 0.0034
+2025-03-05 16:27:51,518 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0034
+2025-03-05 16:27:51,518 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0034
+2025-03-05 16:27:51,568 [DEBUG] RMS: 0.0004, Mouth Open: 0.0034
+2025-03-05 16:27:51,568 [DEBUG] RMS: 0.0003, Mouth Open: 0.0035
+2025-03-05 16:27:51,568 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0034
+2025-03-05 16:27:51,568 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0035
+2025-03-05 16:27:51,618 [DEBUG] RMS: 0.0003, Mouth Open: 0.0034
+2025-03-05 16:27:51,618 [DEBUG] RMS: 0.0004, Mouth Open: 0.0035
+2025-03-05 16:27:51,618 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0034
+2025-03-05 16:27:51,618 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0035
+2025-03-05 16:27:51,668 [DEBUG] RMS: 0.0003, Mouth Open: 0.0035
+2025-03-05 16:27:51,668 [DEBUG] RMS: 0.0003, Mouth Open: 0.0034
+2025-03-05 16:27:51,668 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0035
+2025-03-05 16:27:51,668 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0034
+2025-03-05 16:27:51,718 [DEBUG] RMS: 0.0003, Mouth Open: 0.0033
+2025-03-05 16:27:51,718 [DEBUG] RMS: 0.0003, Mouth Open: 0.0033
+2025-03-05 16:27:51,718 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0033
+2025-03-05 16:27:51,718 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0033
+2025-03-05 16:27:51,767 [DEBUG] RMS: 0.0004, Mouth Open: 0.0033
+2025-03-05 16:27:51,767 [DEBUG] RMS: 0.0003, Mouth Open: 0.0033
+2025-03-05 16:27:51,767 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0033
+2025-03-05 16:27:51,768 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0033
+2025-03-05 16:27:51,818 [DEBUG] RMS: 0.0003, Mouth Open: 0.0032
+2025-03-05 16:27:51,818 [DEBUG] RMS: 0.0005, Mouth Open: 0.0035
+2025-03-05 16:27:51,818 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0032
+2025-03-05 16:27:51,818 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0035
+2025-03-05 16:27:51,868 [DEBUG] RMS: 0.0003, Mouth Open: 0.0034
+2025-03-05 16:27:51,868 [DEBUG] RMS: 0.0004, Mouth Open: 0.0035
+2025-03-05 16:27:51,868 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0034
+2025-03-05 16:27:51,868 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0035
+2025-03-05 16:27:51,918 [DEBUG] RMS: 0.0004, Mouth Open: 0.0036
+2025-03-05 16:27:51,918 [DEBUG] RMS: 0.0004, Mouth Open: 0.0038
+2025-03-05 16:27:51,918 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0036
+2025-03-05 16:27:51,918 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0038
+2025-03-05 16:27:51,967 [DEBUG] RMS: 0.0004, Mouth Open: 0.0036
+2025-03-05 16:27:51,968 [DEBUG] RMS: 0.0004, Mouth Open: 0.0037
+2025-03-05 16:27:51,968 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0036
+2025-03-05 16:27:51,968 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0037
+2025-03-05 16:27:52,017 [DEBUG] RMS: 0.0003, Mouth Open: 0.0036
+2025-03-05 16:27:52,018 [DEBUG] RMS: 0.0003, Mouth Open: 0.0034
+2025-03-05 16:27:52,018 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0036
+2025-03-05 16:27:52,018 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0034
+2025-03-05 16:27:52,068 [DEBUG] RMS: 0.0004, Mouth Open: 0.0034
+2025-03-05 16:27:52,068 [DEBUG] RMS: 0.0003, Mouth Open: 0.0033
+2025-03-05 16:27:52,068 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0034
+2025-03-05 16:27:52,068 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0033
+2025-03-05 16:27:52,118 [DEBUG] RMS: 0.0003, Mouth Open: 0.0032
+2025-03-05 16:27:52,118 [DEBUG] RMS: 0.0003, Mouth Open: 0.0032
+2025-03-05 16:27:52,118 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0032
+2025-03-05 16:27:52,118 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0032
+2025-03-05 16:27:52,168 [DEBUG] RMS: 0.0004, Mouth Open: 0.0034
+2025-03-05 16:27:52,168 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0034
+2025-03-05 16:27:52,168 [DEBUG] RMS: 0.0003, Mouth Open: 0.0033
+2025-03-05 16:27:52,168 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0033
+2025-03-05 16:27:52,218 [DEBUG] RMS: 0.0003, Mouth Open: 0.0033
+2025-03-05 16:27:52,218 [DEBUG] RMS: 0.0004, Mouth Open: 0.0034
+2025-03-05 16:27:52,218 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0033
+2025-03-05 16:27:52,218 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0034
+2025-03-05 16:27:52,268 [DEBUG] RMS: 0.0004, Mouth Open: 0.0036
+2025-03-05 16:27:52,268 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0036
+2025-03-05 16:27:52,268 [DEBUG] RMS: 0.0003, Mouth Open: 0.0034
+2025-03-05 16:27:52,268 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0034
+2025-03-05 16:27:52,318 [DEBUG] RMS: 0.0003, Mouth Open: 0.0033
+2025-03-05 16:27:52,318 [DEBUG] RMS: 0.0003, Mouth Open: 0.0033
+2025-03-05 16:27:52,318 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0033
+2025-03-05 16:27:52,319 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0033
+2025-03-05 16:27:52,367 [DEBUG] RMS: 0.0004, Mouth Open: 0.0034
+2025-03-05 16:27:52,367 [DEBUG] RMS: 0.0003, Mouth Open: 0.0031
+2025-03-05 16:27:52,367 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0034
+2025-03-05 16:27:52,367 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0031
+2025-03-05 16:27:52,418 [DEBUG] RMS: 0.0003, Mouth Open: 0.0031
+2025-03-05 16:27:52,418 [DEBUG] RMS: 0.0003, Mouth Open: 0.0031
+2025-03-05 16:27:52,418 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0031
+2025-03-05 16:27:52,419 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0031
+2025-03-05 16:27:52,469 [DEBUG] RMS: 0.0003, Mouth Open: 0.0030
+2025-03-05 16:27:52,469 [DEBUG] RMS: 0.0004, Mouth Open: 0.0030
+2025-03-05 16:27:52,469 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0030
+2025-03-05 16:27:52,469 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0030
+2025-03-05 16:27:52,518 [DEBUG] RMS: 0.0004, Mouth Open: 0.0032
+2025-03-05 16:27:52,518 [DEBUG] RMS: 0.0003, Mouth Open: 0.0031
+2025-03-05 16:27:52,518 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0032
+2025-03-05 16:27:52,519 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0031
+2025-03-05 16:27:52,567 [DEBUG] RMS: 0.0003, Mouth Open: 0.0032
+2025-03-05 16:27:52,567 [DEBUG] RMS: 0.0003, Mouth Open: 0.0033
+2025-03-05 16:27:52,567 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0032
+2025-03-05 16:27:52,569 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0033
+2025-03-05 16:27:52,618 [DEBUG] RMS: 0.0003, Mouth Open: 0.0031
+2025-03-05 16:27:52,618 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0031
+2025-03-05 16:27:52,618 [DEBUG] RMS: 0.0003, Mouth Open: 0.0029
+2025-03-05 16:27:52,619 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0029
+2025-03-05 16:27:52,668 [DEBUG] RMS: 0.0003, Mouth Open: 0.0031
+2025-03-05 16:27:52,668 [DEBUG] RMS: 0.0003, Mouth Open: 0.0031
+2025-03-05 16:27:52,668 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0031
+2025-03-05 16:27:52,669 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0031
+2025-03-05 16:27:52,718 [DEBUG] RMS: 0.0003, Mouth Open: 0.0031
+2025-03-05 16:27:52,718 [DEBUG] RMS: 0.0003, Mouth Open: 0.0033
+2025-03-05 16:27:52,718 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0031
+2025-03-05 16:27:52,719 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0033
+2025-03-05 16:27:52,768 [DEBUG] RMS: 0.0004, Mouth Open: 0.0034
+2025-03-05 16:27:52,768 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0034
+2025-03-05 16:27:52,768 [DEBUG] RMS: 0.0003, Mouth Open: 0.0033
+2025-03-05 16:27:52,769 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0033
+2025-03-05 16:27:52,817 [DEBUG] RMS: 0.0003, Mouth Open: 0.0032
+2025-03-05 16:27:52,818 [DEBUG] RMS: 0.0004, Mouth Open: 0.0033
+2025-03-05 16:27:52,818 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0032
+2025-03-05 16:27:52,818 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0033
+2025-03-05 16:27:52,868 [DEBUG] RMS: 0.0003, Mouth Open: 0.0034
+2025-03-05 16:27:52,868 [DEBUG] RMS: 0.0003, Mouth Open: 0.0032
+2025-03-05 16:27:52,868 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0034
+2025-03-05 16:27:52,869 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0032
+2025-03-05 16:27:52,918 [DEBUG] RMS: 0.0004, Mouth Open: 0.0034
+2025-03-05 16:27:52,918 [DEBUG] RMS: 0.0003, Mouth Open: 0.0034
+2025-03-05 16:27:52,918 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0034
+2025-03-05 16:27:52,918 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0034
+2025-03-05 16:27:52,968 [DEBUG] RMS: 0.0003, Mouth Open: 0.0032
+2025-03-05 16:27:52,968 [DEBUG] RMS: 0.0003, Mouth Open: 0.0031
+2025-03-05 16:27:52,968 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0032
+2025-03-05 16:27:52,969 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0031
+2025-03-05 16:27:53,018 [DEBUG] RMS: 0.0004, Mouth Open: 0.0032
+2025-03-05 16:27:53,018 [DEBUG] RMS: 0.0003, Mouth Open: 0.0032
+2025-03-05 16:27:53,018 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0032
+2025-03-05 16:27:53,018 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0032
+2025-03-05 16:27:53,069 [DEBUG] RMS: 0.0003, Mouth Open: 0.0031
+2025-03-05 16:27:53,069 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0031
+2025-03-05 16:27:53,069 [DEBUG] RMS: 0.0003, Mouth Open: 0.0030
+2025-03-05 16:27:53,069 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0030
+2025-03-05 16:27:53,118 [DEBUG] RMS: 0.0003, Mouth Open: 0.0032
+2025-03-05 16:27:53,118 [DEBUG] RMS: 0.0003, Mouth Open: 0.0030
+2025-03-05 16:27:53,118 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0032
+2025-03-05 16:27:53,118 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0030
+2025-03-05 16:27:53,168 [DEBUG] RMS: 0.0004, Mouth Open: 0.0031
+2025-03-05 16:27:53,168 [DEBUG] RMS: 0.0003, Mouth Open: 0.0032
+2025-03-05 16:27:53,168 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0031
+2025-03-05 16:27:53,169 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0032
+2025-03-05 16:27:53,218 [DEBUG] RMS: 0.0004, Mouth Open: 0.0034
+2025-03-05 16:27:53,218 [DEBUG] RMS: 0.0004, Mouth Open: 0.0035
+2025-03-05 16:27:53,218 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0034
+2025-03-05 16:27:53,218 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0035
+2025-03-05 16:27:53,267 [DEBUG] RMS: 0.0003, Mouth Open: 0.0036
+2025-03-05 16:27:53,268 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0036
+2025-03-05 16:27:53,268 [DEBUG] RMS: 0.0003, Mouth Open: 0.0035
+2025-03-05 16:27:53,268 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0035
+2025-03-05 16:27:53,318 [DEBUG] RMS: 0.0003, Mouth Open: 0.0035
+2025-03-05 16:27:53,318 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0035
+2025-03-05 16:27:53,318 [DEBUG] RMS: 0.0004, Mouth Open: 0.0036
+2025-03-05 16:27:53,319 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0036
+2025-03-05 16:27:53,368 [DEBUG] RMS: 0.0003, Mouth Open: 0.0035
+2025-03-05 16:27:53,368 [DEBUG] RMS: 0.0004, Mouth Open: 0.0037
+2025-03-05 16:27:53,368 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0035
+2025-03-05 16:27:53,369 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0037
+2025-03-05 16:27:53,418 [DEBUG] RMS: 0.0004, Mouth Open: 0.0037
+2025-03-05 16:27:53,418 [DEBUG] RMS: 0.0004, Mouth Open: 0.0039
+2025-03-05 16:27:53,418 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0037
+2025-03-05 16:27:53,418 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0039
+2025-03-05 16:27:53,468 [DEBUG] RMS: 0.0004, Mouth Open: 0.0038
+2025-03-05 16:27:53,468 [DEBUG] RMS: 0.0003, Mouth Open: 0.0037
+2025-03-05 16:27:53,468 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0038
+2025-03-05 16:27:53,469 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0037
+2025-03-05 16:27:53,518 [DEBUG] RMS: 0.0003, Mouth Open: 0.0035
+2025-03-05 16:27:53,518 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0035
+2025-03-05 16:27:53,519 [DEBUG] RMS: 0.0003, Mouth Open: 0.0034
+2025-03-05 16:27:53,519 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0034
+2025-03-05 16:27:53,568 [DEBUG] RMS: 0.0004, Mouth Open: 0.0035
+2025-03-05 16:27:53,568 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0035
+2025-03-05 16:27:53,568 [DEBUG] RMS: 0.0004, Mouth Open: 0.0036
+2025-03-05 16:27:53,568 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0036
+2025-03-05 16:27:53,618 [DEBUG] RMS: 0.0004, Mouth Open: 0.0037
+2025-03-05 16:27:53,618 [DEBUG] RMS: 0.0003, Mouth Open: 0.0038
+2025-03-05 16:27:53,618 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0037
+2025-03-05 16:27:53,618 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0038
+2025-03-05 16:27:53,668 [DEBUG] RMS: 0.0004, Mouth Open: 0.0039
+2025-03-05 16:27:53,669 [DEBUG] RMS: 0.0004, Mouth Open: 0.0037
+2025-03-05 16:27:53,669 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0039
+2025-03-05 16:27:53,669 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0037
+2025-03-05 16:27:53,717 [DEBUG] RMS: 0.0003, Mouth Open: 0.0035
+2025-03-05 16:27:53,718 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0035
+2025-03-05 16:27:53,718 [DEBUG] RMS: 0.0004, Mouth Open: 0.0036
+2025-03-05 16:27:53,718 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0036
+2025-03-05 16:27:53,768 [DEBUG] RMS: 0.0002, Mouth Open: 0.0034
+2025-03-05 16:27:53,768 [DEBUG] RMS: 0.0003, Mouth Open: 0.0033
+2025-03-05 16:27:53,768 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0034
+2025-03-05 16:27:53,769 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0033
+2025-03-05 16:27:53,818 [DEBUG] RMS: 0.0003, Mouth Open: 0.0032
+2025-03-05 16:27:53,818 [DEBUG] RMS: 0.0003, Mouth Open: 0.0032
+2025-03-05 16:27:53,818 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0032
+2025-03-05 16:27:53,818 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0032
+2025-03-05 16:27:53,868 [DEBUG] RMS: 0.0003, Mouth Open: 0.0029
+2025-03-05 16:27:53,868 [DEBUG] RMS: 0.0004, Mouth Open: 0.0032
+2025-03-05 16:27:53,868 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0029
+2025-03-05 16:27:53,868 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0032
+2025-03-05 16:27:53,918 [DEBUG] RMS: 0.0003, Mouth Open: 0.0032
+2025-03-05 16:27:53,918 [DEBUG] RMS: 0.0003, Mouth Open: 0.0032
+2025-03-05 16:27:53,918 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0032
+2025-03-05 16:27:53,918 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0032
+2025-03-05 16:27:53,967 [DEBUG] RMS: 0.0002, Mouth Open: 0.0031
+2025-03-05 16:27:53,968 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0031
+2025-03-05 16:27:53,968 [DEBUG] RMS: 0.0004, Mouth Open: 0.0033
+2025-03-05 16:27:53,968 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0033
+2025-03-05 16:27:54,018 [DEBUG] RMS: 0.0004, Mouth Open: 0.0033
+2025-03-05 16:27:54,018 [DEBUG] RMS: 0.0003, Mouth Open: 0.0034
+2025-03-05 16:27:54,018 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0033
+2025-03-05 16:27:54,018 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0034
+2025-03-05 16:27:54,068 [DEBUG] RMS: 0.0003, Mouth Open: 0.0034
+2025-03-05 16:27:54,068 [DEBUG] RMS: 0.0003, Mouth Open: 0.0036
+2025-03-05 16:27:54,069 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0034
+2025-03-05 16:27:54,069 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0036
+2025-03-05 16:27:54,118 [DEBUG] RMS: 0.0004, Mouth Open: 0.0036
+2025-03-05 16:27:54,118 [DEBUG] RMS: 0.0004, Mouth Open: 0.0035
+2025-03-05 16:27:54,118 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0036
+2025-03-05 16:27:54,119 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0035
+2025-03-05 16:27:54,168 [DEBUG] RMS: 0.0004, Mouth Open: 0.0035
+2025-03-05 16:27:54,168 [DEBUG] RMS: 0.0003, Mouth Open: 0.0035
+2025-03-05 16:27:54,168 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0035
+2025-03-05 16:27:54,168 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0035
+2025-03-05 16:27:54,218 [DEBUG] RMS: 0.0003, Mouth Open: 0.0034
+2025-03-05 16:27:54,218 [DEBUG] RMS: 0.0003, Mouth Open: 0.0033
+2025-03-05 16:27:54,218 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0034
+2025-03-05 16:27:54,218 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0033
+2025-03-05 16:27:54,269 [DEBUG] RMS: 0.0004, Mouth Open: 0.0033
+2025-03-05 16:27:54,269 [DEBUG] RMS: 0.0004, Mouth Open: 0.0033
+2025-03-05 16:27:54,269 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0033
+2025-03-05 16:27:54,269 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0033
+2025-03-05 16:27:54,318 [DEBUG] RMS: 0.0006, Mouth Open: 0.0039
+2025-03-05 16:27:54,318 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0039
+2025-03-05 16:27:54,318 [DEBUG] RMS: 0.0005, Mouth Open: 0.0043
+2025-03-05 16:27:54,318 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0043
+2025-03-05 16:27:54,368 [DEBUG] RMS: 0.0005, Mouth Open: 0.0046
+2025-03-05 16:27:54,368 [DEBUG] RMS: 0.0004, Mouth Open: 0.0047
+2025-03-05 16:27:54,368 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0046
+2025-03-05 16:27:54,368 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0047
+2025-03-05 16:27:54,418 [DEBUG] RMS: 0.0003, Mouth Open: 0.0046
+2025-03-05 16:27:54,418 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0046
+2025-03-05 16:27:54,418 [DEBUG] RMS: 0.0004, Mouth Open: 0.0041
+2025-03-05 16:27:54,419 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0041
+2025-03-05 16:27:54,468 [DEBUG] RMS: 0.0005, Mouth Open: 0.0041
+2025-03-05 16:27:54,468 [DEBUG] RMS: 0.0004, Mouth Open: 0.0039
+2025-03-05 16:27:54,468 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0041
+2025-03-05 16:27:54,468 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0039
+2025-03-05 16:27:54,518 [DEBUG] RMS: 0.0003, Mouth Open: 0.0038
+2025-03-05 16:27:54,518 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0038
+2025-03-05 16:27:54,518 [DEBUG] RMS: 0.0004, Mouth Open: 0.0039
+2025-03-05 16:27:54,518 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0039
+2025-03-05 16:27:54,568 [DEBUG] RMS: 0.0003, Mouth Open: 0.0037
+2025-03-05 16:27:54,568 [DEBUG] RMS: 0.0003, Mouth Open: 0.0034
+2025-03-05 16:27:54,568 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0037
+2025-03-05 16:27:54,568 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0034
+2025-03-05 16:27:54,618 [DEBUG] RMS: 0.0003, Mouth Open: 0.0033
+2025-03-05 16:27:54,618 [DEBUG] RMS: 0.0004, Mouth Open: 0.0034
+2025-03-05 16:27:54,618 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0033
+2025-03-05 16:27:54,618 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0034
+2025-03-05 16:27:54,668 [DEBUG] RMS: 0.0004, Mouth Open: 0.0035
+2025-03-05 16:27:54,668 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0035
+2025-03-05 16:27:54,668 [DEBUG] RMS: 0.0004, Mouth Open: 0.0037
+2025-03-05 16:27:54,668 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0037
+2025-03-05 16:27:54,718 [DEBUG] RMS: 0.0004, Mouth Open: 0.0038
+2025-03-05 16:27:54,718 [DEBUG] RMS: 0.0003, Mouth Open: 0.0037
+2025-03-05 16:27:54,718 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0038
+2025-03-05 16:27:54,718 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0037
+2025-03-05 16:27:54,768 [DEBUG] RMS: 0.0003, Mouth Open: 0.0034
+2025-03-05 16:27:54,768 [DEBUG] RMS: 0.0003, Mouth Open: 0.0031
+2025-03-05 16:27:54,768 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0034
+2025-03-05 16:27:54,768 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0031
+2025-03-05 16:27:54,818 [DEBUG] RMS: 0.0003, Mouth Open: 0.0031
+2025-03-05 16:27:54,818 [DEBUG] RMS: 0.0003, Mouth Open: 0.0030
+2025-03-05 16:27:54,818 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0031
+2025-03-05 16:27:54,818 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0030
+2025-03-05 16:27:54,868 [DEBUG] RMS: 0.0003, Mouth Open: 0.0031
+2025-03-05 16:27:54,869 [DEBUG] RMS: 0.0003, Mouth Open: 0.0032
+2025-03-05 16:27:54,869 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0031
+2025-03-05 16:27:54,869 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0032
+2025-03-05 16:27:54,918 [DEBUG] RMS: 0.0003, Mouth Open: 0.0032
+2025-03-05 16:27:54,918 [DEBUG] RMS: 0.0003, Mouth Open: 0.0032
+2025-03-05 16:27:54,919 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0032
+2025-03-05 16:27:54,919 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0032
+2025-03-05 16:27:54,968 [DEBUG] RMS: 0.0003, Mouth Open: 0.0031
+2025-03-05 16:27:54,968 [DEBUG] RMS: 0.0003, Mouth Open: 0.0031
+2025-03-05 16:27:54,968 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0031
+2025-03-05 16:27:54,968 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0031
+2025-03-05 16:27:55,017 [DEBUG] RMS: 0.0003, Mouth Open: 0.0031
+2025-03-05 16:27:55,018 [DEBUG] RMS: 0.0003, Mouth Open: 0.0031
+2025-03-05 16:27:55,018 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0031
+2025-03-05 16:27:55,018 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0031
+2025-03-05 16:27:55,067 [DEBUG] RMS: 0.0003, Mouth Open: 0.0030
+2025-03-05 16:27:55,067 [DEBUG] RMS: 0.0004, Mouth Open: 0.0032
+2025-03-05 16:27:55,067 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0030
+2025-03-05 16:27:55,067 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0032
+2025-03-05 16:27:55,118 [DEBUG] RMS: 0.0004, Mouth Open: 0.0032
+2025-03-05 16:27:55,118 [DEBUG] RMS: 0.0004, Mouth Open: 0.0033
+2025-03-05 16:27:55,118 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0032
+2025-03-05 16:27:55,118 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0033
+2025-03-05 16:27:55,167 [DEBUG] RMS: 0.0003, Mouth Open: 0.0034
+2025-03-05 16:27:55,167 [DEBUG] RMS: 0.0003, Mouth Open: 0.0034
+2025-03-05 16:27:55,167 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0034
+2025-03-05 16:27:55,169 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0034
+2025-03-05 16:27:55,218 [DEBUG] RMS: 0.0004, Mouth Open: 0.0035
+2025-03-05 16:27:55,218 [DEBUG] RMS: 0.0004, Mouth Open: 0.0036
+2025-03-05 16:27:55,218 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0035
+2025-03-05 16:27:55,219 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0036
+2025-03-05 16:27:55,267 [DEBUG] RMS: 0.0005, Mouth Open: 0.0039
+2025-03-05 16:27:55,267 [DEBUG] RMS: 0.0005, Mouth Open: 0.0042
+2025-03-05 16:27:55,267 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0039
+2025-03-05 16:27:55,267 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0042
+2025-03-05 16:27:55,318 [DEBUG] RMS: 0.0004, Mouth Open: 0.0044
+2025-03-05 16:27:55,318 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0044
+2025-03-05 16:27:55,318 [DEBUG] RMS: 0.0005, Mouth Open: 0.0046
+2025-03-05 16:27:55,318 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0046
+2025-03-05 16:27:55,368 [DEBUG] RMS: 0.0003, Mouth Open: 0.0042
+2025-03-05 16:27:55,368 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0042
+2025-03-05 16:27:55,368 [DEBUG] RMS: 0.0004, Mouth Open: 0.0039
+2025-03-05 16:27:55,368 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0039
+2025-03-05 16:27:55,418 [DEBUG] RMS: 0.0003, Mouth Open: 0.0037
+2025-03-05 16:27:55,418 [DEBUG] RMS: 0.0004, Mouth Open: 0.0035
+2025-03-05 16:27:55,418 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0037
+2025-03-05 16:27:55,419 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0035
+2025-03-05 16:27:55,469 [DEBUG] RMS: 0.0003, Mouth Open: 0.0032
+2025-03-05 16:27:55,469 [DEBUG] RMS: 0.0004, Mouth Open: 0.0036
+2025-03-05 16:27:55,469 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0032
+2025-03-05 16:27:55,469 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0036
+2025-03-05 16:27:55,518 [DEBUG] RMS: 0.0004, Mouth Open: 0.0036
+2025-03-05 16:27:55,518 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0036
+2025-03-05 16:27:55,518 [DEBUG] RMS: 0.0003, Mouth Open: 0.0036
+2025-03-05 16:27:55,518 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0036
+2025-03-05 16:27:55,568 [DEBUG] RMS: 0.0003, Mouth Open: 0.0034
+2025-03-05 16:27:55,568 [DEBUG] RMS: 0.0004, Mouth Open: 0.0035
+2025-03-05 16:27:55,568 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0034
+2025-03-05 16:27:55,569 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0035
+2025-03-05 16:27:55,618 [DEBUG] RMS: 0.0003, Mouth Open: 0.0033
+2025-03-05 16:27:55,618 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0033
+2025-03-05 16:27:55,618 [DEBUG] RMS: 0.0004, Mouth Open: 0.0032
+2025-03-05 16:27:55,619 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0032
+2025-03-05 16:27:55,668 [DEBUG] RMS: 0.0003, Mouth Open: 0.0032
+2025-03-05 16:27:55,669 [DEBUG] RMS: 0.0004, Mouth Open: 0.0034
+2025-03-05 16:27:55,669 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0032
+2025-03-05 16:27:55,669 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0034
+2025-03-05 16:27:55,718 [DEBUG] RMS: 0.0003, Mouth Open: 0.0034
+2025-03-05 16:27:55,718 [DEBUG] RMS: 0.0003, Mouth Open: 0.0034
+2025-03-05 16:27:55,718 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0034
+2025-03-05 16:27:55,718 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0034
+2025-03-05 16:27:55,768 [DEBUG] RMS: 0.0003, Mouth Open: 0.0034
+2025-03-05 16:27:55,768 [DEBUG] RMS: 0.0003, Mouth Open: 0.0034
+2025-03-05 16:27:55,768 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0034
+2025-03-05 16:27:55,769 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0034
+2025-03-05 16:27:55,818 [DEBUG] RMS: 0.0003, Mouth Open: 0.0032
+2025-03-05 16:27:55,818 [DEBUG] RMS: 0.0005, Mouth Open: 0.0035
+2025-03-05 16:27:55,818 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0032
+2025-03-05 16:27:55,819 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0035
+2025-03-05 16:27:55,868 [DEBUG] RMS: 0.0004, Mouth Open: 0.0035
+2025-03-05 16:27:55,868 [DEBUG] RMS: 0.0003, Mouth Open: 0.0035
+2025-03-05 16:27:55,868 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0035
+2025-03-05 16:27:55,868 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0035
+2025-03-05 16:27:55,917 [DEBUG] RMS: 0.0003, Mouth Open: 0.0036
+2025-03-05 16:27:55,918 [DEBUG] RMS: 0.0004, Mouth Open: 0.0037
+2025-03-05 16:27:55,918 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0036
+2025-03-05 16:27:55,918 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0037
+2025-03-05 16:27:55,968 [DEBUG] RMS: 0.0004, Mouth Open: 0.0035
+2025-03-05 16:27:55,968 [DEBUG] RMS: 0.0003, Mouth Open: 0.0035
+2025-03-05 16:27:55,968 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0035
+2025-03-05 16:27:55,969 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0035
+2025-03-05 16:27:56,018 [DEBUG] RMS: 0.0004, Mouth Open: 0.0035
+2025-03-05 16:27:56,018 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0035
+2025-03-05 16:27:56,018 [DEBUG] RMS: 0.0003, Mouth Open: 0.0035
+2025-03-05 16:27:56,018 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0035
+2025-03-05 16:27:56,068 [DEBUG] RMS: 0.0003, Mouth Open: 0.0034
+2025-03-05 16:27:56,068 [DEBUG] RMS: 0.0003, Mouth Open: 0.0033
+2025-03-05 16:27:56,069 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0034
+2025-03-05 16:27:56,069 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0033
+2025-03-05 16:27:56,118 [DEBUG] RMS: 0.0003, Mouth Open: 0.0033
+2025-03-05 16:27:56,118 [DEBUG] RMS: 0.0005, Mouth Open: 0.0035
+2025-03-05 16:27:56,118 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0033
+2025-03-05 16:27:56,118 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0035
+2025-03-05 16:27:56,168 [DEBUG] RMS: 0.0003, Mouth Open: 0.0035
+2025-03-05 16:27:56,168 [DEBUG] RMS: 0.0003, Mouth Open: 0.0035
+2025-03-05 16:27:56,168 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0035
+2025-03-05 16:27:56,169 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0035
+2025-03-05 16:27:56,218 [DEBUG] RMS: 0.0004, Mouth Open: 0.0037
+2025-03-05 16:27:56,218 [DEBUG] RMS: 0.0004, Mouth Open: 0.0039
+2025-03-05 16:27:56,218 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0037
+2025-03-05 16:27:56,218 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0039
+2025-03-05 16:27:56,268 [DEBUG] RMS: 0.0005, Mouth Open: 0.0039
+2025-03-05 16:27:56,268 [DEBUG] RMS: 0.0005, Mouth Open: 0.0041
+2025-03-05 16:27:56,268 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0039
+2025-03-05 16:27:56,268 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0041
+2025-03-05 16:27:56,317 [DEBUG] RMS: 0.0009, Mouth Open: 0.0052
+2025-03-05 16:27:56,317 [DEBUG] RMS: 0.0009, Mouth Open: 0.0061
+2025-03-05 16:27:56,317 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0052
+2025-03-05 16:27:56,318 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0061
+2025-03-05 16:27:56,368 [DEBUG] RMS: 0.0009, Mouth Open: 0.0071
+2025-03-05 16:27:56,368 [DEBUG] RMS: 0.0005, Mouth Open: 0.0073
+2025-03-05 16:27:56,368 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0071
+2025-03-05 16:27:56,369 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0073
+2025-03-05 16:27:56,418 [DEBUG] RMS: 0.0004, Mouth Open: 0.0072
+2025-03-05 16:27:56,418 [DEBUG] RMS: 0.0005, Mouth Open: 0.0064
+2025-03-05 16:27:56,418 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0072
+2025-03-05 16:27:56,419 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0064
+2025-03-05 16:27:56,467 [DEBUG] RMS: 0.0004, Mouth Open: 0.0054
+2025-03-05 16:27:56,468 [DEBUG] RMS: 0.0005, Mouth Open: 0.0046
+2025-03-05 16:27:56,468 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0054
+2025-03-05 16:27:56,468 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0046
+2025-03-05 16:27:56,518 [DEBUG] RMS: 0.0006, Mouth Open: 0.0047
+2025-03-05 16:27:56,518 [DEBUG] RMS: 0.0006, Mouth Open: 0.0050
+2025-03-05 16:27:56,518 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0047
+2025-03-05 16:27:56,519 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0050
+2025-03-05 16:27:56,567 [DEBUG] RMS: 0.0004, Mouth Open: 0.0049
+2025-03-05 16:27:56,568 [DEBUG] RMS: 0.0003, Mouth Open: 0.0048
+2025-03-05 16:27:56,568 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0049
+2025-03-05 16:27:56,568 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0048
+2025-03-05 16:27:56,618 [DEBUG] RMS: 0.0004, Mouth Open: 0.0045
+2025-03-05 16:27:56,618 [DEBUG] RMS: 0.0004, Mouth Open: 0.0041
+2025-03-05 16:27:56,618 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0045
+2025-03-05 16:27:56,618 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0041
+2025-03-05 16:27:56,668 [DEBUG] RMS: 0.0003, Mouth Open: 0.0036
+2025-03-05 16:27:56,668 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0036
+2025-03-05 16:27:56,669 [DEBUG] RMS: 0.0004, Mouth Open: 0.0036
+2025-03-05 16:27:56,669 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0036
+2025-03-05 16:27:56,718 [DEBUG] RMS: 0.0004, Mouth Open: 0.0036
+2025-03-05 16:27:56,718 [DEBUG] RMS: 0.0004, Mouth Open: 0.0038
+2025-03-05 16:27:56,718 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0036
+2025-03-05 16:27:56,719 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0038
+2025-03-05 16:27:56,768 [DEBUG] RMS: 0.0004, Mouth Open: 0.0038
+2025-03-05 16:27:56,768 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0038
+2025-03-05 16:27:56,768 [DEBUG] RMS: 0.0003, Mouth Open: 0.0037
+2025-03-05 16:27:56,768 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0037
+2025-03-05 16:27:56,818 [DEBUG] RMS: 0.0003, Mouth Open: 0.0036
+2025-03-05 16:27:56,818 [DEBUG] RMS: 0.0004, Mouth Open: 0.0036
+2025-03-05 16:27:56,818 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0036
+2025-03-05 16:27:56,819 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0036
+2025-03-05 16:27:56,868 [DEBUG] RMS: 0.0003, Mouth Open: 0.0034
+2025-03-05 16:27:56,868 [DEBUG] RMS: 0.0004, Mouth Open: 0.0035
+2025-03-05 16:27:56,868 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0034
+2025-03-05 16:27:56,869 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0035
+2025-03-05 16:27:56,918 [DEBUG] RMS: 0.0004, Mouth Open: 0.0037
+2025-03-05 16:27:56,918 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0037
+2025-03-05 16:27:56,918 [DEBUG] RMS: 0.0006, Mouth Open: 0.0043
+2025-03-05 16:27:56,919 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0043
+2025-03-05 16:27:56,968 [DEBUG] RMS: 0.0005, Mouth Open: 0.0044
+2025-03-05 16:27:56,968 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0044
+2025-03-05 16:27:56,968 [DEBUG] RMS: 0.0004, Mouth Open: 0.0045
+2025-03-05 16:27:56,969 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0045
+2025-03-05 16:27:57,018 [DEBUG] RMS: 0.0004, Mouth Open: 0.0045
+2025-03-05 16:27:57,018 [DEBUG] RMS: 0.0005, Mouth Open: 0.0046
+2025-03-05 16:27:57,018 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0045
+2025-03-05 16:27:57,018 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0046
+2025-03-05 16:27:57,068 [DEBUG] RMS: 0.0003, Mouth Open: 0.0041
+2025-03-05 16:27:57,068 [DEBUG] RMS: 0.0004, Mouth Open: 0.0039
+2025-03-05 16:27:57,068 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0041
+2025-03-05 16:27:57,068 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0039
+2025-03-05 16:27:57,118 [DEBUG] RMS: 0.0004, Mouth Open: 0.0039
+2025-03-05 16:27:57,118 [DEBUG] RMS: 0.0004, Mouth Open: 0.0038
+2025-03-05 16:27:57,118 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0039
+2025-03-05 16:27:57,119 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0038
+2025-03-05 16:27:57,168 [DEBUG] RMS: 0.0004, Mouth Open: 0.0036
+2025-03-05 16:27:57,168 [DEBUG] RMS: 0.0003, Mouth Open: 0.0036
+2025-03-05 16:27:57,168 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0036
+2025-03-05 16:27:57,169 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0036
+2025-03-05 16:27:57,217 [DEBUG] RMS: 0.0004, Mouth Open: 0.0037
+2025-03-05 16:27:57,218 [DEBUG] RMS: 0.0003, Mouth Open: 0.0036
+2025-03-05 16:27:57,218 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0037
+2025-03-05 16:27:57,218 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0036
+2025-03-05 16:27:57,267 [DEBUG] RMS: 0.0003, Mouth Open: 0.0034
+2025-03-05 16:27:57,269 [DEBUG] RMS: 0.0003, Mouth Open: 0.0033
+2025-03-05 16:27:57,269 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0034
+2025-03-05 16:27:57,269 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0033
+2025-03-05 16:27:57,318 [DEBUG] RMS: 0.0004, Mouth Open: 0.0034
+2025-03-05 16:27:57,318 [DEBUG] RMS: 0.0003, Mouth Open: 0.0032
+2025-03-05 16:27:57,318 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0034
+2025-03-05 16:27:57,319 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0032
+2025-03-05 16:27:57,368 [DEBUG] RMS: 0.0003, Mouth Open: 0.0033
+2025-03-05 16:27:57,368 [DEBUG] RMS: 0.0004, Mouth Open: 0.0035
+2025-03-05 16:27:57,368 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0033
+2025-03-05 16:27:57,368 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0035
+2025-03-05 16:27:57,418 [DEBUG] RMS: 0.0004, Mouth Open: 0.0035
+2025-03-05 16:27:57,418 [DEBUG] RMS: 0.0003, Mouth Open: 0.0034
+2025-03-05 16:27:57,418 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0035
+2025-03-05 16:27:57,419 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0034
+2025-03-05 16:27:57,467 [DEBUG] RMS: 0.0004, Mouth Open: 0.0036
+2025-03-05 16:27:57,468 [DEBUG] RMS: 0.0003, Mouth Open: 0.0036
+2025-03-05 16:27:57,468 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0036
+2025-03-05 16:27:57,468 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0036
+2025-03-05 16:27:57,518 [DEBUG] RMS: 0.0005, Mouth Open: 0.0038
+2025-03-05 16:27:57,518 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0038
+2025-03-05 16:27:57,518 [DEBUG] RMS: 0.0003, Mouth Open: 0.0036
+2025-03-05 16:27:57,518 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0036
+2025-03-05 16:27:57,567 [DEBUG] RMS: 0.0004, Mouth Open: 0.0039
+2025-03-05 16:27:57,567 [DEBUG] RMS: 0.0004, Mouth Open: 0.0039
+2025-03-05 16:27:57,567 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0039
+2025-03-05 16:27:57,567 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0039
+2025-03-05 16:27:57,618 [DEBUG] RMS: 0.0003, Mouth Open: 0.0038
+2025-03-05 16:27:57,618 [DEBUG] RMS: 0.0004, Mouth Open: 0.0036
+2025-03-05 16:27:57,618 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0038
+2025-03-05 16:27:57,618 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0036
+2025-03-05 16:27:57,667 [DEBUG] RMS: 0.0004, Mouth Open: 0.0038
+2025-03-05 16:27:57,668 [DEBUG] RMS: 0.0003, Mouth Open: 0.0035
+2025-03-05 16:27:57,668 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0038
+2025-03-05 16:27:57,668 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0035
+2025-03-05 16:27:57,718 [DEBUG] RMS: 0.0004, Mouth Open: 0.0037
+2025-03-05 16:27:57,718 [DEBUG] RMS: 0.0004, Mouth Open: 0.0039
+2025-03-05 16:27:57,718 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0037
+2025-03-05 16:27:57,719 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0039
+2025-03-05 16:27:57,768 [DEBUG] RMS: 0.0005, Mouth Open: 0.0040
+2025-03-05 16:27:57,768 [DEBUG] RMS: 0.0005, Mouth Open: 0.0042
+2025-03-05 16:27:57,768 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0040
+2025-03-05 16:27:57,768 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0042
+2025-03-05 16:27:57,817 [DEBUG] RMS: 0.0004, Mouth Open: 0.0044
+2025-03-05 16:27:57,817 [DEBUG] RMS: 0.0005, Mouth Open: 0.0044
+2025-03-05 16:27:57,818 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0044
+2025-03-05 16:27:57,818 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0044
+2025-03-05 16:27:57,869 [DEBUG] RMS: 0.0004, Mouth Open: 0.0043
+2025-03-05 16:27:57,869 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0043
+2025-03-05 16:27:57,869 [DEBUG] RMS: 0.0004, Mouth Open: 0.0042
+2025-03-05 16:27:57,869 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0042
+2025-03-05 16:27:57,918 [DEBUG] RMS: 0.0004, Mouth Open: 0.0042
+2025-03-05 16:27:57,918 [DEBUG] RMS: 0.0004, Mouth Open: 0.0042
+2025-03-05 16:27:57,918 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0042
+2025-03-05 16:27:57,919 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0042
+2025-03-05 16:27:57,968 [DEBUG] RMS: 0.0004, Mouth Open: 0.0041
+2025-03-05 16:27:57,968 [DEBUG] RMS: 0.0004, Mouth Open: 0.0042
+2025-03-05 16:27:57,968 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0041
+2025-03-05 16:27:57,968 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0042
+2025-03-05 16:27:58,018 [DEBUG] RMS: 0.0005, Mouth Open: 0.0044
+2025-03-05 16:27:58,018 [DEBUG] RMS: 0.0005, Mouth Open: 0.0044
+2025-03-05 16:27:58,018 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0044
+2025-03-05 16:27:58,018 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0044
+2025-03-05 16:27:58,068 [DEBUG] RMS: 0.0005, Mouth Open: 0.0046
+2025-03-05 16:27:58,068 [DEBUG] RMS: 0.0004, Mouth Open: 0.0046
+2025-03-05 16:27:58,068 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0046
+2025-03-05 16:27:58,069 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0046
+2025-03-05 16:27:58,118 [DEBUG] RMS: 0.0004, Mouth Open: 0.0045
+2025-03-05 16:27:58,118 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0045
+2025-03-05 16:27:58,118 [DEBUG] RMS: 0.0003, Mouth Open: 0.0041
+2025-03-05 16:27:58,119 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0041
+2025-03-05 16:27:58,167 [DEBUG] RMS: 0.0004, Mouth Open: 0.0040
+2025-03-05 16:27:58,168 [DEBUG] RMS: 0.0003, Mouth Open: 0.0037
+2025-03-05 16:27:58,168 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0040
+2025-03-05 16:27:58,168 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0037
+2025-03-05 16:27:58,218 [DEBUG] RMS: 0.0003, Mouth Open: 0.0035
+2025-03-05 16:27:58,218 [DEBUG] RMS: 0.0003, Mouth Open: 0.0035
+2025-03-05 16:27:58,218 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0035
+2025-03-05 16:27:58,218 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0035
+2025-03-05 16:27:58,268 [DEBUG] RMS: 0.0005, Mouth Open: 0.0038
+2025-03-05 16:27:58,268 [DEBUG] RMS: 0.0005, Mouth Open: 0.0040
+2025-03-05 16:27:58,268 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0038
+2025-03-05 16:27:58,269 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0040
+2025-03-05 16:27:58,318 [DEBUG] RMS: 0.0003, Mouth Open: 0.0039
+2025-03-05 16:27:58,318 [DEBUG] RMS: 0.0004, Mouth Open: 0.0040
+2025-03-05 16:27:58,318 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0039
+2025-03-05 16:27:58,319 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0040
+2025-03-05 16:27:58,368 [DEBUG] RMS: 0.0004, Mouth Open: 0.0041
+2025-03-05 16:27:58,368 [DEBUG] RMS: 0.0005, Mouth Open: 0.0041
+2025-03-05 16:27:58,368 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0041
+2025-03-05 16:27:58,368 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0041
+2025-03-05 16:27:58,418 [DEBUG] RMS: 0.0004, Mouth Open: 0.0039
+2025-03-05 16:27:58,418 [DEBUG] RMS: 0.0003, Mouth Open: 0.0039
+2025-03-05 16:27:58,418 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0039
+2025-03-05 16:27:58,418 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0039
+2025-03-05 16:27:58,468 [DEBUG] RMS: 0.0004, Mouth Open: 0.0038
+2025-03-05 16:27:58,468 [DEBUG] RMS: 0.0004, Mouth Open: 0.0039
+2025-03-05 16:27:58,469 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0038
+2025-03-05 16:27:58,469 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0039
+2025-03-05 16:27:58,518 [DEBUG] RMS: 0.0005, Mouth Open: 0.0041
+2025-03-05 16:27:58,518 [DEBUG] RMS: 0.0004, Mouth Open: 0.0041
+2025-03-05 16:27:58,518 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0041
+2025-03-05 16:27:58,519 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0041
+2025-03-05 16:27:58,567 [DEBUG] RMS: 0.0004, Mouth Open: 0.0043
+2025-03-05 16:27:58,567 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0043
+2025-03-05 16:27:58,568 [DEBUG] RMS: 0.0009, Mouth Open: 0.0054
+2025-03-05 16:27:58,568 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0054
+2025-03-05 16:27:58,618 [DEBUG] RMS: 0.0013, Mouth Open: 0.0071
+2025-03-05 16:27:58,618 [DEBUG] RMS: 0.0006, Mouth Open: 0.0073
+2025-03-05 16:27:58,618 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0071
+2025-03-05 16:27:58,619 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0073
+2025-03-05 16:27:58,668 [DEBUG] RMS: 0.0005, Mouth Open: 0.0075
+2025-03-05 16:27:58,668 [DEBUG] RMS: 0.0006, Mouth Open: 0.0079
+2025-03-05 16:27:58,668 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0075
+2025-03-05 16:27:58,669 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0079
+2025-03-05 16:27:58,718 [DEBUG] RMS: 0.0005, Mouth Open: 0.0071
+2025-03-05 16:27:58,718 [DEBUG] RMS: 0.0004, Mouth Open: 0.0053
+2025-03-05 16:27:58,718 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0071
+2025-03-05 16:27:58,719 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0053
+2025-03-05 16:27:58,768 [DEBUG] RMS: 0.0004, Mouth Open: 0.0049
+2025-03-05 16:27:58,768 [DEBUG] RMS: 0.0005, Mouth Open: 0.0048
+2025-03-05 16:27:58,768 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0049
+2025-03-05 16:27:58,768 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0048
+2025-03-05 16:27:58,817 [DEBUG] RMS: 0.0005, Mouth Open: 0.0047
+2025-03-05 16:27:58,817 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0047
+2025-03-05 16:27:58,817 [DEBUG] RMS: 0.0005, Mouth Open: 0.0047
+2025-03-05 16:27:58,818 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0047
+2025-03-05 16:27:58,868 [DEBUG] RMS: 0.0004, Mouth Open: 0.0049
+2025-03-05 16:27:58,868 [DEBUG] RMS: 0.0004, Mouth Open: 0.0049
+2025-03-05 16:27:58,868 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0049
+2025-03-05 16:27:58,868 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0049
+2025-03-05 16:27:58,917 [DEBUG] RMS: 0.0004, Mouth Open: 0.0048
+2025-03-05 16:27:58,918 [DEBUG] RMS: 0.0005, Mouth Open: 0.0046
+2025-03-05 16:27:58,918 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0048
+2025-03-05 16:27:58,918 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0046
+2025-03-05 16:27:58,968 [DEBUG] RMS: 0.0005, Mouth Open: 0.0044
+2025-03-05 16:27:58,968 [DEBUG] RMS: 0.0005, Mouth Open: 0.0046
+2025-03-05 16:27:58,968 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0044
+2025-03-05 16:27:58,968 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0046
+2025-03-05 16:27:59,018 [DEBUG] RMS: 0.0010, Mouth Open: 0.0057
+2025-03-05 16:27:59,018 [DEBUG] RMS: 0.0006, Mouth Open: 0.0060
+2025-03-05 16:27:59,018 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0057
+2025-03-05 16:27:59,018 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0060
+2025-03-05 16:27:59,068 [DEBUG] RMS: 0.0003, Mouth Open: 0.0058
+2025-03-05 16:27:59,069 [DEBUG] RMS: 0.0004, Mouth Open: 0.0056
+2025-03-05 16:27:59,070 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0058
+2025-03-05 16:27:59,070 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0056
+2025-03-05 16:27:59,118 [DEBUG] RMS: 0.0003, Mouth Open: 0.0052
+2025-03-05 16:27:59,118 [DEBUG] RMS: 0.0003, Mouth Open: 0.0039
+2025-03-05 16:27:59,118 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0052
+2025-03-05 16:27:59,118 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0039
+2025-03-05 16:27:59,167 [DEBUG] RMS: 0.0004, Mouth Open: 0.0035
+2025-03-05 16:27:59,168 [DEBUG] RMS: 0.0004, Mouth Open: 0.0037
+2025-03-05 16:27:59,168 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0035
+2025-03-05 16:27:59,168 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0037
+2025-03-05 16:27:59,218 [DEBUG] RMS: 0.0004, Mouth Open: 0.0037
+2025-03-05 16:27:59,218 [DEBUG] RMS: 0.0004, Mouth Open: 0.0040
+2025-03-05 16:27:59,219 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0037
+2025-03-05 16:27:59,219 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0040
+2025-03-05 16:27:59,268 [DEBUG] RMS: 0.0003, Mouth Open: 0.0040
+2025-03-05 16:27:59,268 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0040
+2025-03-05 16:27:59,269 [DEBUG] RMS: 0.0004, Mouth Open: 0.0040
+2025-03-05 16:27:59,269 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0040
+2025-03-05 16:27:59,318 [DEBUG] RMS: 0.0003, Mouth Open: 0.0037
+2025-03-05 16:27:59,318 [DEBUG] RMS: 0.0003, Mouth Open: 0.0036
+2025-03-05 16:27:59,318 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0037
+2025-03-05 16:27:59,319 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0036
+2025-03-05 16:27:59,367 [DEBUG] RMS: 0.0003, Mouth Open: 0.0033
+2025-03-05 16:27:59,368 [DEBUG] RMS: 0.0003, Mouth Open: 0.0033
+2025-03-05 16:27:59,368 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0033
+2025-03-05 16:27:59,369 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0033
+2025-03-05 16:27:59,418 [DEBUG] RMS: 0.0003, Mouth Open: 0.0032
+2025-03-05 16:27:59,418 [DEBUG] RMS: 0.0004, Mouth Open: 0.0033
+2025-03-05 16:27:59,418 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0032
+2025-03-05 16:27:59,419 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0033
+2025-03-05 16:27:59,467 [DEBUG] RMS: 0.0003, Mouth Open: 0.0032
+2025-03-05 16:27:59,468 [DEBUG] RMS: 0.0004, Mouth Open: 0.0034
+2025-03-05 16:27:59,468 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0032
+2025-03-05 16:27:59,468 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0034
+2025-03-05 16:27:59,518 [DEBUG] RMS: 0.0003, Mouth Open: 0.0034
+2025-03-05 16:27:59,518 [DEBUG] RMS: 0.0004, Mouth Open: 0.0035
+2025-03-05 16:27:59,518 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0034
+2025-03-05 16:27:59,519 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0035
+2025-03-05 16:27:59,568 [DEBUG] RMS: 0.0004, Mouth Open: 0.0036
+2025-03-05 16:27:59,568 [DEBUG] RMS: 0.0005, Mouth Open: 0.0040
+2025-03-05 16:27:59,568 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0036
+2025-03-05 16:27:59,569 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0040
+2025-03-05 16:27:59,618 [DEBUG] RMS: 0.0005, Mouth Open: 0.0042
+2025-03-05 16:27:59,618 [DEBUG] RMS: 0.0004, Mouth Open: 0.0043
+2025-03-05 16:27:59,618 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0042
+2025-03-05 16:27:59,618 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0043
+2025-03-05 16:27:59,669 [DEBUG] RMS: 0.0004, Mouth Open: 0.0044
+2025-03-05 16:27:59,669 [DEBUG] RMS: 0.0003, Mouth Open: 0.0042
+2025-03-05 16:27:59,669 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0044
+2025-03-05 16:27:59,669 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0042
+2025-03-05 16:27:59,732 [DEBUG] Sent parameter update: AlexMouthOpen = 0.0000
+2025-03-05 16:27:59,732 [DEBUG] Mouth movement complete
+2025-03-05 16:27:59,732 [DEBUG] Updated action queue after processing audio

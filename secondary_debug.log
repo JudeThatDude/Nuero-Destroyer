@@ -1,0 +1,8 @@
+2025-02-26 17:02:02,672 [INFO] Authentication token response: {"apiName":"VTubeStudioPublicAPI","apiVersion":"1.0","timestamp":1740614522653,"messageType":"AuthenticationTokenResponse","requestID":"authenticate","data":{"authenticationToken":"5dc694d57e94a7722358864edd75bd3b24328e5363d520fb479b4bb3a7daf1d5"}}
+2025-02-26 17:02:02,679 [INFO] Authentication response: {"apiName":"VTubeStudioPublicAPI","apiVersion":"1.0","timestamp":1740614522679,"messageType":"AuthenticationResponse","requestID":"authenticate","data":{"authenticated":true,"reason":"Token valid. The plugin is authenticated for the duration of this session."}}
+2025-02-26 17:02:02,680 [INFO] Authenticated successfully.
+2025-02-26 17:02:02,694 [INFO] Parameter creation response for Blush: {"apiName":"VTubeStudioPublicAPI","apiVersion":"1.0","timestamp":1740614522694,"messageType":"ParameterCreationResponse","requestID":"create_param_Blush","data":{"parameterName":"Blush"}}
+2025-02-26 17:02:02,710 [INFO] Parameter creation response for Smile: {"apiName":"VTubeStudioPublicAPI","apiVersion":"1.0","timestamp":1740614522710,"messageType":"ParameterCreationResponse","requestID":"create_param_Smile","data":{"parameterName":"Smile"}}
+2025-02-26 17:02:02,727 [INFO] Parameter creation response for AlexMouthOpen: {"apiName":"VTubeStudioPublicAPI","apiVersion":"1.0","timestamp":1740614522727,"messageType":"ParameterCreationResponse","requestID":"create_param_AlexMouthOpen","data":{"parameterName":"AlexMouthOpen"}}
+2025-02-26 17:02:25,401 [INFO] Starting smile animation
+2025-02-26 17:02:48,512 [INFO] Starting smile animation

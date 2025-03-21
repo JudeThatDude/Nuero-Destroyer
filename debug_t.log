@@ -1,0 +1,9 @@
+2025-03-04 21:58:15,996 [Instance {instance_letter}] [INFO] Pre-loading models...
+2025-03-04 21:58:17,382 [Instance {instance_letter}] [INFO] Models pre-loaded successfully
+2025-03-04 21:58:17,382 [Instance {instance_letter}] [INFO] Registered instance t
+2025-03-04 21:58:17,400 [Instance {instance_letter}] [INFO] Listening for speech...
+2025-03-04 21:58:20,948 [Instance {instance_letter}] [INFO] Speech started
+2025-03-04 21:58:21,848 [Instance {instance_letter}] [INFO] Speech ended
+2025-03-04 21:58:22,426 [Instance {instance_letter}] [INFO] You: return.
+2025-03-04 21:58:22,430 [Instance {instance_letter}] [ERROR] Unhandled exception: Expecting value: line 1 column 1 (char 0)
+2025-03-04 21:58:22,431 [Instance {instance_letter}] [INFO] Unregistered instance t
