@@ -25,7 +25,7 @@ OpenAI Whisper: Install from the GitHub repository:
 pip install git+https://github.com/openai/whisper.git
 
 Coqui TTS: Install the TTS library:
-pip install TTS
+pip install coqui_TTS
 The first run may automatically download the model tts_models/en/ljspeech/tacotron2-DDC. If it fails, manually trigger the download with tts --model_name tts_models/en/ljspeech/tacotron2-DDC --list_models.
 
 Audio Dependencies:
@@ -45,8 +45,14 @@ Verify it’s running at http://localhost:11434.
 
 VTube Studio:
 Install VTube Studio (available on Steam or other platforms).
-Enable the API: Launch VTS, go to Settings, and activate the “VTube Studio API” on port 8001.
+Enable the API: Go to Settings, and activate the “VTube Studio API” on port 8001.
 Start VTube Studio and load an avatar before running the script.
+
+VTS Desktop Audio:
+Install VTS Desktop Audio (https://lualucky.itch.io/vts-desktop-audio-plugin)
+Launch the application
+Connect it to Vtube Studio
+Set the parameter "Desktop Audio Volume" to control "Mouth Open"
 
 Step 4: Prepare the Script
 
